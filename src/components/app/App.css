@@ -1,0 +1,11 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS',
+		sans-serif;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
