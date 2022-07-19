@@ -61,6 +61,7 @@
 .timeline__content {
 	display: flex;
 	flex-direction: column;
+	cursor: pointer;
 }
 
 .timeline__subtitle {
