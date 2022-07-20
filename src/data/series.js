@@ -62,7 +62,7 @@ const seriesArr = [
 		discription:
 			'2 Описание серии Описание серии Описание серии Описание серии Описание серии Описание серии Описание серии ',
 		mainImage: image2,
-		videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
+		videoSrc: 'https://www.youtube.com/embed/bFNAndV99Rc',
 		persons: [
 			{
 				photo: photo2_1,
@@ -100,7 +100,7 @@ const seriesArr = [
 		discription:
 			'3 Описание серии Описание серии Описание серии Описание серии Описание серии Описание серии Описание серии ',
 		mainImage: image3,
-		videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
+		videoSrc: 'https://www.youtube.com/embed/k3Ncs0anYCI',
 		persons: [
 			{
 				photo: photo3_1,
