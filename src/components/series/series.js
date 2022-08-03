@@ -23,9 +23,57 @@ function Series({seriesNumber, changeSeriesNumber}) {
 
 	return (
 		<main className='series'>
+			<img
+				className='series__main-image'
+				src={series.mainImage}
+				alt={series.title}
+			></img>
+			<div className='series__line-container'>
+				<div className='series__line-dot'></div>
+				<div className='series__header-line'></div>
+				<div className='series__line-dot'></div>
+			</div>
+			<div className='series__period-container'>
+				<div className='series__date-container'>
+					<p className='series__date'>{series.startDateYear}</p>
+					<p className='series__date'>{series.startDateMonth}</p>
+				</div>
+				<p className='series__number'>{`Глава ${series.number}`}</p>
+				<div className='series__date-container'>
+					<p className='series__date'>{series.endDateYear}</p>
+					<p className='series__date'>{series.endDateMonth}</p>
+				</div>
+			</div>
+			<div className='series__name-container'>
+				{series.title.map((titleString, i) => (
+					<p className='series__name' key={i}>
+						{titleString}
+					</p>
+				))}
+			</div>
+			<div className='series__discription-container'>
+				{series.discription.map((discriptionString, i) => (
+					<p className='series__discription' key={i}>
+						{discriptionString}
+					</p>
+				))}
+			</div>
+			<div className='series__line'></div>
+			<div className='series__columns-names-container'>
+				<p className='series__columns-names'>дата</p>
+				<p className='series__columns-names'>событие</p>
+				<p className='series__columns-names'>материалы дела</p>
+				<p className='series__columns-names'>источник</p>
+			</div>
+			<div className='series__line-container'>
+				<div className='series__line-dot'></div>
+				<div className='series__header-line'></div>
+				<div className='series__line-dot'></div>
+			</div>
+
 			<div className='series__title-container'>
 				<p className='series__series-number'>{`Глава ${series.number}`}</p>
-				<h2 className='series__series-title'>{series.name}</h2>
+				<h2 className='series__series-title'>{series.title}</h2>
 			</div>
 			<div className='series__video-container'>
 				<iframe

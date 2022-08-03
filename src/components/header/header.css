@@ -5,6 +5,8 @@
 	width: 100%;
 	padding: 30px 20px;
 	box-sizing: border-box;
+	max-width: 1360px;
+	background-color: #ffffff;
 }
 
 .header__title {

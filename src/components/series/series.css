@@ -1,10 +1,141 @@
 .series {
+	max-width: 1360px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 15px 0;
 	box-sizing: border-box;
+	background-color: #ffffff;
+}
+
+.series__main-image {
+	width: 100%;
+	height: 470px;
+	margin-bottom: 40px;
+}
+
+.series__line-container {
+	width: 100%;
+	padding: 0 40px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.series__line-dot {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #000000;
+}
+
+.series__header-line {
+	width: calc(100% - 10px);
+	height: 1px;
+	background-color: #000000;
+	border-left: solid 5px #000000;
+}
+
+.series__period-container {
+	width: 100%;
+	padding: 14px 40px 0 40px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.series__date-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.series__date {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 130%;
+	color: #000000;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.series__number {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 130%;
+	color: #000000;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.series__name-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 97px;
+}
+
+.series__name {
+	margin: 0;
+	font-family: 'Garamond Narrow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 180px;
+	line-height: 71%;
+	color: #000000;
+}
+
+.series__discription-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px 0 90px 0;
+}
+
+.series__discription {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 110%;
+	color: #000000;
+}
+
+.series__line {
+	width: calc(100% - 80px);
+	height: 1px;
+	background-color: #000000;
+}
+
+.series__columns-names-container {
+	width: 100%;
+	padding: 10px 40px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr 6fr 4fr 1fr;
+	column-gap: 40px;
+}
+
+.series__columns-names {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 130%;
+	color: #000000;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
 }
 
 .series__title-container {
