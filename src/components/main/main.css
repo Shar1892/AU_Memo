@@ -1,10 +1,12 @@
 .main {
-	width: 80%;
+	width: 100%;
+	max-width: 1360px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 30px 20px;
 	box-sizing: border-box;
+	background-color: #ffffff;
 }
 
 .main__discription {

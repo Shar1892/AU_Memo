@@ -3,6 +3,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #ffffff;
+	max-width: 1360px;
 }
 
 .timeline__title {
