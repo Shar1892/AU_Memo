@@ -97,6 +97,7 @@ const seriesArr = [
 				materials: [
 					{
 						type: 'reference',
+						name: 'Силовой разгон',
 						discription:
 							'Описание явления своими словами, из статей, Википедии, откуда угодно еще',
 					},
@@ -174,6 +175,7 @@ const seriesArr = [
 				materials: [
 					{
 						type: 'reference',
+						name: 'Силовой разгон',
 						discription:
 							'Описание явления своими словами, из статей, Википедии, откуда угодно еще',
 					},

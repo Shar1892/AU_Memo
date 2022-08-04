@@ -8,6 +8,7 @@ import SeriesDocument from '../seriesDocument/seriesDocument';
 import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
 import SeriesVideo from '../seriesVideo/seriesVideo';
 import SeriesPhoto from '../seriesPhoto/seriesPhoto';
+import SeriesReference from '../seriesReference/seriesReference';
 
 function Part({partData, partNumber}) {
 	return (
@@ -65,12 +66,12 @@ function Part({partData, partNumber}) {
 						</div>
 					))}
 				</div>
-				<div className='part__column-container'>
+				<div className='part__column-container part__column-margin'>
 					{partData.materials &&
 						partData.materials.map((material, i) => (
 							<div key={i}>
 								{material.type === 'reference' ? (
-									<div>{material.type}</div>
+									<SeriesReference data={material} />
 								) : material.type === 'record' ? (
 									<div>{material.type}</div>
 								) : material.type === 'illustration' ? (

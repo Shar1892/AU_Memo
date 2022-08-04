@@ -72,6 +72,10 @@
 	margin-bottom: 0;
 }
 
+.part__column-margin {
+	justify-content: space-around;
+}
+
 .part__date {
 	margin: 0;
 	font-family: 'Quant Antiqua';
