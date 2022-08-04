@@ -7,6 +7,7 @@ import SeriesQuote from '../seriesQuote/seriesQuote';
 import SeriesDocument from '../seriesDocument/seriesDocument';
 import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
 import SeriesVideo from '../seriesVideo/seriesVideo';
+import SeriesPhoto from '../seriesPhoto/seriesPhoto';
 
 function Part({partData, partNumber}) {
 	return (
@@ -55,7 +56,7 @@ function Part({partData, partNumber}) {
 							) : section.type === 'document' ? (
 								<SeriesDocument data={section} />
 							) : section.type === 'photo' ? (
-								<div>{section.type}</div>
+								<SeriesPhoto data={section} />
 							) : section.type === 'video' ? (
 								<SeriesVideo data={section} />
 							) : (
