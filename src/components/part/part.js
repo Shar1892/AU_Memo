@@ -3,6 +3,7 @@ import './part.css';
 import SeparatorLine from '../separatorLine/separatorLine';
 import SeriesText from '../seriesText/seriesText';
 import SeriesImpotantText from '../seriesImpotantText/seriesImpotantText';
+import SeriesQuote from '../seriesQuote/seriesQuote';
 
 function Part({partData, partNumber}) {
 	return (
@@ -47,7 +48,7 @@ function Part({partData, partNumber}) {
 							) : section.type === 'important text' ? (
 								<SeriesImpotantText data={section} />
 							) : section.type === 'quote' ? (
-								<div>{section.type}</div>
+								<SeriesQuote data={section} />
 							) : section.type === 'document' ? (
 								<div>{section.type}</div>
 							) : section.type === 'photo' ? (
