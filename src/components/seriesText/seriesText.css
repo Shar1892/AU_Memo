@@ -1,0 +1,15 @@
+.seriesText {
+	width: 100%;
+	display: flex;
+	padding: 5px 0;
+}
+
+.seriesText__content {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: #000000;
+}

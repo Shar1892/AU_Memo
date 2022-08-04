@@ -1,6 +1,7 @@
 import './part.css';
 
 import SeparatorLine from '../separatorLine/separatorLine';
+import SeriesText from '../seriesText/seriesText';
 
 function Part({partData, partNumber}) {
 	return (
@@ -34,7 +35,7 @@ function Part({partData, partNumber}) {
 					{partData.sections.map((section, i) => (
 						<div key={i}>
 							{section.type === 'text' ? (
-								<div>{section.type}</div>
+								<SeriesText data={section} />
 							) : section.type === 'important text' ? (
 								<div>{section.type}</div>
 							) : section.type === 'quote' ? (
