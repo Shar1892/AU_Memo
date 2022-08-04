@@ -2,6 +2,7 @@ import './part.css';
 
 import SeparatorLine from '../separatorLine/separatorLine';
 import SeriesText from '../seriesText/seriesText';
+import SeriesImpotantText from '../seriesImpotantText/seriesImpotantText';
 
 function Part({partData, partNumber}) {
 	return (
@@ -33,11 +34,18 @@ function Part({partData, partNumber}) {
 				</div>
 				<div className='part__column-container'>
 					{partData.sections.map((section, i) => (
-						<div key={i}>
+						<div
+							className={`part__section-container ${
+								section.type === 'text'
+									? 'part__section-margin_small'
+									: 'part__section-margin_large'
+							}`}
+							key={i}
+						>
 							{section.type === 'text' ? (
 								<SeriesText data={section} />
 							) : section.type === 'important text' ? (
-								<div>{section.type}</div>
+								<SeriesImpotantText data={section} />
 							) : section.type === 'quote' ? (
 								<div>{section.type}</div>
 							) : section.type === 'document' ? (
@@ -78,3 +86,25 @@ function Part({partData, partNumber}) {
 }
 
 export default Part;
+
+/*
+
+<div key={i}>
+							{section.type === 'text' ? (
+								<SeriesText data={section} />
+							) : section.type === 'important text' ? (
+								<SeriesImpotantText data={section} />
+							) : section.type === 'quote' ? (
+								<div>{section.type}</div>
+							) : section.type === 'document' ? (
+								<div>{section.type}</div>
+							) : section.type === 'photo' ? (
+								<div>{section.type}</div>
+							) : section.type === 'video' ? (
+								<div>{section.type}</div>
+							) : (
+								<div>{section.type}</div>
+							)}
+						</div>
+
+*/
