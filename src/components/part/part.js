@@ -9,6 +9,7 @@ import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
 import SeriesVideo from '../seriesVideo/seriesVideo';
 import SeriesPhoto from '../seriesPhoto/seriesPhoto';
 import SeriesReference from '../seriesReference/seriesReference';
+import SeriesIllustration from '../seriesIllustration/seriesIllustration';
 
 function Part({partData, partNumber}) {
 	return (
@@ -75,7 +76,7 @@ function Part({partData, partNumber}) {
 								) : material.type === 'record' ? (
 									<div>{material.type}</div>
 								) : material.type === 'illustration' ? (
-									<div>{material.type}</div>
+									<SeriesIllustration data={material} />
 								) : (
 									<div>{material.type}</div>
 								)}
