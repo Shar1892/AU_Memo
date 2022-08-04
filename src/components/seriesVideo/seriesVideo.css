@@ -1,0 +1,41 @@
+.seriesVideo {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.seriesVideo__video {
+	width: 100%;
+	height: 470px;
+	margin-bottom: 10px;
+}
+
+.seriesVideo__name {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 130%;
+	color: #000000;
+}
+
+.seriesVideo__autor {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 130%;
+	color: #000000;
+}
+
+.seriesVideo__source {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 130%;
+	color: #a0a0a0;
+}

@@ -6,6 +6,7 @@ import SeriesImpotantText from '../seriesImpotantText/seriesImpotantText';
 import SeriesQuote from '../seriesQuote/seriesQuote';
 import SeriesDocument from '../seriesDocument/seriesDocument';
 import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
+import SeriesVideo from '../seriesVideo/seriesVideo';
 
 function Part({partData, partNumber}) {
 	return (
@@ -56,7 +57,7 @@ function Part({partData, partNumber}) {
 							) : section.type === 'photo' ? (
 								<div>{section.type}</div>
 							) : section.type === 'video' ? (
-								<div>{section.type}</div>
+								<SeriesVideo data={section} />
 							) : (
 								<SeriesMemoQuote data={section} />
 							)}
