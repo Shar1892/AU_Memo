@@ -4,6 +4,7 @@ import SeparatorLine from '../separatorLine/separatorLine';
 import SeriesText from '../seriesText/seriesText';
 import SeriesImpotantText from '../seriesImpotantText/seriesImpotantText';
 import SeriesQuote from '../seriesQuote/seriesQuote';
+import SeriesDocument from '../seriesDocument/seriesDocument';
 
 function Part({partData, partNumber}) {
 	return (
@@ -50,7 +51,7 @@ function Part({partData, partNumber}) {
 							) : section.type === 'quote' ? (
 								<SeriesQuote data={section} />
 							) : section.type === 'document' ? (
-								<div>{section.type}</div>
+								<SeriesDocument data={section} />
 							) : section.type === 'photo' ? (
 								<div>{section.type}</div>
 							) : section.type === 'video' ? (
