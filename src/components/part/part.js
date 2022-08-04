@@ -5,6 +5,7 @@ import SeriesText from '../seriesText/seriesText';
 import SeriesImpotantText from '../seriesImpotantText/seriesImpotantText';
 import SeriesQuote from '../seriesQuote/seriesQuote';
 import SeriesDocument from '../seriesDocument/seriesDocument';
+import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
 
 function Part({partData, partNumber}) {
 	return (
@@ -57,7 +58,7 @@ function Part({partData, partNumber}) {
 							) : section.type === 'video' ? (
 								<div>{section.type}</div>
 							) : (
-								<div>{section.type}</div>
+								<SeriesMemoQuote data={section} />
 							)}
 						</div>
 					))}
