@@ -52,6 +52,26 @@
 	flex-direction: column;
 }
 
+.part__section-container {
+	margin: 0;
+}
+
+.part__section-margin_small {
+	margin: 5px 0;
+}
+
+.part__section-margin_large {
+	margin: 30px 0;
+}
+
+.part__section-container:first-of-type {
+	margin-top: 0;
+}
+
+.part__section-container:last-of-type {
+	margin-bottom: 0;
+}
+
 .part__date {
 	margin: 0;
 	font-family: 'Quant Antiqua';
