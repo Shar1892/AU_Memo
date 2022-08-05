@@ -10,6 +10,7 @@ import SeriesVideo from '../seriesVideo/seriesVideo';
 import SeriesPhoto from '../seriesPhoto/seriesPhoto';
 import SeriesReference from '../seriesReference/seriesReference';
 import SeriesIllustration from '../seriesIllustration/seriesIllustration';
+import SeriesSketch from '../seriesSketch/seriesSketch';
 
 function Part({partData, partNumber}) {
 	return (
@@ -78,7 +79,7 @@ function Part({partData, partNumber}) {
 								) : material.type === 'illustration' ? (
 									<SeriesIllustration data={material} />
 								) : (
-									<div>{material.type}</div>
+									<SeriesSketch data={material} />
 								)}
 							</div>
 						))}
