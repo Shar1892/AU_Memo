@@ -20,11 +20,13 @@ function Part({partData, partNumber}) {
 					{partData.title ? (
 						<div className='part__header'>
 							<SeparatorLine />
-							<img
-								className='part__header-image'
-								src={partData.title.illustration}
-								alt={partData.title.name}
-							></img>
+							{partData.title.illustration && (
+								<img
+									className='part__header-image'
+									src={partData.title.illustration}
+									alt={partData.title.name}
+								></img>
+							)}
 							<h3 className='part__name'>{partData.title.name}</h3>
 							<SeparatorLine />
 						</div>
