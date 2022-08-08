@@ -11,6 +11,7 @@ import SeriesPhoto from '../seriesPhoto/seriesPhoto';
 import SeriesReference from '../seriesReference/seriesReference';
 import SeriesIllustration from '../seriesIllustration/seriesIllustration';
 import SeriesSketch from '../seriesSketch/seriesSketch';
+import SeriesRecord from '../seriesRecord/seriesRecord';
 
 function Part({partData, partNumber}) {
 	return (
@@ -77,7 +78,7 @@ function Part({partData, partNumber}) {
 								{material.type === 'reference' ? (
 									<SeriesReference data={material} />
 								) : material.type === 'record' ? (
-									<div>{material.type}</div>
+									<SeriesRecord data={material} />
 								) : material.type === 'illustration' ? (
 									<SeriesIllustration data={material} />
 								) : (
