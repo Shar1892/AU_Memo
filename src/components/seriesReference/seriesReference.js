@@ -1,11 +1,8 @@
-import {useEffect} from 'react';
+//import {useEffect} from 'react';
 
 import './seriesReference.css';
 
 function SeriesReference({data}) {
-	useEffect(() => {
-		console.log(data);
-	});
 	return (
 		<div className='seriesReference'>
 			<p className='seriesReference__title'>справка</p>

@@ -258,8 +258,10 @@ const seriesArr = [
 						type: 'record',
 						discription: 'Описание сюжета записи',
 						autor: 'Олег Орлов',
-						date: '2021',
-						recordSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
+						year: '2021',
+						recordSrc: 'https://music.yandex.ru/iframe/#track/57482829/8647733',
+						//recordSrc:
+						//	'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1162740148&color=%23444c44&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
 					},
 					{
 						type: 'illustration',
