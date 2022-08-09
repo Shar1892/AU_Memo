@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Garamond Narrow';
+	src: url(./fonts/ofont.ru_Garamond\ Narrow.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: 'Quant Antiqua';
+	src: url(./fonts/quant-antiqua-2.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: 'RF Rostin';
+	src: url(./fonts/RF\ Rostin\ Regular.otf) format('otf');
+}
