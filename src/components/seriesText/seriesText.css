@@ -12,3 +12,9 @@
 	line-height: 130%;
 	color: #000000;
 }
+
+.seriesText__meaningfulPhrase {
+	font-style: italic;
+	text-decoration: underline;
+	color: #a0a0a0;
+}
