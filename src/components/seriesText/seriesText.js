@@ -9,7 +9,6 @@ function SeriesText({data}) {
 		let resArr = [];
 
 		if (phraseArr) {
-			//debugger;
 			let currentText = str;
 
 			phraseArr.forEach((phrase) => {

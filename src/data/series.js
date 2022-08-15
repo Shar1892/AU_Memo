@@ -16,6 +16,8 @@ import photo3_2 from '../image/4904465.jpg';
 import icon3_1 from '../image/4904465.jpg';
 import icon3_2 from '../image/4904465.jpg';
 
+import noize from '../audio/Noize_MC.mp3';
+
 const seriesArr = [
 	{
 		number: 1,
@@ -198,6 +200,13 @@ const seriesArr = [
 					{
 						type: 'illustration',
 						src: photo1_1,
+					},
+					{
+						type: 'record',
+						discription: 'Описание сюжета записи',
+						autor: 'Олег Орлов',
+						year: '2021',
+						recordSrc: noize,
 					},
 				],
 				sources: ['Циклопедия'],
