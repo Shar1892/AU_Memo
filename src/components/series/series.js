@@ -73,6 +73,33 @@ function Series({seriesNumber, changeSeriesNumber}) {
 				))}
 			</div>
 
+			<div className='series__button-container'>
+				<button
+					className={`series__button ${
+						series.number === 1 ? 'series__button_disable' : ''
+					}`}
+					onClick={goPreviousSeries}
+				>
+					Предыдущая глава
+				</button>
+				<button
+					className={`series__button ${
+						series.number === seriesArr.length ? 'series__button_disable' : ''
+					}`}
+					onClick={goNextSeries}
+				>
+					Следующая глава
+				</button>
+			</div>
+		</main>
+	);
+}
+
+export default Series;
+
+/*
+
+
 			<div className='series__title-container'>
 				<p className='series__series-number'>{`Глава ${series.number}`}</p>
 				<h2 className='series__series-title'>{series.title}</h2>
@@ -145,26 +172,5 @@ function Series({seriesNumber, changeSeriesNumber}) {
 					<p className='series__autor'>Редактор/ы</p>
 				</div>
 			</div>
-			<div className='series__button-container'>
-				<button
-					className={`series__button ${
-						series.number === 1 ? 'series__button_disable' : ''
-					}`}
-					onClick={goPreviousSeries}
-				>
-					Предыдущая глава
-				</button>
-				<button
-					className={`series__button ${
-						series.number === seriesArr.length ? 'series__button_disable' : ''
-					}`}
-					onClick={goNextSeries}
-				>
-					Следующая глава
-				</button>
-			</div>
-		</main>
-	);
-}
 
-export default Series;
+*/

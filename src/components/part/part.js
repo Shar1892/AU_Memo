@@ -97,25 +97,3 @@ function Part({partData, partNumber}) {
 }
 
 export default Part;
-
-/*
-
-<div key={i}>
-							{section.type === 'text' ? (
-								<SeriesText data={section} />
-							) : section.type === 'important text' ? (
-								<SeriesImpotantText data={section} />
-							) : section.type === 'quote' ? (
-								<div>{section.type}</div>
-							) : section.type === 'document' ? (
-								<div>{section.type}</div>
-							) : section.type === 'photo' ? (
-								<div>{section.type}</div>
-							) : section.type === 'video' ? (
-								<div>{section.type}</div>
-							) : (
-								<div>{section.type}</div>
-							)}
-						</div>
-
-*/

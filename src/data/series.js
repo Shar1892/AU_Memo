@@ -18,7 +18,11 @@ import icon3_2 from '../image/4904465.jpg';
 
 import noize from '../audio/Noize_MC.mp3';
 
+import firstSeries from './series/firstSeries/firstSeries';
+
 const seriesArr = [
+	firstSeries,
+	/*
 	{
 		number: 1,
 		numberText: 'I',
@@ -276,6 +280,7 @@ const seriesArr = [
 			},
 		],
 	},
+	*/
 	{
 		number: 2,
 		numberText: 'II',
