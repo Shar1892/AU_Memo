@@ -87,9 +87,14 @@ function Part({partData, partNumber}) {
 							</div>
 						))}
 				</div>
-				<div className='part__column-container'>
+				<div className='part__column-container part__column-margin'>
 					{partData.sources &&
-						partData.sources.map((source, i) => <div key={i}>{source}</div>)}
+						partData.sources.map((source, i) => (
+							<div key={i} className='part__source-container'>
+								<div className='part__source-image'></div>
+								<p className='part__source-name'>{source}</p>
+							</div>
+						))}
 				</div>
 			</div>
 		</div>

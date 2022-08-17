@@ -86,3 +86,28 @@
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
+
+.part__source-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.part__source-image {
+	width: 22px;
+	height: 21px;
+	background-image: url(../../image/Vector.svg);
+	background-size: contain;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.part__source-name {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 130%;
+	color: #a0a0a0;
+}
