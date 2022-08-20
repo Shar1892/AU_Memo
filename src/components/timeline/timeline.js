@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import {useState} from 'react';
+import HorizontalScroll from 'react-scroll-horizontal';
 
 import './timeline.css';
 
@@ -55,7 +56,47 @@ function Timeline() {
 					</p>
 				</div>
 				<div className='timeline__list-container'>
-					<div className='timeline__list'>
+					<HorizontalScroll>
+						{timelineArr.map((timeline) => (
+							<div className='timeline__part' key={timeline.number}>
+								<p className='timeline__part-date'>{timeline.date}</p>
+								<div className='timeline__graphic'>
+									<div className='timeline__graphic-head'></div>
+									<div className='timeline__graphic-line'></div>
+								</div>
+								<div
+									className='timeline__content'
+									onClick={() =>
+										openVideo(timeline.seriesNumber, timeline.startSecond)
+									}
+								>
+									<h3 className='timeline__subtitle'>{timeline.name}</h3>
+									<p className='timeline__text'>{timeline.discription}</p>
+								</div>
+							</div>
+						))}
+					</HorizontalScroll>
+				</div>
+				<div className='timeline__autors-list'>
+					<p className='timeline__autor'>Автор/ы</p>
+					<p className='timeline__autor'>Редактор/ы</p>
+				</div>
+			</main>
+			<VideoPopup
+				isOpen={isPopupOpen}
+				onClose={popupClose}
+				currentSeriesNumber={currentSeriesNumber}
+				currentSeriesSecond={currentSeriesSecond}
+			/>
+		</>
+	);
+}
+
+export default Timeline;
+
+/*
+
+<div className='timeline__list'>
 						{timelineArr.map((timeline) => (
 							<div className='timeline__part' key={timeline.number}>
 								<p className='timeline__part-date'>{timeline.date}</p>
@@ -75,20 +116,5 @@ function Timeline() {
 							</div>
 						))}
 					</div>
-				</div>
-				<div className='timeline__autors-list'>
-					<p className='timeline__autor'>Автор/ы</p>
-					<p className='timeline__autor'>Редактор/ы</p>
-				</div>
-			</main>
-			<VideoPopup
-				isOpen={isPopupOpen}
-				onClose={popupClose}
-				currentSeriesNumber={currentSeriesNumber}
-				currentSeriesSecond={currentSeriesSecond}
-			/>
-		</>
-	);
-}
 
-export default Timeline;
+*/
