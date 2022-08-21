@@ -63,58 +63,6 @@
 	box-sizing: border-box;
 }
 
-.timeline__part {
-	width: 488px;
-	display: grid;
-	grid-template-columns: 70px 50px 1fr;
-}
-
-.timeline__part-date {
-	margin: 0;
-	font-weight: normal;
-	font-size: 16px;
-	color: #000000;
-}
-
-.timeline__graphic {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-}
-
-.timeline__graphic-head {
-	position: absolute;
-	background-color: #888888;
-	width: 20px;
-	height: 20px;
-	border-radius: 10px;
-	left: 15px;
-	top: 0;
-}
-
-.timeline__graphic-line {
-	background-color: #888888;
-	width: 5px;
-	height: 100%;
-}
-
-.timeline__content {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	cursor: pointer;
-}
-
-.timeline__text {
-	width: 400px;
-	margin: 10px 0 20px;
-	font-weight: normal;
-	font-size: 12px;
-	color: #000000;
-}
-
 .timeline__autors-list {
 	display: flex;
 	flex-direction: column;

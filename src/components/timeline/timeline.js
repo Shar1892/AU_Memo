@@ -4,6 +4,8 @@ import HorizontalScroll from 'react-scroll-horizontal';
 
 import './timeline.css';
 
+import TimelinePart from '../timelinePart/timelinePart';
+
 import headerImage from '../../image/timelineHeaderImage.jpg';
 
 import timelineArr from '../../data/timeline';
@@ -58,22 +60,11 @@ function Timeline() {
 				<div className='timeline__list-container'>
 					<HorizontalScroll>
 						{timelineArr.map((timeline) => (
-							<div className='timeline__part' key={timeline.number}>
-								<p className='timeline__part-date'>{timeline.date}</p>
-								<div className='timeline__graphic'>
-									<div className='timeline__graphic-head'></div>
-									<div className='timeline__graphic-line'></div>
-								</div>
-								<div
-									className='timeline__content'
-									onClick={() =>
-										openVideo(timeline.seriesNumber, timeline.startSecond)
-									}
-								>
-									<h3 className='timeline__subtitle'>{timeline.name}</h3>
-									<p className='timeline__text'>{timeline.discription}</p>
-								</div>
-							</div>
+							<TimelinePart
+								key={timeline.num}
+								data={timeline}
+								openVideo={openVideo}
+							/>
 						))}
 					</HorizontalScroll>
 				</div>
@@ -93,28 +84,3 @@ function Timeline() {
 }
 
 export default Timeline;
-
-/*
-
-<div className='timeline__list'>
-						{timelineArr.map((timeline) => (
-							<div className='timeline__part' key={timeline.number}>
-								<p className='timeline__part-date'>{timeline.date}</p>
-								<div className='timeline__graphic'>
-									<div className='timeline__graphic-head'></div>
-									<div className='timeline__graphic-line'></div>
-								</div>
-								<div
-									className='timeline__content'
-									onClick={() =>
-										openVideo(timeline.seriesNumber, timeline.startSecond)
-									}
-								>
-									<h3 className='timeline__subtitle'>{timeline.name}</h3>
-									<p className='timeline__text'>{timeline.discription}</p>
-								</div>
-							</div>
-						))}
-					</div>
-
-*/
