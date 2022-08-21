@@ -1,9 +1,21 @@
 //videoTimeline: 'https://www.youtube.com/embed/1yuTJMFGxEw?start=25',
 
+import img from '../image/4904465.jpg';
+
 const timelineArr = [
 	{
-		number: 1,
+		num: 1,
+		numText: 'Глава первая',
 		date: '11.02.20',
+		startDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		endDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		image: img,
 		name: 'Событие 1',
 		discription:
 			'1 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
@@ -11,8 +23,17 @@ const timelineArr = [
 		startSecond: 25,
 	},
 	{
-		number: 2,
-		date: '11.02.20',
+		num: 2,
+		numText: 'Глава первая',
+		startDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		endDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		image: img,
 		name: 'Событие 2',
 		discription:
 			'2 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
@@ -20,8 +41,17 @@ const timelineArr = [
 		startSecond: 137,
 	},
 	{
-		number: 3,
-		date: '11.03.20',
+		num: 3,
+		numText: 'Глава первая',
+		startDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		endDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		image: img,
 		name: 'Событие 3',
 		discription:
 			'3 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
@@ -29,8 +59,17 @@ const timelineArr = [
 		startSecond: 247,
 	},
 	{
-		number: 4,
-		date: '11.03.20',
+		num: 4,
+		numText: 'Глава первая',
+		startDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		endDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		image: img,
 		name: 'Событие 4',
 		discription:
 			'4 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
@@ -38,8 +77,17 @@ const timelineArr = [
 		startSecond: 347,
 	},
 	{
-		number: 5,
-		date: '11.04.20',
+		num: 5,
+		numText: 'Глава первая',
+		startDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		endDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		image: img,
 		name: 'Событие 5',
 		discription:
 			'5 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
@@ -47,8 +95,17 @@ const timelineArr = [
 		startSecond: 447,
 	},
 	{
-		number: 6,
-		date: '11.04.20',
+		num: 6,
+		numText: 'Глава первая',
+		startDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		endDate: {
+			year: '2011',
+			month: 'Декабрь',
+		},
+		image: img,
 		name: 'Событие 6',
 		discription:
 			'6 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
