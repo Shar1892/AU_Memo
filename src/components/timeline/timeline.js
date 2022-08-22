@@ -58,7 +58,7 @@ function Timeline() {
 					</p>
 				</div>
 				<div className='timeline__list-container'>
-					<HorizontalScroll>
+					<HorizontalScroll className='timeline__list'>
 						{timelineArr.map((timeline) => (
 							<TimelinePart
 								key={timeline.num}
@@ -66,6 +66,7 @@ function Timeline() {
 								openVideo={openVideo}
 							/>
 						))}
+						<div className='timeline__empty-block'></div>
 					</HorizontalScroll>
 				</div>
 				<div className='timeline__autors-list'>
