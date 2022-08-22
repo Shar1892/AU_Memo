@@ -57,10 +57,19 @@
 }
 
 .timeline__list-container {
-	height: 750px;
+	height: 840px;
 	width: 100%;
-	padding: 50px 0 0 40px;
+	padding: 50px 0 0 0;
 	box-sizing: border-box;
+}
+
+.timeline__list {
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.timeline__empty-block {
+	width: 40px;
 }
 
 .timeline__autors-list {

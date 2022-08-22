@@ -1,46 +1,16 @@
 //videoTimeline: 'https://www.youtube.com/embed/1yuTJMFGxEw?start=25',
 
+import firstPart from './timelineParts/firstPart/firstPart';
+import secondPart from './timelineParts/secondPart/secondPart';
+import thirdPart from './timelineParts/thirdPart/thirdPart';
+
 import img from '../image/4904465.jpg';
 
 const timelineArr = [
-	{
-		num: 1,
-		numText: 'Глава первая',
-		date: '11.02.20',
-		startDate: {
-			year: '2011',
-			month: 'Декабрь',
-		},
-		endDate: {
-			year: '2011',
-			month: 'Декабрь',
-		},
-		image: img,
-		name: 'Событие 1',
-		discription:
-			'1 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
-		seriesNumber: 1,
-		startSecond: 25,
-	},
-	{
-		num: 2,
-		numText: 'Глава первая',
-		startDate: {
-			year: '2011',
-			month: 'Декабрь',
-		},
-		endDate: {
-			year: '2011',
-			month: 'Декабрь',
-		},
-		image: img,
-		name: 'Событие 2',
-		discription:
-			'2 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
-		seriesNumber: 1,
-		startSecond: 137,
-	},
-	{
+	firstPart,
+	secondPart,
+	thirdPart,
+	/*{
 		num: 3,
 		numText: 'Глава первая',
 		startDate: {
@@ -57,7 +27,7 @@ const timelineArr = [
 			'3 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
 		seriesNumber: 2,
 		startSecond: 247,
-	},
+	},*/
 	{
 		num: 4,
 		numText: 'Глава первая',
