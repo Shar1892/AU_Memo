@@ -58,7 +58,7 @@ function Timeline() {
 					</p>
 				</div>
 				<div className='timeline__list-container'>
-					<HorizontalScroll className='timeline__list'>
+					<HorizontalScroll className='timeline__list' reverseScroll={true}>
 						{timelineArr.map((timeline) => (
 							<TimelinePart
 								key={timeline.num}
