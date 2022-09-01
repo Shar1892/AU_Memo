@@ -4,9 +4,75 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 30px 20px;
+	/*padding: 30px 20px;*/
+	padding: 0 20px;
 	box-sizing: border-box;
 	background-color: #ffffff;
+}
+
+.main__header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 85px 0;
+}
+
+.main__pretitle {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 130%;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.main__title {
+	margin: 33px 0 66px 0;
+	font-family: 'Garamond Narrow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 180px;
+	line-height: 71%;
+	text-align: center;
+	color: #000000;
+}
+
+.main__header-image {
+	width: 279px;
+	height: 457px;
+}
+
+.main__subtitle {
+	margin: 23px 0 0 0;
+	width: 568px;
+	font-family: 'Quant Antiqua';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 110%;
+	text-align: center;
+	color: #000000;
+}
+
+.main__list-container {
+	height: 840px;
+	width: 100%;
+	padding: 50px 0 0 0;
+	box-sizing: border-box;
+}
+
+.main__series-list {
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.main__empty-block {
+	width: 40px;
 }
 
 .main__discription {
@@ -30,14 +96,14 @@
 	color: #000000;
 }
 
-.main__series-list {
+/*.main__series-list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
 	padding-top: 20px;
 	box-sizing: border-box;
-}
+}*/
 
 .main__series {
 	width: 100%;
