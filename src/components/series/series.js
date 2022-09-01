@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/iframe-has-title */
+import {useEffect} from 'react';
+
 import './series.css';
 
 import seriesArr from '../../data/series';
@@ -24,6 +26,10 @@ function Series({seriesNumber, changeSeriesNumber}) {
 		}
 	};
 
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<main className='series'>
 			<img
@@ -35,13 +41,13 @@ function Series({seriesNumber, changeSeriesNumber}) {
 				<SeparatorLine />
 				<div className='series__period-container'>
 					<div className='series__date-container'>
-						<p className='series__date'>{series.startDateYear}</p>
-						<p className='series__date'>{series.startDateMonth}</p>
+						<p className='series__date'>{series.startDate.year}</p>
+						<p className='series__date'>{series.startDate.mont}</p>
 					</div>
 					<p className='series__number'>{`Глава ${series.number}`}</p>
 					<div className='series__date-container'>
-						<p className='series__date'>{series.endDateYear}</p>
-						<p className='series__date'>{series.endDateMonth}</p>
+						<p className='series__date'>{series.endDate.year}</p>
+						<p className='series__date'>{series.endDate.month}</p>
 					</div>
 				</div>
 				<div className='series__name-container'>

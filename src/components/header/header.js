@@ -56,12 +56,17 @@ function Header() {
 				<NavLink to='/series' className='header__navigation-link'>
 					Все серии
 				</NavLink>
-				<NavLink to='/timeline' className='header__navigation-link'>
-					Таймлайн
-				</NavLink>
 			</nav>
 		</header>
 	);
 }
 
 export default Header;
+
+/*
+
+<NavLink to='/timeline' className='header__navigation-link'>
+					Таймлайн
+				</NavLink>
+
+*/

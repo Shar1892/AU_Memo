@@ -1,5 +1,7 @@
 import firstSeriesHeaderImage from './images/firstSeriesHeader.jpg';
 
+import firstPartImage from './images/firstPartImage.jpg';
+
 import illustration1 from './images/illustration1.jpg';
 import illustration2 from './images/illustration2.jpg';
 import partHeader1 from './images/partHeader1.jpg';
@@ -12,7 +14,7 @@ import noize from './records/Noize_MC.mp3';
 
 const firstSeries = {
 	number: 1,
-	numberText: 'I',
+	numText: 'Глава первая',
 	title: ['Конец', 'прекрасной', 'эпохи'],
 	discription: [
 		'Олег Орлов прошёл по коридору мемориальского офиса в Каретном',
@@ -26,11 +28,20 @@ const firstSeries = {
 		'— Да, это совершенно невозможно.',
 	],
 
-	startDateMonth: 'Декабрь',
-	startDateYear: '2011',
-	endDateMonth: 'Май',
-	endDateYear: '2012',
+	previewDiscription:
+		'Выдержка из текста, самые интересные кусочки. Занимает несколько строк. Можно развернуть и прочитать целиком.',
+
+	startDate: {
+		year: '2011',
+		month: 'Декабрь',
+	},
+	endDate: {
+		year: '2013',
+		month: 'Август',
+	},
+
 	mainImage: firstSeriesHeaderImage,
+	previewImage: firstPartImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
