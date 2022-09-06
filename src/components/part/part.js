@@ -1,3 +1,5 @@
+import {useState} from 'react';
+
 import './part.css';
 
 import SeparatorLine from '../separatorLine/separatorLine';
@@ -13,7 +15,7 @@ import SeriesIllustration from '../seriesIllustration/seriesIllustration';
 import SeriesSketch from '../seriesSketch/seriesSketch';
 import SeriesRecord from '../seriesRecord/seriesRecord';
 
-function Part({partData, partNumber}) {
+function Part({partData, partNumber, isWide}) {
 	return (
 		<div className='part'>
 			{partNumber ? (
@@ -44,34 +46,60 @@ function Part({partData, partNumber}) {
 					<p className='part__date'>{partData.dateMonth}</p>
 				</div>
 				<div className='part__column-container'>
-					{partData.sections.map((section, i) => (
-						<div
-							className={`part__section-container ${
-								section.type === 'text'
-									? 'part__section-margin_small'
-									: 'part__section-margin_large'
-							}`}
-							key={i}
-						>
-							{section.type === 'text' ? (
-								<SeriesText data={section} />
-							) : section.type === 'important text' ? (
-								<SeriesImpotantText data={section} />
-							) : section.type === 'quote' ? (
-								<SeriesQuote data={section} />
-							) : section.type === 'document' ? (
-								<SeriesDocument data={section} />
-							) : section.type === 'photo' ? (
-								<SeriesPhoto data={section} />
-							) : section.type === 'video' ? (
-								<SeriesVideo data={section} />
-							) : (
-								<SeriesMemoQuote data={section} />
-							)}
-						</div>
-					))}
+					<>
+						{partData.sections.map((section, i) => (
+							<div
+								className={`part__section-container ${
+									section.type === 'text'
+										? 'part__section-margin_small'
+										: 'part__section-margin_large'
+								}`}
+								key={i}
+							>
+								{section.type === 'text' ? (
+									<SeriesText data={section} />
+								) : section.type === 'important text' ? (
+									<SeriesImpotantText data={section} />
+								) : section.type === 'quote' ? (
+									<SeriesQuote data={section} />
+								) : section.type === 'document' ? (
+									<SeriesDocument data={section} />
+								) : section.type === 'photo' ? (
+									<SeriesPhoto data={section} />
+								) : section.type === 'video' ? (
+									<SeriesVideo data={section} />
+								) : (
+									<SeriesMemoQuote data={section} />
+								)}
+							</div>
+						))}
+					</>
+					<>
+						{!isWide && (
+							<div className='part__column-container'>
+								{partData.materials &&
+									partData.materials.map((material, i) => (
+										<div key={i}>
+											{material.type === 'reference' ? (
+												<SeriesReference data={material} />
+											) : material.type === 'record' ? (
+												<SeriesRecord data={material} />
+											) : material.type === 'illustration' ? (
+												<SeriesIllustration data={material} />
+											) : (
+												<SeriesSketch data={material} />
+											)}
+										</div>
+									))}
+							</div>
+						)}
+					</>
 				</div>
-				<div className='part__column-container part__column-margin'>
+				<div
+					className={`part__column-container part__column-margin ${
+						isWide ? '' : 'part__column-container_invisible'
+					}`}
+				>
 					{partData.materials &&
 						partData.materials.map((material, i) => (
 							<div key={i}>
@@ -87,7 +115,11 @@ function Part({partData, partNumber}) {
 							</div>
 						))}
 				</div>
-				<div className='part__column-container part__column-margin'>
+				<div
+					className={`part__column-container part__column-margin ${
+						isWide ? '' : 'part__column-container_invisible'
+					}`}
+				>
 					{partData.sources &&
 						partData.sources.map((source, i) => (
 							<div key={i} className='part__source-container'>

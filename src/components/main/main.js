@@ -30,6 +30,7 @@ function Main({handleSetCurrentSeriesNumber}) {
 				<HorizontalScroll className='main__series-list' reverseScroll={true}>
 					{seriesArr.map((series) => (
 						<SeriesPreview
+							key={series.number}
 							data={series}
 							handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
 						/>

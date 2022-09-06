@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/iframe-has-title */
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 
 import './series.css';
 
@@ -10,6 +10,16 @@ import Part from '../part/part';
 import SeparatorLine from '../separatorLine/separatorLine';
 
 function Series({seriesNumber, changeSeriesNumber}) {
+	const windowWidth = window.innerWidth;
+
+	const [isWide, setIsWide] = useState(() => {
+		if (windowWidth > 425) {
+			return true;
+		} else {
+			return false;
+		}
+	});
+
 	const series = seriesArr.find((item) => {
 		return item.number === seriesNumber;
 	});
@@ -68,14 +78,26 @@ function Series({seriesNumber, changeSeriesNumber}) {
 				<div className='series__columns-names-container'>
 					<p className='series__columns-names'>дата</p>
 					<p className='series__columns-names'>событие</p>
-					<p className='series__columns-names'>материалы дела</p>
-					<p className='series__columns-names'>источник</p>
+					<p
+						className={`series__columns-names ${
+							isWide ? '' : 'series__columns-names_invisible'
+						}`}
+					>
+						материалы дела
+					</p>
+					<p
+						className={`series__columns-names ${
+							isWide ? '' : 'series__columns-names_invisible'
+						}`}
+					>
+						источник
+					</p>
 				</div>
 				<SeparatorLine />
 			</div>
 			<div className='series__parts-container'>
 				{series.parts.map((part, i) => (
-					<Part key={i} partData={part} partNumber={i} />
+					<Part key={i} partData={part} partNumber={i} isWide={isWide} />
 				))}
 			</div>
 
