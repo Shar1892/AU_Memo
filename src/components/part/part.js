@@ -14,6 +14,7 @@ import SeriesReference from '../seriesReference/seriesReference';
 import SeriesIllustration from '../seriesIllustration/seriesIllustration';
 import SeriesSketch from '../seriesSketch/seriesSketch';
 import SeriesRecord from '../seriesRecord/seriesRecord';
+import SeriesMaterial from '../seriesMaterial/seriesMaterial';
 
 function Part({partData, partNumber, isWide}) {
 	return (
@@ -76,45 +77,13 @@ function Part({partData, partNumber, isWide}) {
 					</>
 					<>
 						{!isWide && (
-							<div className='part__column-container'>
-								{partData.materials &&
-									partData.materials.map((material, i) => (
-										<div key={i}>
-											{material.type === 'reference' ? (
-												<SeriesReference data={material} />
-											) : material.type === 'record' ? (
-												<SeriesRecord data={material} />
-											) : material.type === 'illustration' ? (
-												<SeriesIllustration data={material} />
-											) : (
-												<SeriesSketch data={material} />
-											)}
-										</div>
-									))}
-							</div>
+							<SeriesMaterial materials={partData.materials} isWide={isWide} />
 						)}
 					</>
 				</div>
-				<div
-					className={`part__column-container part__column-margin ${
-						isWide ? '' : 'part__column-container_invisible'
-					}`}
-				>
-					{partData.materials &&
-						partData.materials.map((material, i) => (
-							<div key={i}>
-								{material.type === 'reference' ? (
-									<SeriesReference data={material} />
-								) : material.type === 'record' ? (
-									<SeriesRecord data={material} />
-								) : material.type === 'illustration' ? (
-									<SeriesIllustration data={material} />
-								) : (
-									<SeriesSketch data={material} />
-								)}
-							</div>
-						))}
-				</div>
+				{isWide && (
+					<SeriesMaterial materials={partData.materials} isWide={isWide} />
+				)}
 				<div
 					className={`part__column-container part__column-margin ${
 						isWide ? '' : 'part__column-container_invisible'
@@ -134,3 +103,52 @@ function Part({partData, partNumber, isWide}) {
 }
 
 export default Part;
+
+/*
+
+<div className='part__column-container'>
+								{partData.materials &&
+									partData.materials.map((material, i) => (
+										<div
+											className='part__section-container part__section-margin_large'
+											key={i}
+										>
+											{material.type === 'reference' ? (
+												<SeriesReference data={material} />
+											) : material.type === 'record' ? (
+												<SeriesRecord data={material} />
+											) : material.type === 'illustration' ? (
+												<SeriesIllustration data={material} />
+											) : (
+												<SeriesSketch data={material} />
+											)}
+										</div>
+									))}
+							</div>
+
+*/
+
+/*
+
+<div
+					className={`part__column-container part__column-margin ${
+						isWide ? '' : 'part__column-container_invisible'
+					}`}
+				>
+					{partData.materials &&
+						partData.materials.map((material, i) => (
+							<div key={i}>
+								{material.type === 'reference' ? (
+									<SeriesReference data={material} />
+								) : material.type === 'record' ? (
+									<SeriesRecord data={material} />
+								) : material.type === 'illustration' ? (
+									<SeriesIllustration data={material} />
+								) : (
+									<SeriesSketch data={material} />
+								)}
+							</div>
+						))}
+				</div>
+
+*/

@@ -1,0 +1,13 @@
+.seriesMaterial {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.seriesMaterial_single {
+	justify-content: space-around;
+}
+
+.seriesMaterial__content {
+	margin: 30px 0;
+}

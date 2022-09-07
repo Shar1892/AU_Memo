@@ -10,7 +10,7 @@ import Part from '../part/part';
 import SeparatorLine from '../separatorLine/separatorLine';
 
 function Series({seriesNumber, changeSeriesNumber}) {
-	const windowWidth = window.innerWidth;
+	let windowWidth = window.innerWidth;
 
 	const [isWide, setIsWide] = useState(() => {
 		if (windowWidth > 425) {
