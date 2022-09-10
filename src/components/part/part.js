@@ -1,5 +1,3 @@
-import {useState} from 'react';
-
 import './part.css';
 
 import SeparatorLine from '../separatorLine/separatorLine';
@@ -10,10 +8,6 @@ import SeriesDocument from '../seriesDocument/seriesDocument';
 import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
 import SeriesVideo from '../seriesVideo/seriesVideo';
 import SeriesPhoto from '../seriesPhoto/seriesPhoto';
-import SeriesReference from '../seriesReference/seriesReference';
-import SeriesIllustration from '../seriesIllustration/seriesIllustration';
-import SeriesSketch from '../seriesSketch/seriesSketch';
-import SeriesRecord from '../seriesRecord/seriesRecord';
 import SeriesMaterial from '../seriesMaterial/seriesMaterial';
 
 function Part({partData, partNumber, isWide}) {
@@ -58,7 +52,7 @@ function Part({partData, partNumber, isWide}) {
 								key={i}
 							>
 								{section.type === 'text' ? (
-									<SeriesText data={section} />
+									<SeriesText data={section} isWide={isWide} />
 								) : section.type === 'important text' ? (
 									<SeriesImpotantText data={section} />
 								) : section.type === 'quote' ? (

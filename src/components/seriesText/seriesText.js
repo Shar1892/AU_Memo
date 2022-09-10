@@ -1,10 +1,6 @@
-import {useState} from 'react';
-
 import './seriesText.css';
 
-function SeriesText({data}) {
-	const windowWidth = window.innerWidth;
-
+function SeriesText({data, isWide}) {
 	const getArrayText = (str, phraseArr) => {
 		let resArr = [];
 
@@ -25,9 +21,7 @@ function SeriesText({data}) {
 		return resArr;
 	};
 
-	const [finalArrayText, setFinalArrayText] = useState(
-		getArrayText(data.content, data.meaningfulPhrases)
-	);
+	const finalArrayText = getArrayText(data.content, data.meaningfulPhrases);
 
 	const chechMeaningfulPhrase = (text, phraseArr) => {
 		if (phraseArr) {
@@ -40,7 +34,7 @@ function SeriesText({data}) {
 	};
 
 	const showReference = () => {
-		console.log(windowWidth);
+		console.log(isWide);
 	};
 
 	return (
@@ -55,8 +49,7 @@ function SeriesText({data}) {
 								: ''
 						}`}
 						onClick={
-							chechMeaningfulPhrase(text, data.meaningfulPhrases) &&
-							windowWidth < 769
+							chechMeaningfulPhrase(text, data.meaningfulPhrases) && !isWide
 								? showReference
 								: null
 						}
