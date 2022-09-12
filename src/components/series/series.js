@@ -8,6 +8,7 @@ import seriesArr from '../../data/series';
 
 import Part from '../part/part';
 import SeparatorLine from '../separatorLine/separatorLine';
+import PopupReference from '../popupReference/popupReference';
 
 function Series({seriesNumber, changeSeriesNumber}) {
 	let windowWidth = window.innerWidth;
@@ -19,6 +20,31 @@ function Series({seriesNumber, changeSeriesNumber}) {
 			return false;
 		}
 	});
+
+	const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+	const [referenceData, setReferenceData] = useState({});
+
+	const setEventListeners = () => {
+		document.addEventListener('keydown', handleEscClose);
+	};
+
+	const handlePopupOpen = (reference) => {
+		setIsPopupOpen(true);
+		setReferenceData(reference);
+		setEventListeners();
+	};
+
+	const popupClose = () => {
+		setIsPopupOpen(false);
+		document.removeEventListener('keydown', handleEscClose);
+	};
+
+	const handleEscClose = (evt) => {
+		if (evt.key === 'Escape') {
+			popupClose();
+		}
+	};
 
 	const series = seriesArr.find((item) => {
 		return item.number === seriesNumber;
@@ -97,7 +123,13 @@ function Series({seriesNumber, changeSeriesNumber}) {
 			</div>
 			<div className='series__parts-container'>
 				{series.parts.map((part, i) => (
-					<Part key={i} partData={part} partNumber={i} isWide={isWide} />
+					<Part
+						key={i}
+						partData={part}
+						partNumber={i}
+						isWide={isWide}
+						popupOpen={handlePopupOpen}
+					/>
 				))}
 			</div>
 
@@ -119,6 +151,11 @@ function Series({seriesNumber, changeSeriesNumber}) {
 					Следующая глава
 				</button>
 			</div>
+			<PopupReference
+				isOpen={isPopupOpen}
+				data={referenceData}
+				popupClose={popupClose}
+			/>
 		</main>
 	);
 }

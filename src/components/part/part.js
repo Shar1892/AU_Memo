@@ -10,7 +10,17 @@ import SeriesVideo from '../seriesVideo/seriesVideo';
 import SeriesPhoto from '../seriesPhoto/seriesPhoto';
 import SeriesMaterial from '../seriesMaterial/seriesMaterial';
 
-function Part({partData, partNumber, isWide}) {
+function Part({partData, partNumber, isWide, popupOpen}) {
+	const findReferenceData = (referenceName) => {
+		return partData.materials.find((material) => {
+			return material.name.toLowerCase() === referenceName.toLowerCase();
+		});
+	};
+
+	const openPopup = (referenceName) => {
+		popupOpen(findReferenceData(referenceName));
+	};
+
 	return (
 		<div className='part'>
 			{partNumber ? (
@@ -52,7 +62,11 @@ function Part({partData, partNumber, isWide}) {
 								key={i}
 							>
 								{section.type === 'text' ? (
-									<SeriesText data={section} isWide={isWide} />
+									<SeriesText
+										data={section}
+										isWide={isWide}
+										openPopup={openPopup}
+									/>
 								) : section.type === 'important text' ? (
 									<SeriesImpotantText data={section} />
 								) : section.type === 'quote' ? (
