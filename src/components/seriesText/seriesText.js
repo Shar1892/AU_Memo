@@ -1,6 +1,6 @@
 import './seriesText.css';
 
-function SeriesText({data, isWide}) {
+function SeriesText({data, isWide, openPopup}) {
 	const getArrayText = (str, phraseArr) => {
 		let resArr = [];
 
@@ -33,8 +33,9 @@ function SeriesText({data, isWide}) {
 		}
 	};
 
-	const showReference = () => {
-		console.log(isWide);
+	const showReference = (meaningfulPhrase) => {
+		openPopup(meaningfulPhrase);
+		console.log(meaningfulPhrase);
 	};
 
 	return (
@@ -50,7 +51,9 @@ function SeriesText({data, isWide}) {
 						}`}
 						onClick={
 							chechMeaningfulPhrase(text, data.meaningfulPhrases) && !isWide
-								? showReference
+								? () => {
+										showReference(text);
+								  }
 								: null
 						}
 						key={i}
