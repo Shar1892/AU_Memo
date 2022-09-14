@@ -10,7 +10,14 @@ function SeriesMaterial({materials, isWide}) {
 		<div className={`seriesMaterial ${isWide ? 'seriesMaterial_single' : ''}`}>
 			{materials &&
 				materials.map((material, i) => (
-					<div className={`${isWide ? '' : 'seriesMaterial__content'}`} key={i}>
+					<div
+						className={`${isWide ? '' : 'seriesMaterial__content'} ${
+							!isWide & (material.type === 'reference')
+								? 'seriesMaterial__content_invisible'
+								: ''
+						}`}
+						key={i}
+					>
 						{material.type === 'reference' ? (
 							<SeriesReference data={material} />
 						) : material.type === 'record' ? (
@@ -27,3 +34,5 @@ function SeriesMaterial({materials, isWide}) {
 }
 
 export default SeriesMaterial;
+
+// <>{isWide && <SeriesReference data={material} />}</>

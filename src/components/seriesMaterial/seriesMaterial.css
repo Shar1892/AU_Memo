@@ -11,3 +11,7 @@
 .seriesMaterial__content {
 	margin: 30px 0;
 }
+
+.seriesMaterial__content_invisible {
+	display: none;
+}
