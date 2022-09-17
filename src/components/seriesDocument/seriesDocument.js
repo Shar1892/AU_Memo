@@ -1,9 +1,21 @@
-import {useState} from 'react';
+import {useState, useRef, useLayoutEffect} from 'react';
 
 import './seriesDocument.css';
 
 function SeriesDocument({data}) {
-	const [isShort, setIsShort] = useState(true);
+	const [isShort, setIsShort] = useState(false);
+	const targetRef = useRef();
+
+	const [isFitsCompletely, setIsFitsCompletely] = useState(false);
+
+	useLayoutEffect(() => {
+		console.log(targetRef.current.offsetHeight);
+		if (targetRef.current.offsetHeight > 120) {
+			setIsShort(true);
+		} else {
+			setIsFitsCompletely(true);
+		}
+	}, []);
 
 	const expandDocument = () => {
 		setIsShort(!isShort);
@@ -14,6 +26,7 @@ function SeriesDocument({data}) {
 			<p className='seriesDocument__title'>Документ</p>
 			<p className='seriesDocument__name'>{data.name}</p>
 			<p
+				ref={targetRef}
 				className={`seriesDocument__text ${
 					isShort ? 'seriesDocument__text_short' : ''
 				}`}
@@ -30,7 +43,7 @@ function SeriesDocument({data}) {
 			</button>
 			<button
 				className={`seriesDocument__button ${
-					isShort ? 'seriesDocument__button_hidden' : ''
+					isShort || isFitsCompletely ? 'seriesDocument__button_hidden' : ''
 				}`}
 				onClick={expandDocument}
 			>

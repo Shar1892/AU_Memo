@@ -34,5 +34,3 @@ function SeriesMaterial({materials, isWide}) {
 }
 
 export default SeriesMaterial;
-
-// <>{isWide && <SeriesReference data={material} />}</>
