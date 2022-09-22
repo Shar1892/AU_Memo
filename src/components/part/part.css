@@ -29,9 +29,8 @@
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 71%;
-	color: #000000;
+	color: var(--simple-text-color);
 	overflow-wrap: break-word;
-	/*word-break: break-all;*/
 }
 
 .part__separator {
@@ -88,7 +87,7 @@
 	font-weight: 400;
 	font-size: 10px;
 	line-height: 130%;
-	color: #a0a0a0;
+	color: var(--light-text-color);
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
@@ -115,7 +114,7 @@
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 130%;
-	color: #a0a0a0;
+	color: var(--light-text-color);
 }
 
 @media screen and (min-width: 425px) {

@@ -17,7 +17,7 @@
 	line-height: 130%;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #a0a0a0;
+	color: var(--light-text-color);
 }
 
 .seriesDocument__name {
@@ -27,7 +27,7 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 120%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .seriesDocument__text {
@@ -37,7 +37,7 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 120%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .seriesDocument__text_short {
@@ -53,13 +53,12 @@
 	padding: 6px 0;
 	box-sizing: border-box;
 	margin-top: 20px;
-
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 130%;
-	color: #a0a0a0;
+	color: var(--light-text-color);
 }
 
 .seriesDocument__button:hover {
