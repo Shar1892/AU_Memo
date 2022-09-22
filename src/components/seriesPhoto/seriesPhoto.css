@@ -17,7 +17,7 @@
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 130%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .seriesPhoto__autor {
@@ -27,7 +27,7 @@
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 130%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .seriesPhoto__source {
@@ -37,5 +37,5 @@
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 130%;
-	color: #a0a0a0;
+	color: var(--light-text-color);
 }

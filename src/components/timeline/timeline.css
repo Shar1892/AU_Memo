@@ -25,7 +25,7 @@
 	text-align: center;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .timeline__title {
@@ -36,7 +36,7 @@
 	font-size: 180px;
 	line-height: 71%;
 	text-align: center;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .timeline__header-image {
@@ -53,7 +53,7 @@
 	font-size: 25px;
 	line-height: 110%;
 	text-align: center;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .timeline__list-container {
@@ -83,7 +83,7 @@
 	margin: 0;
 	font-weight: normal;
 	font-size: 12px;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .timeline__autor:first-of-type {

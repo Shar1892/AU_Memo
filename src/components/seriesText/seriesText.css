@@ -10,11 +10,11 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 130%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .seriesText__meaningfulPhrase {
 	font-style: italic;
 	text-decoration: underline;
-	color: #a0a0a0;
+	color: var(--light-text-color);
 }

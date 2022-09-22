@@ -13,7 +13,7 @@
 	margin: 0;
 	font-weight: normal;
 	font-size: 32px;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .header__subtitle-container {
@@ -27,14 +27,14 @@
 	margin: 0;
 	font-weight: normal;
 	font-size: 18px;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .header__partner-link {
 	margin: 0;
 	font-weight: normal;
 	font-size: 18px;
-	color: #000000;
+	color: var(--simple-text-color);
 	text-decoration: none;
 }
 
@@ -91,7 +91,7 @@
 	align-items: center;
 	background-color: #888888;
 	text-decoration: none;
-	color: #000000;
+	color: var(--simple-text-color);
 	margin-right: 10px;
 }
 

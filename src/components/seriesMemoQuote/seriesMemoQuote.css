@@ -22,7 +22,7 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 130%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
 
 .seriesMemoQuote__autor-container {
@@ -46,5 +46,5 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 120%;
-	color: #000000;
+	color: var(--simple-text-color);
 }
