@@ -62,11 +62,3 @@ function Header() {
 }
 
 export default Header;
-
-/*
-
-<NavLink to='/timeline' className='header__navigation-link'>
-					Таймлайн
-				</NavLink>
-
-*/

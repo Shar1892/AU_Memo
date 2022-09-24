@@ -16,14 +16,3 @@ function SeriesRecord({data}) {
 }
 
 export default SeriesRecord;
-
-/*
-
-<iframe
-				frameBorder='0'
-				className='seriesRecord__record'
-				src={data.recordSrc}
-				title='record'
-			></iframe>
-
-*/
