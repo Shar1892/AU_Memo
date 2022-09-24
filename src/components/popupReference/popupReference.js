@@ -24,10 +24,3 @@ function PopupReference({data, isOpen, popupClose}) {
 }
 
 export default PopupReference;
-
-/*
-
-<p className='popupReferenc__name'>{data.name}</p>
-				<p className='popupReferenc__discription'>{data.discription}</p>
-
-*/

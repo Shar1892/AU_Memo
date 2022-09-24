@@ -26,7 +26,6 @@ function Timeline() {
 		setCurrentSeriesNumber(numberSeries);
 		setCurrentSeriesSecond(second);
 		setEventListeners();
-		console.log(1);
 	};
 
 	const handleEscClose = (evt) => {

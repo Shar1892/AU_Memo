@@ -1,11 +1,9 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import {NavLink} from 'react-router-dom';
 
 import SeparatorLine from '../separatorLine/separatorLine';
 
 import './seriesPreview.css';
-
-// onClick={() => handleSetCurrentSeriesNumber(series.number)}
-//	className='main__series__button'
 
 function SeriesPreview({data, handleSetCurrentSeriesNumber}) {
 	return (
@@ -49,5 +47,3 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber}) {
 }
 
 export default SeriesPreview;
-
-// onClick={() => openVideo(data.seriesNumber, data.startSecond)}

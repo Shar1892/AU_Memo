@@ -5,7 +5,6 @@ import Header from '../header/header';
 import Footer from '../footer/footer';
 import Main from '../main/main';
 import Series from '../series/series';
-//import Timeline from '../timeline/timeline';
 
 import './App.css';
 
