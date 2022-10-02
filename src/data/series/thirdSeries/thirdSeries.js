@@ -14,7 +14,8 @@ import noize from './records/Noize_MC.mp3';
 
 const thirdSeries = {
 	number: 3,
-	numberText: 'III',
+	romanNumber: 'III',
+	numberText: 'Третья глава',
 	title: ['Встреча', 'общества и', 'государства'],
 	discription: [
 		'Олег Орлов прошёл по коридору мемориальского офиса в Каретном',

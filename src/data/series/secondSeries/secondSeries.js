@@ -14,7 +14,8 @@ import noize from './records/Noize_MC.mp3';
 
 const secondSeries = {
 	number: 2,
-	numberText: 'II',
+	romanNumber: 'II',
+	numberText: 'Вторая глава',
 	title: ['Поиск', 'агентов', 'начинается'],
 	discription: [
 		'Олег Орлов прошёл по коридору мемориальского офиса в Каретном',

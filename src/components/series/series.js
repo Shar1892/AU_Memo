@@ -4,13 +4,11 @@ import {useEffect, useState} from 'react';
 
 import './series.css';
 
-import seriesArr from '../../data/series';
-
 import Part from '../part/part';
 import SeparatorLine from '../separatorLine/separatorLine';
 import PopupReference from '../popupReference/popupReference';
 
-function Series({seriesNumber, changeSeriesNumber}) {
+function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 	let windowWidth = window.innerWidth;
 
 	const [isWide, setIsWide] = useState(() => {

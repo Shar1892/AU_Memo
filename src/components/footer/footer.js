@@ -2,9 +2,8 @@ import './footer.css';
 
 import {years} from '../../utils/constants';
 import {autors} from '../../utils/constants';
-import {series} from '../../utils/constants';
 
-function Footer() {
+function Footer({seriesNames}) {
 	return (
 		<footer className='footer'>
 			<div className='footer__separator'></div>
@@ -18,8 +17,8 @@ function Footer() {
 				</div>
 				<div className='footer__column'>
 					<p className='footer__column-name'>Главы</p>
-					{series.map((sr) => (
-						<div className='footer__series-container'>
+					{seriesNames.map((sr, i) => (
+						<div className='footer__series-container' key={i}>
 							<p className='footer__series-name'>
 								<i className='footer__series-number'>{sr.number}</i>
 								{sr.name}
@@ -29,8 +28,8 @@ function Footer() {
 				</div>
 				<div className='footer__column'>
 					<p className='footer__column-name'>Авторы проекта</p>
-					{autors.map((autor) => (
-						<div className='footer__autor-container'>
+					{autors.map((autor, i) => (
+						<div className='footer__autor-container' key={i}>
 							<p className='footer__autor-role'>
 								{autor.role}
 								<i className='footer__autor-name'>{autor.name}</i>
@@ -40,8 +39,10 @@ function Footer() {
 				</div>
 				<div className='footer__column'>
 					<p className='footer__column-name'>Таймлайн</p>
-					{years.map((year) => (
-						<p className='footer__year'>{year}</p>
+					{years.map((year, i) => (
+						<p className='footer__year' key={i}>
+							{year}
+						</p>
 					))}
 				</div>
 			</div>

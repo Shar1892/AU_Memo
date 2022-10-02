@@ -33,26 +33,3 @@ export const autors = [
 		name: 'имя5',
 	},
 ];
-
-export const series = [
-	{
-		number: 'I',
-		name: 'имя1',
-	},
-	{
-		number: 'II',
-		name: 'имя2',
-	},
-	{
-		number: 'III',
-		name: 'имя3',
-	},
-	{
-		number: 'IV',
-		name: 'имя4',
-	},
-	{
-		number: 'V',
-		name: 'имя5',
-	},
-];

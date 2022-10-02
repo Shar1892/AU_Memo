@@ -7,9 +7,7 @@ import SeriesPreview from '../seriesPreview/seriesPreview';
 
 import headerImage from '../../image/timelineHeaderImage.jpg';
 
-import seriesArr from '../../data/series';
-
-function Main({handleSetCurrentSeriesNumber}) {
+function Main({handleSetCurrentSeriesNumber, seriesArr}) {
 	return (
 		<main className='main'>
 			<div className='main__header'>
