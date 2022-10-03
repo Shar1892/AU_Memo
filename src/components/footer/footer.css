@@ -4,7 +4,7 @@
 	align-items: center;
 	width: 100%;
 	background-color: #ffffff;
-	padding: 0 30px 50px 30px;
+	padding: 0 30px 20px 30px;
 	box-sizing: border-box;
 	max-width: 1360px;
 }
@@ -18,17 +18,152 @@
 .footer__content-container {
 	display: grid;
 	width: 100%;
-	padding: 0 30px;
+	padding: 30px;
 	box-sizing: border-box;
-	grid-template-columns: 13fr 5fr 5fr 2fr;
-	column-gap: 40px;
+	grid-template-columns: 13fr 6fr 6fr 2fr;
+	column-gap: 30px;
 }
 
 .footer__discription {
 	width: 100%;
 	display: grid;
-	grid-template-columns: 2fr 15fr;
-	column-gap: 90px;
+	grid-template-columns: 90px 15fr;
+	column-gap: 50px;
+}
+
+.footer__discription-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__logo {
+	width: 90px;
+	height: 90px;
+}
+
+.footer__copyright {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--simple-text-color);
+}
+
+.footer__discription-text {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: var(--simple-text-color);
+}
+
+.footer__column {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__column-name {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--light-text-color);
+}
+
+.footer__column-container {
+	margin-top: 80px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__series-container {
+	margin-bottom: 10px;
+}
+
+.footer__series-container:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__autor-container {
+	margin-bottom: 10px;
+}
+
+.footer__autor-container:last-of-type {
+	margin-bottom: 0;
+}
+
+.footer__series-name {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: var(--simple-text-color);
+}
+
+.footer__series-number {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--light-text-color);
+}
+
+.footer__autor-role {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: var(--simple-text-color);
+}
+
+.footer__autor-name {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: var(--simple-text-color);
+}
+
+.footer__years-container {
+	margin-top: 60px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__year {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 19px;
+	color: var(--simple-text-color);
 }
 
 .footer__links-container {
@@ -40,8 +175,12 @@
 
 .footer__links {
 	margin: 0;
-	font-weight: normal;
-	font-size: 18px;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
 	color: var(--simple-text-color);
 }
 

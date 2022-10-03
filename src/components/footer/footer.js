@@ -2,6 +2,7 @@ import './footer.css';
 
 import {years} from '../../utils/constants';
 import {autors} from '../../utils/constants';
+import logo from '../../image/logoMemo.png';
 
 function Footer({seriesNames}) {
 	return (
@@ -10,9 +11,13 @@ function Footer({seriesNames}) {
 			<div className='footer__content-container'>
 				<div className='footer__discription'>
 					<div className='footer__discription-container'>
-						<img className='footer__memo-icon'></img>
+						<img
+							className='footer__logo'
+							src={logo}
+							alt='Логотип Мемориала'
+						></img>
 						<p className='footer__copyright'>
-							&#169; {`${new Date().getFullYear()}`}
+							(C) {`${new Date().getFullYear()}`}
 						</p>
 					</div>
 					<p className='footer__discription-text'>
@@ -23,33 +28,39 @@ function Footer({seriesNames}) {
 				</div>
 				<div className='footer__column'>
 					<p className='footer__column-name'>Главы</p>
-					{seriesNames.map((sr, i) => (
-						<div className='footer__series-container' key={i}>
-							<p className='footer__series-name'>
-								<i className='footer__series-number'>{sr.number}</i>
-								{sr.name}
-							</p>
-						</div>
-					))}
+					<div className='footer__column-container'>
+						{seriesNames.map((sr, i) => (
+							<div className='footer__series-container' key={i}>
+								<p className='footer__series-name'>
+									<i className='footer__series-number'>{sr.number}</i>
+									{` ${sr.name}`}
+								</p>
+							</div>
+						))}
+					</div>
 				</div>
 				<div className='footer__column'>
 					<p className='footer__column-name'>Авторы проекта</p>
-					{autors.map((autor, i) => (
-						<div className='footer__autor-container' key={i}>
-							<p className='footer__autor-role'>
-								{autor.role}
-								<i className='footer__autor-name'>{autor.name}</i>
-							</p>
-						</div>
-					))}
+					<div className='footer__column-container'>
+						{autors.map((autor, i) => (
+							<div className='footer__autor-container' key={i}>
+								<p className='footer__autor-role'>
+									{`${autor.role} `}
+									<i className='footer__autor-name'>{autor.name}</i>
+								</p>
+							</div>
+						))}
+					</div>
 				</div>
 				<div className='footer__column'>
 					<p className='footer__column-name'>Таймлайн</p>
-					{years.map((year, i) => (
-						<p className='footer__year' key={i}>
-							{year}
-						</p>
-					))}
+					<div className='footer__years-container'>
+						{years.map((year, i) => (
+							<p className='footer__year' key={i}>
+								{year}
+							</p>
+						))}
+					</div>
 				</div>
 			</div>
 		</footer>
@@ -57,3 +68,5 @@ function Footer({seriesNames}) {
 }
 
 export default Footer;
+
+// 	&#169;
