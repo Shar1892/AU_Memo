@@ -14,6 +14,7 @@ import noize from './records/Noize_MC.mp3';
 
 const firstSeries = {
 	number: 1,
+	romanNumber: 'I',
 	numText: 'Глава первая',
 	title: ['Конец', 'прекрасной', 'эпохи'],
 	discription: [
