@@ -23,7 +23,7 @@ function Main({handleSetCurrentSeriesNumber, seriesArr}) {
 					«Международный Мемориал»
 				</p>
 			</div>
-			<div className='main__list-container'>
+			<div className='main__list-container' id='series'>
 				<HorizontalScroll className='main__series-list' reverseScroll={true}>
 					{seriesArr.map((series) => (
 						<SeriesPreview
@@ -34,6 +34,9 @@ function Main({handleSetCurrentSeriesNumber, seriesArr}) {
 					))}
 					<div className='main__empty-block'></div>
 				</HorizontalScroll>
+			</div>
+			<div id='timeline'>
+				<p>timeline</p>
 			</div>
 		</main>
 	);

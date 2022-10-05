@@ -1,12 +1,31 @@
-import {NavLink} from 'react-router-dom';
+//import {NavLink} from 'react-router-dom';
 
 import './header.css';
 
 function Header() {
 	return (
 		<header className='header'>
-			<h1 className='header__title'>Название спецпроекта</h1>
-			<div className='header__subtitle-container'>
+			<div className='header__content-container'>
+				<h1 className='header__title'>Ликвидация «Мемориала»</h1>
+				<div className='header__menu'>
+					<a href='/#timeline' className='header__link'>
+						Таймлайн
+					</a>
+					<a href='/#series' className='header__link'>
+						Оглавление
+					</a>
+				</div>
+			</div>
+			<div className='header__separator'></div>
+		</header>
+	);
+}
+
+export default Header;
+
+/*
+
+<div className='header__subtitle-container'>
 				<p className='header__subtitle'>
 					<a
 						href='https://music.yandex.ru/album/9756926/track/62107380'
@@ -57,8 +76,6 @@ function Header() {
 					Все серии
 				</NavLink>
 			</nav>
-		</header>
-	);
-}
 
-export default Header;
+
+*/
