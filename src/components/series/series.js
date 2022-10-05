@@ -62,7 +62,7 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, []);
+	}, [seriesNumber]);
 
 	return (
 		<main className='series'>
