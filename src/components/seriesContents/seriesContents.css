@@ -1,0 +1,63 @@
+.seriesContents {
+	display: flex;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transition: visibility 0.5s linear, opacity 0.5s linear;
+	opacity: 0;
+}
+
+.seriesContents_visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.seriesContents__container {
+	width: 305px;
+	height: 330px;
+	position: relative;
+	left: 69%;
+	top: 80px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.seriesContents__vector-external {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 18px solid #000000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	left: 180px;
+	top: -38px;
+}
+
+.seriesContents__vector-interior {
+	margin-top: 2px;
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 16px solid #ffffff;
+}
+
+/*.seriesContents__container-vector:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: -28px;
+	left: -26px;
+	border: 26px solid transparent;
+	border-top: 26px solid #ffffff;
+}*/
