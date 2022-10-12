@@ -32,7 +32,7 @@ function Footer({seriesNames}) {
 						{seriesNames.map((sr, i) => (
 							<div className='footer__series-container' key={i}>
 								<p className='footer__series-name'>
-									<i className='footer__series-number'>{sr.number}</i>
+									<i className='footer__series-number'>{sr.romanNumber}</i>
 									{` ${sr.name}`}
 								</p>
 							</div>
