@@ -5,7 +5,7 @@ import SeriesContents from '../seriesContents/seriesContents';
 
 import './header.css';
 
-function Header() {
+function Header({seriesNames, handleSetCurrentSeriesNumber}) {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const menuClose = () => {
@@ -30,7 +30,12 @@ function Header() {
 				</div>
 			</div>
 			<div className='header__separator'></div>
-			<SeriesContents isOpen={isMenuOpen} onClose={menuClose} />
+			<SeriesContents
+				isOpen={isMenuOpen}
+				onClose={menuClose}
+				seriesNames={seriesNames}
+				handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
+			/>
 		</header>
 	);
 }

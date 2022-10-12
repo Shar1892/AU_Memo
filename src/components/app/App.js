@@ -16,13 +16,17 @@ function App() {
 	const seriesNames = seriesArr.map((series) => {
 		return {
 			name: series.title.join(' '),
-			number: series.romanNumber,
+			romanNumber: series.romanNumber,
+			number: series.number,
 		};
 	});
 
 	return (
 		<div className='App'>
-			<Header />
+			<Header
+				seriesNames={seriesNames}
+				handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
+			/>
 			<Switch>
 				<Route exact path='/'>
 					<Main
