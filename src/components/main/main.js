@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import HorizontalScroll from 'react-scroll-horizontal';
+import Timeline from '../timeline/timeline';
 
 import './main.css';
 
@@ -35,6 +36,7 @@ function Main({handleSetCurrentSeriesNumber, seriesArr}) {
 					<div className='main__empty-block'></div>
 				</HorizontalScroll>
 			</div>
+			<Timeline />
 			<div id='timeline'>
 				<p>timeline</p>
 			</div>
