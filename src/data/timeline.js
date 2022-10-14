@@ -28,7 +28,7 @@ const timelineArr = [
 		seriesNumber: 2,
 		startSecond: 247,
 	},*/
-	{
+	/*{
 		num: 4,
 		numText: 'Глава первая',
 		startDate: {
@@ -81,7 +81,7 @@ const timelineArr = [
 			'6 Описание события Описание события Описание события Описание события Описание события Описание события Описание события',
 		seriesNumber: 3,
 		startSecond: 547,
-	},
+	},*/
 ];
 
 export default timelineArr;
