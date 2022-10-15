@@ -4,7 +4,8 @@ import {useState} from 'react';
 
 import './timeline.css';
 
-import TimelinePart from '../timelinePart/timelinePart';
+//import TimelinePart from '../timelinePart/timelinePart';
+import TimelineYear from '../timelineYear/timelineYear';
 
 //import headerImage from '../../image/timelineHeaderImage.jpg';
 
@@ -53,7 +54,7 @@ function Timeline() {
 					alt='Картинка таймлайна'
 				></img>
 				{timelineArr.map((timeline, i) => (
-					<TimelinePart key={i} data={timeline} openVideo={openVideo} />
+					<TimelineYear key={i} data={timeline} openVideo={openVideo} />
 				))}
 			</section>
 			<VideoPopup
@@ -67,6 +68,8 @@ function Timeline() {
 }
 
 export default Timeline;
+
+// <TimelinePart key={i} data={timeline} openVideo={openVideo} />
 
 /*
 

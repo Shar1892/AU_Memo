@@ -1,12 +1,24 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import SeparatorLine from '../separatorLine/separatorLine';
 
+import SeriesText from '../seriesText/seriesText';
+
 import './timelinePart.css';
 
 function TimelinePart({data, openVideo}) {
 	return (
 		<div className='timelinePart'>
-			<div className='timelinePart__graphic'>
+			<p>{data.title}</p>
+			<SeriesText data={data} />
+		</div>
+	);
+}
+
+export default TimelinePart;
+
+/*
+
+<div className='timelinePart__graphic'>
 				<div className='timelinePart__graphic-main'>
 					<SeparatorLine />
 				</div>
@@ -37,8 +49,5 @@ function TimelinePart({data, openVideo}) {
 					<p className='timelinePart__text'>{data.discription}</p>
 				</div>
 			</div>
-		</div>
-	);
-}
 
-export default TimelinePart;
+*/
