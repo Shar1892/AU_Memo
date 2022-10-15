@@ -1,11 +1,89 @@
 .timelinePart {
-	width: 528px;
+	width: 60%;
+	display: grid;
+	grid-template-columns: 1fr 5px 6fr;
+	column-gap: 40px;
+}
+
+.timelinePart__date-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.timelinePart__date {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 130%;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--simple-text-color);
+}
+
+.timelinePart__separator-container {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.timelinePart__graphic {
+.timelinePart__separator-dot {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #000000;
+}
+
+.timelinePart__separator-line {
+	width: 1px;
+	height: 100%;
+	background-color: #000000;
+}
+
+.timelinePart__separator-triangle {
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 5px solid #000000;
+}
+
+.timelinePart__content-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+
+.timelinePart__content-container_last {
+	padding-bottom: 0;
+}
+
+.timelinePart__content-title {
+	margin: 0 0 10px 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 130%;
+	color: var(--simple-text-color);
+}
+
+/*
+.timelinePart {
+	width: 528px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+*/
+
+/*.timelinePart__graphic {
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -116,3 +194,4 @@
 	line-height: 120%;
 	color: var(--simple-text-color);
 }
+*/

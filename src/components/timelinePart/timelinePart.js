@@ -1,20 +1,34 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
-import SeparatorLine from '../separatorLine/separatorLine';
-
 import SeriesText from '../seriesText/seriesText';
 
 import './timelinePart.css';
 
-function TimelinePart({data, openVideo}) {
+function TimelinePart({data, openVideo, isLast}) {
 	return (
 		<div className='timelinePart'>
-			<p>{data.title}</p>
-			<SeriesText data={data} />
+			<div className='timelinePart__date-container'>
+				<p className='timelinePart__date'>{data.date.date}</p>
+				<p className='timelinePart__date'>{data.date.year}</p>
+			</div>
+			<div className='timelinePart__separator-container'>
+				<div className='timelinePart__separator-dot'></div>
+				<div className='timelinePart__separator-line'></div>
+				{isLast && <div className='timelinePart__separator-triangle'></div>}
+			</div>
+			<div
+				className={`timelinePart__content-container ${
+					isLast ? 'timelinePart__content-container_last' : ''
+				}`}
+			>
+				<p className='timelinePart__content-title'>{data.title}</p>
+				<SeriesText data={data} />
+			</div>
 		</div>
 	);
 }
 
 export default TimelinePart;
+
+//{data.date.year}
 
 /*
 
