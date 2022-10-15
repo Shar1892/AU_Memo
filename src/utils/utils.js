@@ -27,3 +27,7 @@ export const chechMeaningfulPhrase = (text, phraseArr) => {
 		return false;
 	}
 };
+
+export const checkLast = (i, arr) => {
+	return i === arr.length - 1 ? true : false;
+};
