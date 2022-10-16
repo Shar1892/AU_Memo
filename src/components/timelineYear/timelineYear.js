@@ -13,7 +13,12 @@ function TimelineYear({data, openVideo}) {
 			<SeparatorLine />
 			<div className='timelineYear__content'>
 				{data.acts.map((act, i) => (
-					<TimelinePart data={act} key={i} isLast={checkLast(i, data.acts)} />
+					<TimelinePart
+						data={act}
+						key={i}
+						isLast={checkLast(i, data.acts)}
+						openVideo={openVideo}
+					/>
 				))}
 			</div>
 		</div>

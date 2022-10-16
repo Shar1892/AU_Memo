@@ -4,7 +4,10 @@ import './timelinePart.css';
 
 function TimelinePart({data, openVideo, isLast}) {
 	return (
-		<div className='timelinePart'>
+		<div
+			className='timelinePart'
+			onClick={() => openVideo(data.seriesNumber, data.startSecond)}
+		>
 			<div className='timelinePart__date-container'>
 				<p className='timelinePart__date'>{data.date.date}</p>
 				<p className='timelinePart__date'>{data.date.year}</p>
