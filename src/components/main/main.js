@@ -8,7 +8,7 @@ import SeriesPreview from '../seriesPreview/seriesPreview';
 
 import headerImage from '../../image/timelineHeaderImage.jpg';
 
-function Main({handleSetCurrentSeriesNumber, seriesArr}) {
+function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
 	return (
 		<main className='main'>
 			<div className='main__header'>
@@ -31,20 +31,22 @@ function Main({handleSetCurrentSeriesNumber, seriesArr}) {
 							key={series.number}
 							data={series}
 							handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
+							setPage={setPage}
 						/>
 					))}
 					<div className='main__empty-block'></div>
 				</HorizontalScroll>
 			</div>
-			<Timeline />
 			<div id='timeline'>
-				<p>timeline</p>
+				<Timeline />
 			</div>
 		</main>
 	);
 }
 
 export default Main;
+
+//onClick={setPage(false)}
 
 /*
 
@@ -60,53 +62,3 @@ export default Main;
 */
 
 //openVideo={openVideo}
-
-/*
-
-<div className='main__discription'>
-				<h2 className='main__discription-title'>Описание спецпроекта</h2>
-				<p className='main__discription-text'>
-					Много текста Много текста Много текста Много текста Много текста Много
-					текста Много текста Много текста Много текста Много текста Много
-					текста Много текста Много текста Много текста Много текста Много
-					текста Много текста Много текста Много текста Много текста Много
-					текста Много текста Много текста Много текста Много текста Много
-					текста Много текста Много текста Много текста Много текста Много
-					текста Много текста
-				</p>
-			</div>
-
-<div className='main__series-list'>
-				{seriesArr.map((series) => (
-					<div className='main__series' key={series.number}>
-						<div className='main__series-header'>
-							<p className='main__series-number'>{series.numberText}</p>
-							<h2 className='main__series-title'>{series.name}</h2>
-						</div>
-						<div className='main__series-container'>
-							<img
-								className='main__series-photo'
-								src={series.mainImage}
-								alt='photo'
-							></img>
-							<div className='main__series-discription-container'>
-								<h3 className='main__series__discription-title'>
-									Описание серии
-								</h3>
-								<p className='main__series__discription'>
-									{series.discription}
-								</p>
-								<NavLink
-									to='/series'
-									className='main__series__button'
-									onClick={() => handleSetCurrentSeriesNumber(series.number)}
-								>
-									Начать
-								</NavLink>
-							</div>
-						</div>
-					</div>
-				))}
-			</div>
-
-*/

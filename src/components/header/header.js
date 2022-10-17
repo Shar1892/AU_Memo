@@ -5,7 +5,7 @@ import SeriesContents from '../seriesContents/seriesContents';
 
 import './header.css';
 
-function Header({seriesNames, handleSetCurrentSeriesNumber}) {
+function Header({seriesNames, handleSetCurrentSeriesNumber, isMain, setPage}) {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const menuClose = () => {
@@ -20,14 +20,20 @@ function Header({seriesNames, handleSetCurrentSeriesNumber}) {
 		<header className='header'>
 			<div className='header__content-container'>
 				<h1 className='header__title'>Ликвидация «Мемориала»</h1>
-				<div className='header__menu'>
-					<a href='/#timeline' className='header__link'>
-						Таймлайн
+				{isMain ? (
+					<div className='header__menu'>
+						<a href='#timeline' className='header__link'>
+							Таймлайн
+						</a>
+						<p className='header__link' onClick={openMenu}>
+							Оглавление
+						</p>
+					</div>
+				) : (
+					<a href='/' className='header__link'>
+						Основная
 					</a>
-					<p className='header__link' onClick={openMenu}>
-						Оглавление
-					</p>
-				</div>
+				)}
 			</div>
 			<div className='header__separator'></div>
 			<SeriesContents
@@ -35,6 +41,7 @@ function Header({seriesNames, handleSetCurrentSeriesNumber}) {
 				onClose={menuClose}
 				seriesNames={seriesNames}
 				handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
+				setPage={setPage}
 			/>
 		</header>
 	);
@@ -43,3 +50,24 @@ function Header({seriesNames, handleSetCurrentSeriesNumber}) {
 export default Header;
 
 //<a href='/#series' className='header__link'>
+
+/*
+
+<div className='header__menu'>
+					{isMain ? (
+						<>
+							<a href='#timeline' className='header__link'>
+								Таймлайн
+							</a>
+							<p className='header__link' onClick={openMenu}>
+								Оглавление
+							</p>
+						</>
+					) : (
+						<a href='/' className='header__link'>
+							Основная
+						</a>
+					)}
+				</div>
+
+*/

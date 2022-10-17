@@ -13,6 +13,8 @@ import './App.css';
 function App() {
 	const [currentSeriesNumber, setCurrentSeriesNumber] = useState(1);
 
+	const [isMain, setIsMain] = useState(true);
+
 	const seriesNames = seriesArr.map((series) => {
 		return {
 			name: series.title.join(' '),
@@ -26,12 +28,15 @@ function App() {
 			<Header
 				seriesNames={seriesNames}
 				handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
+				isMain={isMain}
+				setPage={setIsMain}
 			/>
 			<Switch>
 				<Route exact path='/'>
 					<Main
 						handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
 						seriesArr={seriesArr}
+						setPage={setIsMain}
 					/>
 				</Route>
 				<Route path='/series'>

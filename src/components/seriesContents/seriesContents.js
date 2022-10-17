@@ -7,10 +7,16 @@ function SeriesContents({
 	onClose,
 	seriesNames,
 	handleSetCurrentSeriesNumber,
+	setPage,
 }) {
 	const openSeries = (seriesNumber) => {
 		handleSetCurrentSeriesNumber(seriesNumber);
 		onClose();
+	};
+
+	const seriesLinkClick = (seriesNumber) => {
+		openSeries(seriesNumber);
+		setPage(false);
 	};
 
 	return (
@@ -32,7 +38,7 @@ function SeriesContents({
 							<NavLink
 								to='/series'
 								className='seriesContents__series-name'
-								onClick={() => openSeries(sr.number)}
+								onClick={() => seriesLinkClick(sr.number)}
 							>
 								<i className='seriesContents__series-number'>
 									{sr.romanNumber}
@@ -48,3 +54,5 @@ function SeriesContents({
 }
 
 export default SeriesContents;
+
+//onClick={() => openSeries(sr.number)}
