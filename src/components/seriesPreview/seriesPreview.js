@@ -5,12 +5,17 @@ import SeparatorLine from '../separatorLine/separatorLine';
 
 import './seriesPreview.css';
 
-function SeriesPreview({data, handleSetCurrentSeriesNumber}) {
+function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
+	const seriesPrewiewClick = (seriesNumber) => {
+		handleSetCurrentSeriesNumber(seriesNumber);
+		setPage(false);
+	};
+
 	return (
 		<NavLink
 			to='/series'
 			className='seriesPreview__navlinck'
-			onClick={() => handleSetCurrentSeriesNumber(data.number)}
+			onClick={() => seriesPrewiewClick(data.number)}
 		>
 			<div className='seriesPreview'>
 				<div className='seriesPreview__graphic'>
@@ -47,3 +52,5 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber}) {
 }
 
 export default SeriesPreview;
+
+//onClick={() => handleSetCurrentSeriesNumber(data.number)}
