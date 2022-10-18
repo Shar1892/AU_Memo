@@ -48,26 +48,3 @@ function Header({seriesNames, handleSetCurrentSeriesNumber, isMain, setPage}) {
 }
 
 export default Header;
-
-//<a href='/#series' className='header__link'>
-
-/*
-
-<div className='header__menu'>
-					{isMain ? (
-						<>
-							<a href='#timeline' className='header__link'>
-								Таймлайн
-							</a>
-							<p className='header__link' onClick={openMenu}>
-								Оглавление
-							</p>
-						</>
-					) : (
-						<a href='/' className='header__link'>
-							Основная
-						</a>
-					)}
-				</div>
-
-*/
