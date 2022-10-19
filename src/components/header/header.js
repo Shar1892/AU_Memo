@@ -48,3 +48,15 @@ function Header({seriesNames, handleSetCurrentSeriesNumber, isMain, setPage}) {
 }
 
 export default Header;
+
+/*
+
+<SeriesContents
+				isOpen={isMenuOpen}
+				onClose={menuClose}
+				seriesNames={seriesNames}
+				handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
+				setPage={setPage}
+			/>
+
+*/
