@@ -53,3 +53,24 @@ function App() {
 }
 
 export default App;
+
+/*
+
+<Switch>
+				<Route exact path='/'>
+					<Main
+						handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
+						seriesArr={seriesArr}
+						setPage={setIsMain}
+					/>
+				</Route>
+				<Route path='/series'>
+					<Series
+						seriesNumber={currentSeriesNumber}
+						changeSeriesNumber={setCurrentSeriesNumber}
+						seriesArr={seriesArr}
+					/>
+				</Route>
+			</Switch>
+
+*/

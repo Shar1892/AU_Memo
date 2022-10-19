@@ -4,9 +4,8 @@
 	align-items: center;
 	width: 100%;
 	background-color: #ffffff;
-	padding: 0 30px 20px 30px;
+	padding: 0 10px;
 	box-sizing: border-box;
-	max-width: 1360px;
 }
 
 .footer__separator {
@@ -16,19 +15,20 @@
 }
 
 .footer__content-container {
-	display: grid;
+	display: flex;
 	width: 100%;
-	padding: 30px;
+	padding: 20px 0;
 	box-sizing: border-box;
-	grid-template-columns: 13fr 6fr 6fr 2fr;
-	column-gap: 30px;
+	flex-direction: column;
 }
 
 .footer__discription {
 	width: 100%;
 	display: grid;
-	grid-template-columns: 90px 15fr;
-	column-gap: 50px;
+	grid-template-columns: 60px 15fr;
+	column-gap: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
 }
 
 .footer__discription-container {
@@ -40,8 +40,8 @@
 }
 
 .footer__logo {
-	width: 90px;
-	height: 90px;
+	width: 60px;
+	height: 60px;
 }
 
 .footer__copyright {
@@ -49,7 +49,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 11px;
 	line-height: 130%;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -61,7 +61,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 130%;
 	color: var(--simple-text-color);
 }
@@ -70,6 +70,12 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.footer__column:last-of-type {
+	padding-bottom: 0px;
 }
 
 .footer__column-name {
@@ -85,7 +91,7 @@
 }
 
 .footer__column-container {
-	margin-top: 40px;
+	margin-top: 10px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -150,7 +156,7 @@
 }
 
 .footer__years-container {
-	margin-top: 30px;
+	margin-top: 10px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -162,13 +168,108 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 21px;
-	line-height: 19px;
+	line-height: 130%;
 	color: var(--simple-text-color);
 }
 
-.footer__links-container {
-	display: flex;
-	justify-content: center;
-	padding: 10px 0;
-	box-sizing: border-box;
+@media screen and (min-width: 425px) {
+	.footer {
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+
+	.footer__discription {
+		grid-template-columns: 70px 15fr;
+		column-gap: 30px;
+	}
+
+	.footer__logo {
+		width: 70px;
+		height: 70px;
+	}
+
+	.footer__copyright {
+		font-size: 13px;
+	}
+
+	.footer__discription-text {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+		padding: 0 50px;
+	}
+
+	.footer__content-container {
+		display: grid;
+		grid-template-columns: 13fr 6fr 6fr 2fr;
+		column-gap: 15px;
+	}
+
+	.footer__discription {
+		grid-template-columns: 60px 15fr;
+		column-gap: 20px;
+		padding-bottom: 0;
+	}
+
+	.footer__logo {
+		width: 60px;
+		height: 60px;
+	}
+
+	.footer__copyright {
+		font-size: 11px;
+	}
+
+	.footer__discription-text {
+		font-size: 18px;
+	}
+
+	.footer__column {
+		padding-bottom: 0;
+	}
+
+	.footer__column-container {
+		margin-top: 40px;
+	}
+
+	.footer__years-container {
+		margin-top: 30px;
+	}
+
+	.footer__year {
+		line-height: 19px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.footer {
+		padding: 0 60px;
+		max-width: 1360px;
+	}
+
+	.footer__content-container {
+		padding: 30px;
+		column-gap: 30px;
+	}
+
+	.footer__discription {
+		grid-template-columns: 90px 15fr;
+		column-gap: 50px;
+	}
+
+	.footer__logo {
+		width: 90px;
+		height: 90px;
+	}
+
+	.footer__copyright {
+		font-size: 16px;
+	}
+
+	.footer__discription-text {
+		font-size: 20px;
+	}
 }
