@@ -46,6 +46,27 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
 
 export default Main;
 
+/*
+
+	<div className='main__list-container' id='series'>
+				<HorizontalScroll className='main__series-list' reverseScroll={true}>
+					{seriesArr.map((series) => (
+						<SeriesPreview
+							key={series.number}
+							data={series}
+							handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
+							setPage={setPage}
+						/>
+					))}
+					<div className='main__empty-block'></div>
+				</HorizontalScroll>
+			</div>
+			<div id='timeline'>
+				<Timeline />
+			</div>
+
+*/
+
 //onClick={setPage(false)}
 
 /*
