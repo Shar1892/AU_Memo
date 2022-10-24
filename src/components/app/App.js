@@ -56,6 +56,18 @@ export default App;
 
 /*
 
+<Route path='/series'>
+					<Series
+						seriesNumber={currentSeriesNumber}
+						changeSeriesNumber={setCurrentSeriesNumber}
+						seriesArr={seriesArr}
+					/>
+				</Route>
+
+*/
+
+/*
+
 <Switch>
 				<Route exact path='/'>
 					<Main
