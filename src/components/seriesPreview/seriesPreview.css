@@ -1,5 +1,5 @@
 .seriesPreview {
-	width: 528px;
+	width: 230px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -18,11 +18,11 @@
 }
 
 .seriesPreview__graphic-main {
-	width: calc(100% - 40px);
+	width: calc(100% - 20px);
 }
 
 .seriesPreview__graphic-line {
-	width: 40px;
+	width: 20px;
 	height: 1px;
 	background-color: #000000;
 }
@@ -32,7 +32,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-right: 40px;
+	padding-right: 20px;
 	box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 .seriesPreview__date-container {
@@ -57,7 +57,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 10px;
+	font-size: 9px;
 	line-height: 130%;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -69,7 +69,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px 30px 30px;
+	padding: 10px;
 	box-sizing: border-box;
 }
 
@@ -93,9 +93,9 @@
 }
 
 .seriesPreview__image {
-	margin: 20px 0;
+	margin: 10px 0;
 	width: 100%;
-	height: 315px;
+	height: 140px;
 }
 
 .seriesPreview__title {
@@ -103,7 +103,7 @@
 	font-family: 'Garamond Narrow';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 80px;
+	font-size: 30px;
 	line-height: 71%;
 	display: flex;
 	align-items: flex-end;
@@ -112,11 +112,104 @@
 }
 
 .seriesPreview__text {
-	margin: 20px 0 0 0;
+	margin: 10px 0 0 0;
 	font-family: 'Quant Antiqua';
 	font-style: italic;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 12px;
 	line-height: 120%;
 	color: var(--simple-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesPreview {
+		width: 300px;
+	}
+
+	.seriesPreview__graphic-main {
+		width: calc(100% - 30px);
+	}
+
+	.seriesPreview__graphic-line {
+		width: 30px;
+	}
+
+	.seriesPreview__container {
+		padding-right: 30px;
+	}
+
+	.seriesPreview__date-block {
+		margin-bottom: 15px;
+	}
+
+	.seriesPreview__date {
+		font-size: 10px;
+	}
+
+	.seriesPreview__content {
+		padding: 15px 20px;
+	}
+
+	.seriesPreview__image {
+		margin: 10px 0;
+		height: 170px;
+	}
+
+	.seriesPreview__title {
+		font-size: 40px;
+	}
+
+	.seriesPreview__text {
+		margin: 20px 0 0 0;
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesPreview {
+		width: 528px;
+	}
+
+	.seriesPreview__graphic-main {
+		width: calc(100% - 40px);
+	}
+
+	.seriesPreview__graphic-line {
+		width: 40px;
+	}
+
+	.seriesPreview__container {
+		padding-right: 40px;
+	}
+
+	.seriesPreview__date-block {
+		margin-bottom: 25px;
+	}
+
+	.seriesPreview__content {
+		padding: 20px 30px 30px;
+	}
+
+	.seriesPreview__image {
+		margin: 20px 0;
+		height: 315px;
+	}
+
+	.seriesPreview__title {
+		font-size: 78px;
+	}
+
+	.seriesPreview__text {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.seriesPreview__title {
+		font-size: 80px;
+	}
+
+	.seriesPreview__text {
+		font-size: 20px;
+	}
 }

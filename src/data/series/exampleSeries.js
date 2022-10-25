@@ -8,7 +8,8 @@ import noize from '../../audio/Noize_MC.mp3';
 
 const firstSeries = {
 	number: 1,
-	numberText: 'I',
+	romanNumber: 'III',
+	numText: 'Третья глава',
 	title: ['Конец', 'прекрасной', 'эпохи'],
 	discription: [
 		'Олег Орлов прошёл по коридору мемориальского офиса в Каретном',
