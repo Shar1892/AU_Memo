@@ -16,16 +16,16 @@
 }
 
 .seriesContents__container {
-	width: 250px;
+	width: 200px;
 	height: 330px;
 	position: relative;
-	left: 72%;
+	left: 32%;
 	top: 80px;
 	display: flex;
 	flex-direction: column;
 	background-color: #ffffff;
 	border: 2px solid #000000;
-	padding: 0 20px 20px 20px;
+	padding: 0 10px 10px 10px;
 	box-sizing: border-box;
 }
 
@@ -40,7 +40,7 @@
 	align-items: center;
 	position: relative;
 	left: 140px;
-	top: -38px;
+	top: -18px;
 }
 
 .seriesContents__vector-interior {
@@ -67,7 +67,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: italic;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 14px;
 	line-height: 130%;
 	color: var(--simple-text-color);
 	text-decoration: none;
@@ -78,9 +78,38 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 14px;
 	line-height: 130%;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: var(--light-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesContents__container {
+		left: 46%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesContents__container {
+		width: 250px;
+		left: 62%;
+		padding: 0 20px 20px 20px;
+	}
+
+	.seriesContents__series-name {
+		font-size: 20px;
+	}
+
+	.seriesContents__series-number {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.seriesContents__container {
+		width: 250px;
+		left: 72%;
+	}
 }
