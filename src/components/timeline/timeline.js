@@ -63,3 +63,22 @@ function Timeline() {
 }
 
 export default Timeline;
+
+/*
+
+	{timelineArr.map((timeline, i) => (
+					<TimelineYear key={i} data={timeline} openVideo={openVideo} />
+				))}
+
+*/
+
+/*
+
+	<VideoPopup
+				isOpen={isPopupOpen}
+				onClose={popupClose}
+				currentSeriesNumber={currentSeriesNumber}
+				currentSeriesSecond={currentSeriesSecond}
+			/>
+
+*/
