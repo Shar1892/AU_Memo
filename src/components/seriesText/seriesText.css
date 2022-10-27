@@ -8,7 +8,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 12px;
 	line-height: 130%;
 	color: var(--simple-text-color);
 }
@@ -17,4 +17,16 @@
 	font-style: italic;
 	text-decoration: underline;
 	color: var(--light-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesText__content {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesText__content {
+		font-size: 20px;
+	}
 }

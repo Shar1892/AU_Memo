@@ -16,7 +16,7 @@
 
 .timelineYear__content {
 	width: 100%;
-	padding: 10px 0 10px 40px;
+	padding: 10px 0 10px 30px;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
@@ -28,7 +28,7 @@
 	}
 
 	.timelineYear__content {
-		padding: 20px 0 20px 50px;
+		padding: 20px 0 20px 40px;
 	}
 }
 
@@ -38,7 +38,7 @@
 	}
 
 	.timelineYear__content {
-		padding: 30px 0 40px 120px;
+		padding: 30px 0 40px 80px;
 	}
 }
 
