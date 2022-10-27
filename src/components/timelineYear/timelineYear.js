@@ -26,3 +26,18 @@ function TimelineYear({data, openVideo}) {
 }
 
 export default TimelineYear;
+
+/*
+
+<div className='timelineYear__content'>
+				{data.acts.map((act, i) => (
+					<TimelinePart
+						data={act}
+						key={i}
+						isLast={checkLast(i, data.acts)}
+						openVideo={openVideo}
+					/>
+				))}
+			</div>
+
+*/
