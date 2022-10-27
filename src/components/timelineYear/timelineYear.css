@@ -10,14 +10,44 @@
 	font-family: 'Garamond Narrow';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 80px;
+	font-size: 40px;
 	color: var(--simple-text-color);
 }
 
 .timelineYear__content {
 	width: 100%;
-	padding: 40px 0 50px 160px;
+	padding: 10px 0 10px 40px;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
+}
+
+@media screen and (min-width: 425px) {
+	.timelineYear__header {
+		font-size: 50px;
+	}
+
+	.timelineYear__content {
+		padding: 20px 0 20px 50px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.timelineYear__header {
+		font-size: 65px;
+	}
+
+	.timelineYear__content {
+		padding: 30px 0 40px 120px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.timelineYear__header {
+		font-size: 80px;
+	}
+
+	.timelineYear__content {
+		padding: 40px 0 50px 160px;
+	}
 }
