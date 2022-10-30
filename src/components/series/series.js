@@ -76,7 +76,7 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 				<div className='series__period-container'>
 					<div className='series__date-container'>
 						<p className='series__date'>{series.startDate.year}</p>
-						<p className='series__date'>{series.startDate.mont}</p>
+						<p className='series__date'>{series.startDate.month}</p>
 					</div>
 					<p className='series__number'>{`Глава ${series.number}`}</p>
 					<div className='series__date-container'>
@@ -130,8 +130,44 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 					/>
 				))}
 			</div>
+			<PopupReference
+				isOpen={isPopupOpen}
+				data={referenceData}
+				popupClose={popupClose}
+			/>
+		</main>
+	);
+}
 
-			<div className='series__button-container'>
+export default Series;
+
+/*
+
+{series.parts.map((part, i) => (
+					<Part
+						key={i}
+						partData={part}
+						partNumber={i}
+						isWide={isWide}
+						popupOpen={handlePopupOpen}
+					/>
+				))}
+
+*/
+
+/*
+
+<PopupReference
+				isOpen={isPopupOpen}
+				data={referenceData}
+				popupClose={popupClose}
+			/>
+
+*/
+
+/*
+
+<div className='series__button-container'>
 				<button
 					className={`series__button ${
 						series.number === 1 ? 'series__button_disable' : ''
@@ -149,13 +185,5 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 					Следующая глава
 				</button>
 			</div>
-			<PopupReference
-				isOpen={isPopupOpen}
-				data={referenceData}
-				popupClose={popupClose}
-			/>
-		</main>
-	);
-}
 
-export default Series;
+*/
