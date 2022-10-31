@@ -107,6 +107,7 @@ const firstSeries = {
 					materials: [
 						{
 							type: 'reference',
+							matchWord: 'шпиономании',
 							name: 'Шпиономания',
 							numb: 4,
 							discription:

@@ -104,6 +104,7 @@ const thirdSeries = {
 			materials: [
 				{
 					type: 'reference',
+					matchWord: 'силовой разгон',
 					name: 'Силовой разгон',
 					numb: 1,
 					discription:
@@ -111,6 +112,7 @@ const thirdSeries = {
 				},
 				{
 					type: 'reference',
+					matchWord: '«Оккупай Абай»',
 					name: '«Оккупай Абай»',
 					numb: 2,
 					discription:
@@ -146,6 +148,7 @@ const thirdSeries = {
 			materials: [
 				{
 					type: 'reference',
+					matchWord: 'Болотное дело',
 					name: 'Болотное дело',
 					numb: 3,
 					discription:
@@ -220,6 +223,7 @@ const thirdSeries = {
 			materials: [
 				{
 					type: 'reference',
+					matchWord: 'шпиономании',
 					name: 'Шпиономания',
 					numb: 4,
 					discription:

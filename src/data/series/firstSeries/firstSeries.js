@@ -104,6 +104,7 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'reference',
+					matchWord: 'силовой разгон',
 					name: 'Силовой разгон',
 					numb: 1,
 					discription:
@@ -111,6 +112,7 @@ const firstSeries = {
 				},
 				{
 					type: 'reference',
+					matchWord: '«Оккупай Абай»',
 					name: '«Оккупай Абай»',
 					numb: 2,
 					discription:
@@ -146,6 +148,7 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'reference',
+					matchWord: 'Болотное дело',
 					name: 'Болотное дело',
 					numb: 3,
 					discription:
@@ -220,7 +223,8 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'reference',
-					name: 'Шпиономания',
+					matchWord: 'шпиономании',
+					name: 'Шпиономании',
 					numb: 4,
 					discription:
 						'Чрезмерная подозрительность, навязчивое стремление видеть в чьей-либо деятельности признаки шпионажа или желание разгласить государственную тайну',
