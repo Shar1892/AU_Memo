@@ -48,7 +48,7 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 		return item.number === seriesNumber;
 	});
 
-	const goNextSeries = () => {
+	/*const goNextSeries = () => {
 		if (series.number < seriesArr.length) {
 			changeSeriesNumber(series.number + 1);
 		}
@@ -58,7 +58,7 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 		if (series.number > 1) {
 			changeSeriesNumber(series.number - 1);
 		}
-	};
+	};*/
 
 	useEffect(() => {
 		window.scrollTo(0, 0);

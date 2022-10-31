@@ -13,7 +13,7 @@ import SeriesMaterial from '../seriesMaterial/seriesMaterial';
 function Part({partData, partNumber, isWide, popupOpen}) {
 	const findReferenceData = (referenceName) => {
 		return partData.materials.find((material) => {
-			return material.name.toLowerCase() === referenceName.toLowerCase();
+			return material.matchWord.toLowerCase() === referenceName.toLowerCase();
 		});
 	};
 
