@@ -186,10 +186,6 @@
 		font-size: 12px;
 	}
 
-	.series__columns-names-container {
-		grid-template-columns: 1fr 6fr 4fr 1fr;
-	}
-
 	.series__parts-container {
 		padding: 0 20px;
 	}
@@ -223,6 +219,10 @@
 
 	.series__discription {
 		font-size: 20px;
+	}
+
+	.series__columns-names-container {
+		grid-template-columns: 1fr 6fr 4fr 1fr;
 	}
 
 	.series__parts-container {
