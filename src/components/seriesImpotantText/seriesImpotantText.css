@@ -1,7 +1,7 @@
 .seriesImpotantText {
 	width: 100%;
 	display: flex;
-	padding-left: 30px;
+	padding-left: 20px;
 	box-sizing: border-box;
 	border-left: 1px solid #a0a0a0;
 }
@@ -11,7 +11,35 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 26px;
+	font-size: 14px;
 	line-height: 120%;
 	color: var(--light-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesImpotantText__content {
+		margin: 0;
+		font-family: 'Quant Antiqua';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		color: var(--light-text-color);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesImpotantText {
+		padding-left: 30px;
+	}
+
+	.seriesImpotantText__content {
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.seriesImpotantText__content {
+		font-size: 26px;
+	}
 }
