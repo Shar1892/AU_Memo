@@ -27,7 +27,7 @@
 	font-family: 'Garamond Narrow';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 25px;
 	line-height: 71%;
 	color: var(--simple-text-color);
 	overflow-wrap: break-word;
@@ -124,11 +124,7 @@
 	}
 
 	.part__name {
-		font-size: 60px;
-	}
-
-	.part__content-container {
-		grid-template-columns: 1fr 6fr 4fr 1fr;
+		font-size: 35px;
 	}
 }
 
@@ -142,6 +138,10 @@
 	.part__name {
 		margin: 30px 0;
 		font-size: 80px;
+	}
+
+	.part__content-container {
+		grid-template-columns: 1fr 6fr 4fr 1fr;
 	}
 }
 

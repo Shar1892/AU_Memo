@@ -12,7 +12,7 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 	let windowWidth = window.innerWidth;
 
 	const [isWide, setIsWide] = useState(() => {
-		if (windowWidth > 425) {
+		if (windowWidth > 768) {
 			return true;
 		} else {
 			return false;

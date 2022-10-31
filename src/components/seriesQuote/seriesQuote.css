@@ -2,7 +2,7 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 30px;
+	padding: 15px;
 	box-sizing: border-box;
 	box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
@@ -25,7 +25,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: italic;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 12px;
 	line-height: 120%;
 	color: var(--simple-text-color);
 }
@@ -34,12 +34,12 @@
 	width: 100%;
 	display: flex;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .seriesQuote__person-photo {
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	border-radius: 50%;
 	margin-right: 10px;
 }
@@ -49,7 +49,54 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 12px;
 	line-height: 120%;
 	color: var(--simple-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesQuote {
+		padding: 20px;
+	}
+
+	.seriesQuote__text {
+		font-size: 14px;
+	}
+
+	.seriesQuote__person-container {
+		margin-top: 15px;
+	}
+
+	.seriesQuote__person {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesQuote {
+		padding: 25px;
+	}
+
+	.seriesQuote__text {
+		font-size: 20px;
+	}
+
+	.seriesQuote__person-container {
+		margin-top: 20px;
+	}
+
+	.seriesQuote__person-photo {
+		width: 40px;
+		height: 40px;
+	}
+
+	.seriesQuote__person {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.seriesQuote {
+		padding: 30px;
+	}
 }
