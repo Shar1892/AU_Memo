@@ -6,7 +6,7 @@
 
 .seriesPhoto__photo {
 	width: 100%;
-	height: 470px;
+	height: 110px;
 	margin-bottom: 10px;
 }
 
@@ -15,7 +15,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: italic;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 10px;
 	line-height: 130%;
 	color: var(--simple-text-color);
 }
@@ -25,7 +25,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 10px;
 	line-height: 130%;
 	color: var(--simple-text-color);
 }
@@ -35,7 +35,61 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 10px;
 	line-height: 130%;
 	color: var(--light-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesPhoto__photo {
+		height: 146px;
+	}
+
+	.seriesPhoto__name {
+		font-size: 11px;
+	}
+
+	.seriesPhoto__autor {
+		font-size: 11px;
+	}
+
+	.seriesPhoto__source {
+		font-size: 11px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesPhoto__photo {
+		height: 180px;
+	}
+
+	.seriesPhoto__name {
+		font-size: 12px;
+	}
+
+	.seriesPhoto__autor {
+		font-size: 12px;
+	}
+
+	.seriesPhoto__source {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.seriesPhoto__photo {
+		height: 400px;
+	}
+
+	.seriesPhoto__name {
+		font-size: 15px;
+	}
+
+	.seriesPhoto__autor {
+		font-size: 15px;
+	}
+
+	.seriesPhoto__source {
+		font-size: 15px;
+	}
 }
