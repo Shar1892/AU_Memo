@@ -44,7 +44,7 @@
 	display: grid;
 	grid-template-columns: 1fr 5fr;
 	column-gap: 40px;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 .part__column-container {
@@ -66,7 +66,7 @@
 }
 
 .part__section-margin_large {
-	margin: 30px 0;
+	margin: 15px 0;
 }
 
 .part__section-container:first-of-type {
@@ -142,6 +142,11 @@
 
 	.part__content-container {
 		grid-template-columns: 1fr 6fr 4fr 1fr;
+		padding: 40px 0;
+	}
+
+	.part__section-margin_large {
+		margin: 30px 0;
 	}
 }
 
