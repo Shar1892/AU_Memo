@@ -10,7 +10,7 @@ function SeriesDocument({data}) {
 
 	useLayoutEffect(() => {
 		console.log(targetRef.current.offsetHeight);
-		if (targetRef.current.offsetHeight > 120) {
+		if (targetRef.current.offsetHeight > 117) {
 			setIsShort(true);
 		} else {
 			setIsFitsCompletely(true);
