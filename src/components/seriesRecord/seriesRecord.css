@@ -16,7 +16,19 @@
 	font-family: 'Quant Antiqua';
 	font-style: italic;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 130%;
 	color: var(--simple-text-color);
+}
+
+@media screen and (min-width: 768px) {
+	.seriesRecord__discription {
+		margin: 0;
+		font-family: 'Quant Antiqua';
+		font-style: italic;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 130%;
+		color: var(--simple-text-color);
+	}
 }
