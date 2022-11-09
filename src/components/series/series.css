@@ -66,7 +66,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 27px;
+	margin: 27px 0;
 }
 
 .series__name {
@@ -84,7 +84,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 20px 0 30px 0;
+	margin-bottom: 30px;
 }
 
 .series__discription {
@@ -175,7 +175,7 @@
 	}
 
 	.series__name-container {
-		margin-top: 37px;
+		margin: 37px 0;
 	}
 
 	.series__name {
@@ -206,7 +206,7 @@
 	}
 
 	.series__name-container {
-		margin-top: 57px;
+		margin: 57px 0;
 	}
 
 	.series__name {
@@ -214,7 +214,7 @@
 	}
 
 	.series__discription-container {
-		margin: 30px 0 50px 0;
+		margin-bottom: 50px;
 	}
 
 	.series__discription {
@@ -241,7 +241,7 @@
 	}
 
 	.series__name-container {
-		margin-top: 97px;
+		margin: 97px 0;
 	}
 
 	.series__name {
@@ -249,7 +249,7 @@
 	}
 
 	.series__discription-container {
-		margin: 30px 0 90px 0;
+		margin-bottom: 90px;
 	}
 
 	.series__discription {
