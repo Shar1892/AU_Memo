@@ -18,7 +18,7 @@ export const getArrayText = (str, phraseArr) => {
 	return resArr;
 };
 
-export const chechMeaningfulPhrase = (text, phraseArr) => {
+export const chechPhrase = (text, phraseArr) => {
 	if (phraseArr) {
 		return phraseArr.find((phrase) => {
 			return phrase === text;

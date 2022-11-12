@@ -1,13 +1,28 @@
 import './seriesText.css';
 
-import {getArrayText, chechMeaningfulPhrase} from '../../utils/utils';
+import {getArrayText, chechPhrase} from '../../utils/utils';
 
 function SeriesText({data, isWide, openPopup}) {
-	const finalArrayText = getArrayText(data.content, data.meaningfulPhrases);
+	const documentLinkNames = data.documentLinks
+		? data.documentLinks.map((documentLink) => documentLink.name)
+		: [];
+
+	const highlightedWordsArr = data.meaningfulPhrases
+		? [...data.meaningfulPhrases, ...documentLinkNames]
+		: documentLinkNames;
+
+	const finalArrayText = getArrayText(data.content, highlightedWordsArr);
 
 	const showReference = (meaningfulPhrase) => {
 		openPopup(meaningfulPhrase);
 		console.log(meaningfulPhrase);
+	};
+
+	const getLink = (text, arr) => {
+		const resDocumentLink = arr.find(
+			(documentLink) => documentLink.name === text
+		);
+		return resDocumentLink.link;
 	};
 
 	return (
@@ -17,18 +32,27 @@ function SeriesText({data, isWide, openPopup}) {
 					// eslint-disable-next-line jsx-a11y/anchor-is-valid
 					<a
 						className={`${
-							chechMeaningfulPhrase(text, data.meaningfulPhrases)
+							chechPhrase(text, data.meaningfulPhrases)
 								? 'seriesText__meaningfulPhrase'
 								: ''
+						} ${
+							chechPhrase(text, documentLinkNames) ? 'seriesText__link' : ''
 						}`}
 						onClick={
-							chechMeaningfulPhrase(text, data.meaningfulPhrases) && !isWide
+							chechPhrase(text, data.meaningfulPhrases) && !isWide
 								? () => {
 										showReference(text);
 								  }
 								: null
 						}
+						href={
+							chechPhrase(text, documentLinkNames)
+								? getLink(text, data.documentLinks)
+								: null
+						}
+						target='_blank'
 						key={i}
+						rel='noreferrer'
 					>
 						{text}
 					</a>

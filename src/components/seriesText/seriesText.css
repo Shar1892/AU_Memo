@@ -19,6 +19,11 @@
 	color: var(--light-text-color);
 }
 
+.seriesText__link {
+	color: #1d67a4;
+	text-decoration: underline;
+}
+
 @media screen and (min-width: 425px) {
 	.seriesText__content {
 		font-size: 14px;
