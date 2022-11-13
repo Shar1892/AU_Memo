@@ -9,6 +9,7 @@ import SeriesMemoQuote from '../seriesMemoQuote/seriesMemoQuote';
 import SeriesVideo from '../seriesVideo/seriesVideo';
 import SeriesPhoto from '../seriesPhoto/seriesPhoto';
 import SeriesMaterial from '../seriesMaterial/seriesMaterial';
+import SeriesDialog from '../seriesDialog/seriesDialog';
 
 function Part({partData, partNumber, isWide, popupOpen}) {
 	const findReferenceData = (referenceName) => {
@@ -77,6 +78,8 @@ function Part({partData, partNumber, isWide, popupOpen}) {
 									<SeriesPhoto data={section} />
 								) : section.type === 'video' ? (
 									<SeriesVideo data={section} />
+								) : section.type === 'dialog' ? (
+									<SeriesDialog data={section} />
 								) : (
 									<SeriesMemoQuote data={section} />
 								)}

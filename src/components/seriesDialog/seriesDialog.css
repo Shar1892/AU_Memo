@@ -1,0 +1,26 @@
+.seriesDialog {
+	width: 100%;
+	display: flex;
+}
+
+.seriesDialog__string {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 130%;
+	color: var(--simple-text-color);
+}
+
+@media screen and (min-width: 425px) {
+	.seriesDialog__string {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.seriesDialog__string {
+		font-size: 20px;
+	}
+}
