@@ -42,7 +42,9 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
 							src={data.previewImage}
 							alt='image'
 						></img>
-						<h3 className='seriesPreview__title'>{data.title.join(' ')}</h3>
+						<div className='seriesPreview__title-container'>
+							<h3 className='seriesPreview__title'>{data.title.join(' ')}</h3>
+						</div>
 						<p className='seriesPreview__text'>{data.previewDiscription}</p>
 					</div>
 				</div>
