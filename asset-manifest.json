@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/AU_Memo/static/css/main.2b210953.css",
+    "main.js": "/AU_Memo/static/js/main.b35926f7.js",
+    "static/js/787.e8ce4b72.chunk.js": "/AU_Memo/static/js/787.e8ce4b72.chunk.js",
+    "static/media/Noize_MC.mp3": "/AU_Memo/static/media/Noize_MC.88fb3fe7b6f55f023531.mp3",
+    "static/media/firstSeriesHeader.jpg": "/AU_Memo/static/media/firstSeriesHeader.339b06cec126dc01f818.jpg",
+    "static/media/seriesImage.jpg": "/AU_Memo/static/media/seriesImage.490ae12cd747852a2599.jpg",
+    "static/media/partHeader2.jpg": "/AU_Memo/static/media/partHeader2.df34419ac425980c6fd7.jpg",
+    "static/media/partHeader1.jpg": "/AU_Memo/static/media/partHeader1.a71180e3ba6a8de68fe2.jpg",
+    "static/media/4904465.jpg": "/AU_Memo/static/media/4904465.c569720feb240d34dd6a.jpg",
+    "static/media/secondPartImage.jpg": "/AU_Memo/static/media/secondPartImage.e55d45ac74bf7ee017cb.jpg",
+    "static/media/timelineHeaderImage.jpg": "/AU_Memo/static/media/timelineHeaderImage.3499bcef059bd6eddfa3.jpg",
+    "static/media/firstPartImage.jpg": "/AU_Memo/static/media/firstPartImage.d58f1ce37298fb79097a.jpg",
+    "static/media/thirdPartImage.jpg": "/AU_Memo/static/media/thirdPartImage.dbd6ce780be10afec7f4.jpg",
+    "static/media/ofont.ru_Garamond Narrow.ttf": "/AU_Memo/static/media/ofont.ru_Garamond Narrow.4fc164c05a4a222ae75d.ttf",
+    "static/media/quant-antiqua-2.ttf": "/AU_Memo/static/media/quant-antiqua-2.1880387f07ae195dd5f0.ttf",
+    "static/media/illustration1.jpg": "/AU_Memo/static/media/illustration1.c99a459b9778f756da6a.jpg",
+    "static/media/sketchImage1.jpg": "/AU_Memo/static/media/sketchImage1.b4b41678376c5299c151.jpg",
+    "static/media/RF Rostin Regular.otf": "/AU_Memo/static/media/RF Rostin Regular.2e9e471467633a45c39d.otf",
+    "static/media/illustration2.jpg": "/AU_Memo/static/media/illustration2.709bd196e151d371e201.jpg",
+    "static/media/logoMemo.png": "/AU_Memo/static/media/logoMemo.d189821cc40400b67822.png",
+    "static/media/quotes.svg": "/AU_Memo/static/media/quotes.b992e564358792d19b2f.svg",
+    "static/media/Vector.svg": "/AU_Memo/static/media/Vector.eb1dd2c6f60dbf13f275.svg",
+    "index.html": "/AU_Memo/index.html",
+    "static/media/cross.svg": "/AU_Memo/static/media/cross.d5d6f8af0577b9c95ee4.svg",
+    "main.2b210953.css.map": "/AU_Memo/static/css/main.2b210953.css.map",
+    "main.b35926f7.js.map": "/AU_Memo/static/js/main.b35926f7.js.map",
+    "787.e8ce4b72.chunk.js.map": "/AU_Memo/static/js/787.e8ce4b72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b210953.css",
+    "static/js/main.b35926f7.js"
+  ]
+}
