@@ -32,14 +32,14 @@ function App() {
 				setPage={setIsMain}
 			/>
 			<Switch>
-				<Route exact path='/'>
+				<Route exact path='/AU_Memo/'>
 					<Main
 						handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
 						seriesArr={seriesArr}
 						setPage={setIsMain}
 					/>
 				</Route>
-				<Route path='/series'>
+				<Route path='/AU_Memo/series'>
 					<Series
 						seriesNumber={currentSeriesNumber}
 						changeSeriesNumber={setCurrentSeriesNumber}

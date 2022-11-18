@@ -15,7 +15,6 @@ function SeriesText({data, isWide, openPopup}) {
 
 	const showReference = (meaningfulPhrase) => {
 		openPopup(meaningfulPhrase);
-		console.log(meaningfulPhrase);
 	};
 
 	const getLink = (text, arr) => {
