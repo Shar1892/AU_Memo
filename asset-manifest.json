@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AU_Memo/static/css/main.2b210953.css",
-    "main.js": "/AU_Memo/static/js/main.b35926f7.js",
+    "main.js": "/AU_Memo/static/js/main.915e9810.js",
     "static/js/787.e8ce4b72.chunk.js": "/AU_Memo/static/js/787.e8ce4b72.chunk.js",
     "static/media/Noize_MC.mp3": "/AU_Memo/static/media/Noize_MC.88fb3fe7b6f55f023531.mp3",
     "static/media/firstSeriesHeader.jpg": "/AU_Memo/static/media/firstSeriesHeader.339b06cec126dc01f818.jpg",
@@ -25,11 +25,11 @@
     "index.html": "/AU_Memo/index.html",
     "static/media/cross.svg": "/AU_Memo/static/media/cross.d5d6f8af0577b9c95ee4.svg",
     "main.2b210953.css.map": "/AU_Memo/static/css/main.2b210953.css.map",
-    "main.b35926f7.js.map": "/AU_Memo/static/js/main.b35926f7.js.map",
+    "main.915e9810.js.map": "/AU_Memo/static/js/main.915e9810.js.map",
     "787.e8ce4b72.chunk.js.map": "/AU_Memo/static/js/787.e8ce4b72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b210953.css",
-    "static/js/main.b35926f7.js"
+    "static/js/main.915e9810.js"
   ]
 }
