@@ -30,7 +30,7 @@ function Header({seriesNames, handleSetCurrentSeriesNumber, isMain, setPage}) {
 						</p>
 					</div>
 				) : (
-					<a href='/' className='header__link'>
+					<a href='/AU_Memo/' className='header__link'>
 						Основная
 					</a>
 				)}

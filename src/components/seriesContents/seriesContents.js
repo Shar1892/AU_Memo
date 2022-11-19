@@ -36,7 +36,7 @@ function SeriesContents({
 					{seriesNames.map((sr, i) => (
 						<div className='seriesContents__series-container' key={i}>
 							<NavLink
-								to='/series'
+								to='/AU_Memo/series'
 								className='seriesContents__series-name'
 								onClick={() => seriesLinkClick(sr.number)}
 							>
