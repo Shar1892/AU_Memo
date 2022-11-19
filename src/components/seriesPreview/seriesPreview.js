@@ -13,7 +13,7 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
 
 	return (
 		<NavLink
-			to='/series'
+			to='/AU_Memo/series'
 			className='seriesPreview__navlinck'
 			onClick={() => seriesPrewiewClick(data.number)}
 		>
