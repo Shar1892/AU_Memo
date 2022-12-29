@@ -18,6 +18,7 @@ import icon3_2 from '../image/4904465.jpg';
 
 import noize from '../audio/Noize_MC.mp3';*/
 
+import zeroSeries from './series/zeroSeries/zeroSeries';
 import firstSeries from './series/firstSeries/firstSeries';
 import secondSeries from './series/secondSeries/secondSeries';
 import thirdSeries from './series/thirdSeries/thirdSeries';
