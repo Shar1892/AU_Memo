@@ -54,6 +54,7 @@
 
 .seriesPreview__date {
 	margin: 0;
+	height: 12px;
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
@@ -151,6 +152,7 @@
 	}
 
 	.seriesPreview__date {
+		height: 13px;
 		font-size: 10px;
 	}
 
