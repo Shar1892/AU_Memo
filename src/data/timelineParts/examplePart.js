@@ -2,7 +2,7 @@ import img from '../../image/4904465.jpg';
 
 const part = {
 	num: 1,
-	year: 2012,
+	year: '2012',
 	numText: 'Глава первая',
 	date: '11.02.20',
 	acts: [
