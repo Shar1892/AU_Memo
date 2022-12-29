@@ -2,33 +2,13 @@ import firstSeriesHeaderImage from './images/firstSeriesHeader.jpg';
 
 import firstPartImage from './images/firstPartImage.jpg';
 
-import illustration1 from './images/illustration1.jpg';
-import illustration2 from './images/illustration2.jpg';
-import partHeader1 from './images/partHeader1.jpg';
-import partHeader2 from './images/partHeader2.jpg';
-import sketchImage1 from './images/sketchImage1.jpg';
-import seriesImage from './images/seriesImage.jpg';
-import personPhoto from './images/personPhoto.jpg';
-
-import noize from './records/Noize_MC.mp3';
-
 const zeroSeries = {
 	number: 0,
 	romanNumber: '0',
 	numText: 'Нулевая глава',
 	title: ['Жажда', 'правды'],
 
-	discription: [
-		'Олег Орлов прошёл по коридору офиса «Мемориала» и постучался',
-		'в дверь кабинета Арсения Рогинского. Тот впустил коллегу,',
-		'молча открыл коньяк и разлил его по рюмкам.',
-		'— Ну, Олег, смотри: произошло таки!',
-		'— Да... — задумчиво ответил Орлов.',
-		'Мужчины выпили. Помолчали.',
-		'— Что делать-то будем?, — спросил',
-		'Рогинский. — Мы ведь не будем исполнять этот закон?',
-		'— Да, это совершенно невозможно.',
-	],
+	discription: [''],
 
 	previewDiscription:
 		'Выдержка из текста, самые интересные кусочки. Занимает несколько строк. Можно развернуть и прочитать целиком.',
@@ -146,7 +126,7 @@ const zeroSeries = {
 
 		{
 			dateYear: '1989',
-			dateMonth: 'июнь-июль',
+			dateMonth: '',
 			sections: [
 				{
 					type: 'text',
@@ -191,7 +171,7 @@ const zeroSeries = {
 
 		{
 			dateYear: '1990',
-			dateMonth: 'Сентябрь',
+			dateMonth: '',
 			sections: [
 				{
 					type: 'text',
