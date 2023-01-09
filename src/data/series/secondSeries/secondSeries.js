@@ -51,8 +51,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 1: Пиррова победа',
 			},
-			dateYear: '2011',
-			dateMonth: 'Декабрь',
+			dateYear: '2014',
+			dateMonth: 'март-май',
 			sections: [
 				{
 					type: 'text',
@@ -109,7 +109,7 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 2: Симпатии зрителей',
 			},
-			dateYear: '2012',
+			dateYear: '2014',
 			dateMonth: 'Май',
 			sections: [
 				{
@@ -167,8 +167,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 3: Реванш Лугового',
 			},
-			dateYear: '2012',
-			dateMonth: 'июль',
+			dateYear: '2014-2015',
+			dateMonth: 'июль-март',
 			sections: [
 				{
 					type: 'text',
@@ -207,8 +207,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 4: Угроза государству',
 			},
-			dateYear: '2012',
-			dateMonth: 'май',
+			dateYear: '2015',
+			dateMonth: 'ноябрь',
 			sections: [
 				{
 					type: 'text',
@@ -238,8 +238,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 5: Обвинения в фашизме',
 			},
-			dateYear: '2013',
-			dateMonth: 'февраль',
+			dateYear: '2016',
+			dateMonth: 'апрель',
 			sections: [
 				{
 					type: 'text',
@@ -311,8 +311,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 6: «Международный Мемориал» – «иноагент»',
 			},
-			dateYear: '2013',
-			dateMonth: 'Март',
+			dateYear: '2016',
+			dateMonth: 'октябрь',
 			sections: [
 				{
 					type: 'text',
@@ -391,8 +391,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 7: Плоды пропаганды',
 			},
-			dateYear: '2013',
-			dateMonth: 'июль',
+			dateYear: '2017',
+			dateMonth: 'январь',
 			sections: [
 				{
 					type: 'dialog',
@@ -449,8 +449,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 8: 68 судебных заседаний по маркировке',
 			},
-			dateYear: '2013',
-			dateMonth: 'Март апрель',
+			dateYear: '2019',
+			dateMonth: 'октябрь-декабрь',
 			sections: [
 				{
 					type: 'text',
@@ -528,8 +528,8 @@ const secondSeries = {
 			title: {
 				name: 'Раунд 9: Иски о ликвидации',
 			},
-			dateYear: '2013',
-			dateMonth: 'Март апрель',
+			dateYear: '2021',
+			dateMonth: 'ноябрь-декабрь',
 			sections: [
 				{
 					type: 'text',
