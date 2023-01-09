@@ -24,11 +24,11 @@ function Part({partData, partNumber, isWide, popupOpen}) {
 
 	return (
 		<div className='part'>
-			{partNumber ? (
+			{partNumber || partData.title ? (
 				<div className='part__header-container'>
 					{partData.title ? (
 						<div className='part__header'>
-							<SeparatorLine />
+							{partNumber ? <SeparatorLine /> : <></>}
 							{partData.title.illustration && (
 								<img
 									className='part__header-image'
@@ -114,6 +114,8 @@ function Part({partData, partNumber, isWide, popupOpen}) {
 }
 
 export default Part;
+
+//{partNumber ? <SeparatorLine> : (<></>)}
 
 /*
 
