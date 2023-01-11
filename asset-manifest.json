@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AU_Memo/static/css/main.15a0928e.chunk.css",
-    "main.js": "/AU_Memo/static/js/main.2c11259e.chunk.js",
-    "main.js.map": "/AU_Memo/static/js/main.2c11259e.chunk.js.map",
+    "main.js": "/AU_Memo/static/js/main.b436d292.chunk.js",
+    "main.js.map": "/AU_Memo/static/js/main.b436d292.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.f424c17b.js",
     "runtime-main.js.map": "/AU_Memo/static/js/runtime-main.f424c17b.js.map",
     "static/js/2.ef285863.chunk.js": "/AU_Memo/static/js/2.ef285863.chunk.js",
@@ -19,11 +19,27 @@
     "static/media/videoPopup.css": "/AU_Memo/static/media/cross.d5d6f8af.svg",
     "static/media/firstPartImage.d58f1ce3.jpg": "/AU_Memo/static/media/firstPartImage.d58f1ce3.jpg",
     "static/media/firstSeriesHeader.339b06ce.jpg": "/AU_Memo/static/media/firstSeriesHeader.339b06ce.jpg",
+    "static/media/headerImage.c6e2b2f8.png": "/AU_Memo/static/media/headerImage.c6e2b2f8.png",
+    "static/media/headerImage.d5dbe228.png": "/AU_Memo/static/media/headerImage.d5dbe228.png",
     "static/media/illustration1.c99a459b.jpg": "/AU_Memo/static/media/illustration1.c99a459b.jpg",
     "static/media/illustration2.709bd196.jpg": "/AU_Memo/static/media/illustration2.709bd196.jpg",
     "static/media/logoMemo.d189821c.png": "/AU_Memo/static/media/logoMemo.d189821c.png",
     "static/media/partHeader1.a71180e3.jpg": "/AU_Memo/static/media/partHeader1.a71180e3.jpg",
     "static/media/partHeader2.df34419a.jpg": "/AU_Memo/static/media/partHeader2.df34419a.jpg",
+    "static/media/partHeaderImage1.8fe32a37.png": "/AU_Memo/static/media/partHeaderImage1.8fe32a37.png",
+    "static/media/partHeaderImage1.e2c97a3e.png": "/AU_Memo/static/media/partHeaderImage1.e2c97a3e.png",
+    "static/media/partHeaderImage2.8fc4dc02.png": "/AU_Memo/static/media/partHeaderImage2.8fc4dc02.png",
+    "static/media/partHeaderImage2.d726329e.png": "/AU_Memo/static/media/partHeaderImage2.d726329e.png",
+    "static/media/partHeaderImage3.5384a65a.png": "/AU_Memo/static/media/partHeaderImage3.5384a65a.png",
+    "static/media/partHeaderImage3.5f18e0fa.png": "/AU_Memo/static/media/partHeaderImage3.5f18e0fa.png",
+    "static/media/partHeaderImage4.609bc96b.png": "/AU_Memo/static/media/partHeaderImage4.609bc96b.png",
+    "static/media/partHeaderImage4.6e45b6e0.png": "/AU_Memo/static/media/partHeaderImage4.6e45b6e0.png",
+    "static/media/partHeaderImage5.44a40d4f.png": "/AU_Memo/static/media/partHeaderImage5.44a40d4f.png",
+    "static/media/partHeaderImage5.e7f11c24.png": "/AU_Memo/static/media/partHeaderImage5.e7f11c24.png",
+    "static/media/partHeaderImage6.5ba80b27.png": "/AU_Memo/static/media/partHeaderImage6.5ba80b27.png",
+    "static/media/partHeaderImage7.e962d1cc.png": "/AU_Memo/static/media/partHeaderImage7.e962d1cc.png",
+    "static/media/previewImage.94b0b6d9.png": "/AU_Memo/static/media/previewImage.94b0b6d9.png",
+    "static/media/previewImage.b7de4ec3.png": "/AU_Memo/static/media/previewImage.b7de4ec3.png",
     "static/media/seriesMemoQuote.css": "/AU_Memo/static/media/quotes.b992e564.svg",
     "static/media/secondPartImage.e55d45ac.jpg": "/AU_Memo/static/media/secondPartImage.e55d45ac.jpg",
     "static/media/seriesImage.490ae12c.jpg": "/AU_Memo/static/media/seriesImage.490ae12c.jpg",
@@ -35,6 +51,6 @@
     "static/js/runtime-main.f424c17b.js",
     "static/js/2.ef285863.chunk.js",
     "static/css/main.15a0928e.chunk.css",
-    "static/js/main.2c11259e.chunk.js"
+    "static/js/main.b436d292.chunk.js"
   ]
 }
