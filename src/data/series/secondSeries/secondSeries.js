@@ -1,16 +1,16 @@
-import firstSeriesHeaderImage from './images/firstSeriesHeader.jpg';
+import firstSeriesHeaderImage from './images/headerImage.png';
 
-import secondPartImage from './images/secondPartImage.jpg';
+import secondPartImage from './images/previewImage.png';
 
-import illustration1 from './images/illustration1.jpg';
-import illustration2 from './images/illustration2.jpg';
-import partHeader1 from './images/partHeader1.jpg';
-import partHeader2 from './images/partHeader2.jpg';
+import partHeader1 from './images/partHeaderImage1.png';
+import partHeader2 from './images/partHeaderImage2.png';
+import partHeader3 from './images/partHeaderImage3.png';
+import partHeader4 from './images/partHeaderImage4.png';
+import partHeader5 from './images/partHeaderImage5.png';
+import partHeader6 from './images/partHeaderImage6.png';
+import partHeader7 from './images/partHeaderImage7.png';
 import sketchImage1 from './images/sketchImage1.jpg';
-import seriesImage from './images/seriesImage.jpg';
 import personPhoto from './images/personPhoto.jpg';
-
-import noize from './records/Noize_MC.mp3';
 
 const secondSeries = {
 	number: 2,
@@ -49,6 +49,7 @@ const secondSeries = {
 	parts: [
 		{
 			title: {
+				illustration: partHeader1,
 				name: 'Раунд 1: Пиррова победа',
 			},
 			dateYear: '2014',
@@ -107,6 +108,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader2,
 				name: 'Раунд 2: Симпатии зрителей',
 			},
 			dateYear: '2014',
@@ -165,6 +167,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader3,
 				name: 'Раунд 3: Реванш Лугового',
 			},
 			dateYear: '2014-2015',
@@ -205,6 +208,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader4,
 				name: 'Раунд 4: Угроза государству',
 			},
 			dateYear: '2015',
@@ -236,6 +240,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader5,
 				name: 'Раунд 5: Обвинения в фашизме',
 			},
 			dateYear: '2016',
@@ -309,6 +314,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader6,
 				name: 'Раунд 6: «Международный Мемориал» – «иноагент»',
 			},
 			dateYear: '2016',
@@ -389,6 +395,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader7,
 				name: 'Раунд 7: Плоды пропаганды',
 			},
 			dateYear: '2017',
