@@ -24,6 +24,6 @@ import secondSeries from './series/secondSeries/secondSeries';
 import thirdSeries from './series/thirdSeries/thirdSeries';
 import fourthSeries from './series/fourthSeries/fourthSeries';
 
-const seriesArr = [zeroSeries, firstSeries, secondSeries, thirdSeries];
+const seriesArr = [zeroSeries, firstSeries, secondSeries];
 
 export default seriesArr;

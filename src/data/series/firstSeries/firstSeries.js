@@ -1,16 +1,14 @@
-import firstSeriesHeaderImage from './images/firstSeriesHeader.jpg';
+import firstSeriesHeaderImage from './images/headerImage.png';
 
-import firstPartImage from './images/firstPartImage.jpg';
+import firstPartImage from './images/previewImage.png';
 
-import illustration1 from './images/illustration1.jpg';
-import illustration2 from './images/illustration2.jpg';
-import partHeader1 from './images/partHeader1.jpg';
-import partHeader2 from './images/partHeader2.jpg';
+import partHeader1 from './images/partHeaderImage1.png';
+import partHeader2 from './images/partHeaderImage2.png';
+import partHeader3 from './images/partHeaderImage3.png';
+import partHeader4 from './images/partHeaderImage4.png';
+import partHeader5 from './images/partHeaderImage5.png';
 import sketchImage1 from './images/sketchImage1.jpg';
-import seriesImage from './images/seriesImage.jpg';
 import personPhoto from './images/personPhoto.jpg';
-
-import noize from './records/Noize_MC.mp3';
 
 const firstSeries = {
 	number: 1,
@@ -222,6 +220,7 @@ const firstSeries = {
 
 		{
 			title: {
+				illustration: partHeader1,
 				name: '«Мы не агенты!»',
 			},
 			dateYear: '2013',
@@ -278,7 +277,7 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader1,
+				illustration: partHeader2,
 				name: 'Поиск агентов начался',
 			},
 			dateYear: '2013',
@@ -431,7 +430,7 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader2,
+				illustration: partHeader3,
 				name: 'Встреча общества и власти',
 			},
 			dateYear: '2013',
@@ -478,6 +477,7 @@ const firstSeries = {
 
 		{
 			title: {
+				illustration: partHeader4,
 				name: 'Первое сражение',
 			},
 			dateYear: '2013',
@@ -534,6 +534,7 @@ const firstSeries = {
 
 		{
 			title: {
+				illustration: partHeader5,
 				name: 'Суд над антидискриминационным центром',
 			},
 			dateYear: '2013',
