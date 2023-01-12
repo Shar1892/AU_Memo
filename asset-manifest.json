@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/AU_Memo/static/css/main.15a0928e.chunk.css",
-    "main.js": "/AU_Memo/static/js/main.b436d292.chunk.js",
-    "main.js.map": "/AU_Memo/static/js/main.b436d292.chunk.js.map",
+    "main.css": "/AU_Memo/static/css/main.6157909d.chunk.css",
+    "main.js": "/AU_Memo/static/js/main.8c606a06.chunk.js",
+    "main.js.map": "/AU_Memo/static/js/main.8c606a06.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.f424c17b.js",
     "runtime-main.js.map": "/AU_Memo/static/js/runtime-main.f424c17b.js.map",
     "static/js/2.ef285863.chunk.js": "/AU_Memo/static/js/2.ef285863.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bee15816.chunk.js": "/AU_Memo/static/js/3.bee15816.chunk.js",
     "static/js/3.bee15816.chunk.js.map": "/AU_Memo/static/js/3.bee15816.chunk.js.map",
     "index.html": "/AU_Memo/index.html",
-    "static/css/main.15a0928e.chunk.css.map": "/AU_Memo/static/css/main.15a0928e.chunk.css.map",
+    "static/css/main.6157909d.chunk.css.map": "/AU_Memo/static/css/main.6157909d.chunk.css.map",
     "static/js/2.ef285863.chunk.js.LICENSE.txt": "/AU_Memo/static/js/2.ef285863.chunk.js.LICENSE.txt",
     "static/media/4904465.c569720f.jpg": "/AU_Memo/static/media/4904465.c569720f.jpg",
     "static/media/Noize_MC.88fb3fe7.mp3": "/AU_Memo/static/media/Noize_MC.88fb3fe7.mp3",
@@ -21,6 +21,13 @@
     "static/media/firstSeriesHeader.339b06ce.jpg": "/AU_Memo/static/media/firstSeriesHeader.339b06ce.jpg",
     "static/media/headerImage.c6e2b2f8.png": "/AU_Memo/static/media/headerImage.c6e2b2f8.png",
     "static/media/headerImage.d5dbe228.png": "/AU_Memo/static/media/headerImage.d5dbe228.png",
+    "static/media/headerImage1.db5170f3.jpg": "/AU_Memo/static/media/headerImage1.db5170f3.jpg",
+    "static/media/headerImage2.52e91827.jpg": "/AU_Memo/static/media/headerImage2.52e91827.jpg",
+    "static/media/headerImage3.b0d286a7.jpg": "/AU_Memo/static/media/headerImage3.b0d286a7.jpg",
+    "static/media/headerImage4.87b71051.jpg": "/AU_Memo/static/media/headerImage4.87b71051.jpg",
+    "static/media/headerImage5.049cb487.jpg": "/AU_Memo/static/media/headerImage5.049cb487.jpg",
+    "static/media/headerImage6.05a188ac.jpg": "/AU_Memo/static/media/headerImage6.05a188ac.jpg",
+    "static/media/headerImage7.ff01070c.jpg": "/AU_Memo/static/media/headerImage7.ff01070c.jpg",
     "static/media/illustration1.c99a459b.jpg": "/AU_Memo/static/media/illustration1.c99a459b.jpg",
     "static/media/illustration2.709bd196.jpg": "/AU_Memo/static/media/illustration2.709bd196.jpg",
     "static/media/logoMemo.d189821c.png": "/AU_Memo/static/media/logoMemo.d189821c.png",
@@ -41,7 +48,6 @@
     "static/media/previewImage.94b0b6d9.png": "/AU_Memo/static/media/previewImage.94b0b6d9.png",
     "static/media/previewImage.b7de4ec3.png": "/AU_Memo/static/media/previewImage.b7de4ec3.png",
     "static/media/seriesMemoQuote.css": "/AU_Memo/static/media/quotes.b992e564.svg",
-    "static/media/secondPartImage.e55d45ac.jpg": "/AU_Memo/static/media/secondPartImage.e55d45ac.jpg",
     "static/media/seriesImage.490ae12c.jpg": "/AU_Memo/static/media/seriesImage.490ae12c.jpg",
     "static/media/sketchImage1.b4b41678.jpg": "/AU_Memo/static/media/sketchImage1.b4b41678.jpg",
     "static/media/thirdPartImage.dbd6ce78.jpg": "/AU_Memo/static/media/thirdPartImage.dbd6ce78.jpg",
@@ -50,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.f424c17b.js",
     "static/js/2.ef285863.chunk.js",
-    "static/css/main.15a0928e.chunk.css",
-    "static/js/main.b436d292.chunk.js"
+    "static/css/main.6157909d.chunk.css",
+    "static/js/main.8c606a06.chunk.js"
   ]
 }
