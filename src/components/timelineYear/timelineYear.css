@@ -14,6 +14,12 @@
 	color: var(--simple-text-color);
 }
 
+.timelineYear__header-image {
+	width: 100%;
+	height: 110px;
+	margin: 0 0 20px 0;
+}
+
 .timelineYear__content {
 	width: 100%;
 	padding: 10px 0 10px 20px;
@@ -27,6 +33,10 @@
 		font-size: 50px;
 	}
 
+	.timelineYear__header-image {
+		height: 146px;
+	}
+
 	.timelineYear__content {
 		padding: 20px 0 20px 30px;
 	}
@@ -37,6 +47,11 @@
 		font-size: 65px;
 	}
 
+	.timelineYear__header-image {
+		height: 264px;
+		margin: 0 0 30px 0;
+	}
+
 	.timelineYear__content {
 		padding: 30px 0 40px 80px;
 	}
@@ -45,6 +60,11 @@
 @media screen and (min-width: 1024px) {
 	.timelineYear__header {
 		font-size: 80px;
+	}
+
+	.timelineYear__header-image {
+		height: 459px;
+		margin: 0 0 40px 0;
 	}
 
 	.timelineYear__content {
