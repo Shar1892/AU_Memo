@@ -1,6 +1,7 @@
-import firstSeriesHeaderImage from './images/firstSeriesHeader.jpg';
+import firstSeriesHeaderImage from './images/headerImage.png';
 
-import firstPartImage from './images/firstPartImage.jpg';
+import firstPartImage from './images/previewImage.png';
+import partHeader1 from './images/partHeaderImage1.png';
 
 const zeroSeries = {
 	number: 0,
@@ -30,6 +31,7 @@ const zeroSeries = {
 	parts: [
 		{
 			title: {
+				illustration: partHeader1,
 				name: 'Жажда правды',
 			},
 			dateYear: '1987',
