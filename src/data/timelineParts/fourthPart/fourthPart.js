@@ -1,8 +1,9 @@
-import secondPartImage from './images/secondPartImage.jpg';
+import headerImage from './images/headerImage4.jpg';
 
 const fourthPart = {
-	num: 2,
+	num: 4,
 	year: '2010-2014',
+	illustration: headerImage,
 	acts: [
 		{
 			date: {

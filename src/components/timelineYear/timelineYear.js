@@ -10,6 +10,13 @@ function TimelineYear({data, openVideo}) {
 		<div className='timelineYear'>
 			<SeparatorLine />
 			<h3 className='timelineYear__header'>{data.year}</h3>
+			{data.illustration && (
+				<img
+					className='timelineYear__header-image'
+					src={data.illustration}
+					alt={data.year}
+				></img>
+			)}
 			<SeparatorLine />
 			<div className='timelineYear__content'>
 				{data.acts.map((act, i) => (
