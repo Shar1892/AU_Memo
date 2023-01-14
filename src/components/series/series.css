@@ -137,7 +137,6 @@
 	align-items: center;
 }
 
-/*
 .series__button-container {
 	width: 80%;
 	display: flex;
@@ -146,15 +145,24 @@
 
 .series__button {
 	display: flex;
-	width: 150px;
+	width: 100px;
 	height: 40px;
 	justify-content: center;
 	align-items: center;
 	background-color: #888888;
 	color: var(--simple-text-color);
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
 	margin-right: 10px;
 	border: none;
+	border-radius: 5px;
 	cursor: pointer;
+}
+
+.series__button:last-of-type {
+	margin-right: 0;
 }
 
 .series__button_disable {
@@ -162,7 +170,6 @@
 	color: #ffffff;
 	cursor: default;
 }
-*/
 
 @media screen and (min-width: 425px) {
 	.series__main-image {
@@ -227,6 +234,15 @@
 
 	.series__parts-container {
 		padding: 0 40px;
+	}
+
+	.series__button-container {
+		width: 60%;
+	}
+
+	.series__button {
+		width: 150px;
+		font-size: 15px;
 	}
 }
 
