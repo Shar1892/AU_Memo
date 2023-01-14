@@ -48,17 +48,17 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 		return item.number === seriesNumber;
 	});
 
-	/*const goNextSeries = () => {
-		if (series.number < seriesArr.length) {
+	const goNextSeries = () => {
+		if (series.number < seriesArr.length - 1) {
 			changeSeriesNumber(series.number + 1);
 		}
 	};
 
 	const goPreviousSeries = () => {
-		if (series.number > 1) {
+		if (series.number > 0) {
 			changeSeriesNumber(series.number - 1);
 		}
-	};*/
+	};
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -135,42 +135,10 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
 				data={referenceData}
 				popupClose={popupClose}
 			/>
-		</main>
-	);
-}
-
-export default Series;
-
-/*
-
-{series.parts.map((part, i) => (
-					<Part
-						key={i}
-						partData={part}
-						partNumber={i}
-						isWide={isWide}
-						popupOpen={handlePopupOpen}
-					/>
-				))}
-
-*/
-
-/*
-
-<PopupReference
-				isOpen={isPopupOpen}
-				data={referenceData}
-				popupClose={popupClose}
-			/>
-
-*/
-
-/*
-
-<div className='series__button-container'>
+			<div className='series__button-container'>
 				<button
 					className={`series__button ${
-						series.number === 1 ? 'series__button_disable' : ''
+						series.number === 0 ? 'series__button_disable' : ''
 					}`}
 					onClick={goPreviousSeries}
 				>
@@ -178,12 +146,17 @@ export default Series;
 				</button>
 				<button
 					className={`series__button ${
-						series.number === seriesArr.length ? 'series__button_disable' : ''
+						series.number === seriesArr.length - 1
+							? 'series__button_disable'
+							: ''
 					}`}
 					onClick={goNextSeries}
 				>
 					Следующая глава
 				</button>
 			</div>
+		</main>
+	);
+}
 
-*/
+export default Series;
