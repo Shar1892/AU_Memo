@@ -1,6 +1,9 @@
 import firstSeriesHeaderImage from './images/headerImage.png';
 
-import firstPartImage from './images/previewImage.png';
+//import firstPartImage from './images/previewImage.png';
+
+import mainImage from './images/previewImage.png';
+
 import partHeader1 from './images/partHeaderImage1.png';
 
 const zeroSeries = {
@@ -23,15 +26,19 @@ const zeroSeries = {
 		month: ' ',
 	},
 
-	mainImage: firstSeriesHeaderImage,
-	previewImage: firstPartImage,
+	//mainImage: firstSeriesHeaderImage,
+	//previewImage: firstPartImage,
+
+	mainImage: mainImage,
+	previewImage: mainImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
 	parts: [
 		{
 			title: {
-				illustration: partHeader1,
+				//illustration: partHeader1,
+				illustration: firstSeriesHeaderImage,
 				name: 'Жажда правды',
 			},
 			dateYear: '1987',
@@ -91,6 +98,10 @@ const zeroSeries = {
 		},
 
 		{
+			title: {
+				illustration: partHeader1,
+				name: '',
+			},
 			dateYear: '1988',
 			dateMonth: '',
 			sections: [

@@ -1,6 +1,8 @@
 import firstSeriesHeaderImage from './images/headerImage.png';
 
-import firstPartImage from './images/previewImage.png';
+//import firstPartImage from './images/previewImage.png';
+
+import mainImage from './images/previewImage.png';
 
 import partHeader1 from './images/partHeaderImage1.png';
 import partHeader2 from './images/partHeaderImage2.png';
@@ -40,8 +42,11 @@ const firstSeries = {
 		month: 'Август',
 	},
 
-	mainImage: firstSeriesHeaderImage,
-	previewImage: firstPartImage,
+	//mainImage: firstSeriesHeaderImage,
+	//previewImage: firstPartImage,
+
+	mainImage: mainImage,
+	previewImage: mainImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
@@ -220,7 +225,8 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader1,
+				//illustration: partHeader1,
+				illustration: firstSeriesHeaderImage,
 				name: '«Мы не агенты!»',
 			},
 			dateYear: '2013',
@@ -277,7 +283,8 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader2,
+				//illustration: partHeader2,
+				illustration: partHeader1,
 				name: 'Поиск агентов начался',
 			},
 			dateYear: '2013',
@@ -430,7 +437,8 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader3,
+				illustration: partHeader2,
+				//illustration: partHeader3,
 				name: 'Встреча общества и власти',
 			},
 			dateYear: '2013',
@@ -477,7 +485,8 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader4,
+				illustration: partHeader3,
+				//illustration: partHeader4,
 				name: 'Первое сражение',
 			},
 			dateYear: '2013',
@@ -534,7 +543,8 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader5,
+				illustration: partHeader4,
+				//illustration: partHeader5,
 				name: 'Суд над антидискриминационным центром',
 			},
 			dateYear: '2013',
@@ -601,6 +611,7 @@ const firstSeries = {
 
 		{
 			title: {
+				illustration: partHeader5,
 				name: 'Первая ликвидация (АДЦ «Мемориал»)',
 			},
 			dateYear: '2014',
