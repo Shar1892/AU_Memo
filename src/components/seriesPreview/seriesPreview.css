@@ -97,6 +97,7 @@
 	margin: 10px 0;
 	width: 100%;
 	height: 140px;
+	object-fit: cover;
 }
 
 .seriesPreview__title-container {

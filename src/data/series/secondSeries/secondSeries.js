@@ -1,6 +1,8 @@
 import firstSeriesHeaderImage from './images/headerImage.png';
 
-import secondPartImage from './images/previewImage.png';
+//import secondPartImage from './images/previewImage.png';
+
+import mainImage from './images/previewImage.png';
 
 import partHeader1 from './images/partHeaderImage1.png';
 import partHeader2 from './images/partHeaderImage2.png';
@@ -41,15 +43,19 @@ const secondSeries = {
 		month: 'январь',
 	},
 
-	mainImage: firstSeriesHeaderImage,
-	previewImage: secondPartImage,
+	//mainImage: firstSeriesHeaderImage,
+	//previewImage: secondPartImage,
+
+	mainImage: mainImage,
+	previewImage: mainImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
 	parts: [
 		{
 			title: {
-				illustration: partHeader1,
+				//illustration: partHeader1,
+				illustration: firstSeriesHeaderImage,
 				name: 'Раунд 1: Пиррова победа',
 			},
 			dateYear: '2014',
@@ -108,7 +114,8 @@ const secondSeries = {
 
 		{
 			title: {
-				illustration: partHeader2,
+				//illustration: partHeader2,
+				illustration: partHeader1,
 				name: 'Раунд 2: Симпатии зрителей',
 			},
 			dateYear: '2014',
@@ -167,7 +174,8 @@ const secondSeries = {
 
 		{
 			title: {
-				illustration: partHeader3,
+				//illustration: partHeader3,
+				illustration: partHeader2,
 				name: 'Раунд 3: Реванш Лугового',
 			},
 			dateYear: '2014-2015',
@@ -208,7 +216,8 @@ const secondSeries = {
 
 		{
 			title: {
-				illustration: partHeader4,
+				//illustration: partHeader4,
+				illustration: partHeader3,
 				name: 'Раунд 4: Угроза государству',
 			},
 			dateYear: '2015',
@@ -240,7 +249,8 @@ const secondSeries = {
 
 		{
 			title: {
-				illustration: partHeader5,
+				//illustration: partHeader5,
+				illustration: partHeader4,
 				name: 'Раунд 5: Обвинения в фашизме',
 			},
 			dateYear: '2016',
@@ -314,7 +324,8 @@ const secondSeries = {
 
 		{
 			title: {
-				illustration: partHeader6,
+				//illustration: partHeader6,
+				illustration: partHeader5,
 				name: 'Раунд 6: «Международный Мемориал» – «иноагент»',
 			},
 			dateYear: '2016',
@@ -395,7 +406,8 @@ const secondSeries = {
 
 		{
 			title: {
-				illustration: partHeader7,
+				//illustration: partHeader7,
+				illustration: partHeader6,
 				name: 'Раунд 7: Плоды пропаганды',
 			},
 			dateYear: '2017',
@@ -454,6 +466,7 @@ const secondSeries = {
 
 		{
 			title: {
+				illustration: partHeader7,
 				name: 'Раунд 8: 68 судебных заседаний по маркировке',
 			},
 			dateYear: '2019',
