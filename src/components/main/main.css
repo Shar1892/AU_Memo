@@ -47,7 +47,7 @@
 
 .main__subtitle {
 	margin: 13px 0 0 0;
-	width: 280px;
+	width: 95%;
 	font-family: 'Quant Antiqua';
 	font-style: italic;
 	font-weight: 400;
@@ -88,6 +88,7 @@
 
 	.main__subtitle {
 		font-size: 15px;
+		width: 90%;
 	}
 
 	.main__list-container {
@@ -115,7 +116,7 @@
 
 	.main__subtitle {
 		margin: 18px 0 0 0;
-		width: 468px;
+		width: 80%;
 		font-size: 20px;
 	}
 
@@ -152,7 +153,6 @@
 
 	.main__subtitle {
 		margin: 23px 0 0 0;
-		width: 568px;
 		font-size: 25px;
 	}
 
