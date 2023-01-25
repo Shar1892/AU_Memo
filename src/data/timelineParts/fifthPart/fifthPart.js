@@ -1,4 +1,4 @@
-import headerImage from './images/headerImage5.jpg';
+import headerImage from './images/headerImage5.png';
 
 const fifthPart = {
 	num: 5,

@@ -6,7 +6,7 @@ import './main.css';
 
 import SeriesPreview from '../seriesPreview/seriesPreview';
 
-import headerImage from '../../image/timelineHeaderImage.jpg';
+import headerImage from '../../image/mainTitleImage.png';
 
 function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
 	return (

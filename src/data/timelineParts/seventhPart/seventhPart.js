@@ -1,4 +1,4 @@
-import headerImage from './images/headerImage7.jpg';
+import headerImage from './images/headerImage7.png';
 
 const seventhPart = {
 	num: 7,

@@ -1,4 +1,4 @@
-import headerImage from './images/headerImage2.jpg';
+import headerImage from './images/headerImage2.png';
 
 const secondPart = {
 	num: 2,

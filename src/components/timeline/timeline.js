@@ -8,7 +8,7 @@ import timelineArr from '../../data/timeline';
 import SeparatorLine from '../separatorLine/separatorLine';
 import VideoPopup from '../videoPopup/videoPopup';
 
-import timelineImage from '../../image/firstSeriesHeader.jpg';
+import timelineImage from '../../image/timelineHeaderImage.png';
 
 function Timeline() {
 	const [isPopupOpen, setIsPopupOpen] = useState(false);
