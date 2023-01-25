@@ -1,10 +1,28 @@
-import firstSeriesHeaderImage from './images/headerImage.png';
-
-//import firstPartImage from './images/previewImage.png';
-
-import mainImage from './images/previewImage.png';
+import mainImage from './images/mainImage.png';
+import previewImage from './images/previewImage.png';
 
 import partHeader1 from './images/partHeaderImage1.png';
+import partHeader2 from './images/partHeaderImage2.png';
+
+import illustration1 from './images/illustration1.png';
+import illustration2 from './images/illustration2.png';
+import illustration3 from './images/illustration3.png';
+import illustration4 from './images/illustration4.png';
+import illustration5 from './images/illustration5.png';
+import illustration6 from './images/illustration6.png';
+import illustration7 from './images/illustration7.png';
+import illustration8 from './images/illustration8.png';
+import illustration9 from './images/illustration9.png';
+import illustration10 from './images/illustration10.png';
+import illustration11 from './images/illustration11.png';
+import illustration12 from './images/illustration12.png';
+import illustration13 from './images/illustration13.png';
+import illustration14 from './images/illustration14.png';
+import illustration15 from './images/illustration15.png';
+import illustration16 from './images/illustration16.png';
+import illustration17 from './images/illustration17.png';
+import illustration18 from './images/illustration18.png';
+import illustration19 from './images/illustration19.png';
 
 const zeroSeries = {
 	number: 0,
@@ -26,19 +44,15 @@ const zeroSeries = {
 		month: ' ',
 	},
 
-	//mainImage: firstSeriesHeaderImage,
-	//previewImage: firstPartImage,
-
 	mainImage: mainImage,
-	previewImage: mainImage,
+	previewImage: previewImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
 	parts: [
 		{
 			title: {
-				//illustration: partHeader1,
-				illustration: firstSeriesHeaderImage,
+				illustration: partHeader1,
 				name: 'Жажда правды',
 			},
 			dateYear: '1987',
@@ -95,13 +109,31 @@ const zeroSeries = {
 						'Но милиция с этим не согласилась. Участников сбора подписей задержали и отвезли в суд. Им назначили крупные по тем временам штрафы в 50 рублей — повышенная стипендия аспиранта-отличника. И всё же начало было положено: у «мемориальцев» появились первые подписи. Дело пошло.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration1,
+				},
+				{
+					type: 'illustration',
+					src: illustration2,
+				},
+				{
+					type: 'illustration',
+					src: illustration3,
+				},
+				{
+					type: 'illustration',
+					src: illustration4,
+				},
+				{
+					type: 'illustration',
+					src: illustration5,
+				},
+			],
 		},
 
 		{
-			title: {
-				illustration: partHeader1,
-				name: '',
-			},
 			dateYear: '1988',
 			dateMonth: '',
 			sections: [
@@ -133,6 +165,16 @@ const zeroSeries = {
 					type: 'text',
 					content:
 						'25 июня 1988 года состоялся первый официально разрешённый митинг «Мемориала» в Москве — у Дворца спорта Динамо. Собралось около 300 человек, среди выступающих были академик Андрей Сахаров и диссидент Сергей Ковалёв. На митинге обсуждали концепцию будущего мемориального комплекса памяти жертв политических репрессий. О нём говорили как о деле решённом: к тому времени под обращением к Верховному Совету подписались около 45 тысяч человек. И уже в июле вышло постановление Политбюро ЦК КПСС с одобрением установки в Москве памятника «жертвам беззаконий и репрессий, имевших место в годы культа личности».',
+				},
+			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration6,
+				},
+				{
+					type: 'illustration',
+					src: illustration7,
 				},
 			],
 		},
@@ -180,6 +222,16 @@ const zeroSeries = {
 						'«Например, формулировка статьи "госизмена" была такой же невнятной, как и сейчас. Под неё подпадали не только реальные шпионы, но и люди, пытавшиеся, например, нелегально перейти границу, чтобы покинуть СССР, — рассказывает Орлов. — Какое преступление они совершили, если страна не выпускала их? Как можно было говорить только про сохранение памяти о жертвах репрессий, если эти репрессии по сути продолжались прямо сейчас?»',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration8,
+				},
+				{
+					type: 'illustration',
+					src: illustration9,
+				},
+			],
 		},
 
 		{
@@ -212,6 +264,20 @@ const zeroSeries = {
 						'Доклады о своих поездках «мемориальцы» публиковали в СМИ. Некоторые отчёты рассматривались и в Верховном Совете. Депутаты вызывали на заседания представителей Минобороны и МВД — и требовали от них ответить за действия советской армии, которые повлекли гибель конкретных мирных жителей.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration10,
+				},
+				{
+					type: 'illustration',
+					src: illustration11,
+				},
+				{
+					type: 'illustration',
+					src: illustration12,
+				},
+			],
 		},
 
 		{
@@ -227,6 +293,10 @@ const zeroSeries = {
 		},
 
 		{
+			title: {
+				illustration: partHeader2,
+				name: '',
+			},
 			dateYear: '1994-1999',
 			dateMonth: '',
 			sections: [
@@ -312,9 +382,37 @@ const zeroSeries = {
 			],
 			materials: [
 				{
+					type: 'illustration',
+					src: illustration13,
+				},
+				{
+					type: 'illustration',
+					src: illustration14,
+				},
+				{
 					type: 'sketch',
 					discription:
 						'«Я оказался внутри того, о чем мы много раз писали. Думаю: "Ага, мешок на голову, руки за спину, не дали надеть обувь — все по сценарию. Так и должно быть. Теперь пообещали, что допросят и освободят — успокаивают жертву. Именно об этом рассказывали те, кто выжил после похищения". Каждый их шаг, каждое действие я сверял с тем, что мы много раз описывали. Совпадало всё: в машине нас заставили ехать согнувшись — чтобы никто не увидел. Блокпосты, которые точно были на дорогах, нас не останавливали — потому что машина с пропусками. Я понимал, что все происходит по сценарию — и внутренне это очень сильно помогало».',
+				},
+				{
+					type: 'illustration',
+					src: illustration15,
+				},
+				{
+					type: 'illustration',
+					src: illustration16,
+				},
+				{
+					type: 'illustration',
+					src: illustration17,
+				},
+				{
+					type: 'illustration',
+					src: illustration18,
+				},
+				{
+					type: 'illustration',
+					src: illustration19,
 				},
 			],
 		},

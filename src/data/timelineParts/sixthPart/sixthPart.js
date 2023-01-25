@@ -1,4 +1,4 @@
-import headerImage from './images/headerImage6.jpg';
+import headerImage from './images/headerImage6.png';
 
 const sixthPart = {
 	num: 6,

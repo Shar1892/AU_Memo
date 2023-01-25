@@ -1,4 +1,4 @@
-import headerImage from './images/headerImage3.jpg';
+import headerImage from './images/headerImage3.png';
 
 const thirdPart = {
 	num: 3,
