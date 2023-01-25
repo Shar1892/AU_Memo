@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AU_Memo/static/css/main.26a20ed3.chunk.css",
-    "main.js": "/AU_Memo/static/js/main.84aaf771.chunk.js",
-    "main.js.map": "/AU_Memo/static/js/main.84aaf771.chunk.js.map",
+    "main.js": "/AU_Memo/static/js/main.e082fb6d.chunk.js",
+    "main.js.map": "/AU_Memo/static/js/main.e082fb6d.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.f424c17b.js",
     "runtime-main.js.map": "/AU_Memo/static/js/runtime-main.f424c17b.js.map",
     "static/js/2.ef285863.chunk.js": "/AU_Memo/static/js/2.ef285863.chunk.js",
@@ -80,6 +80,6 @@
     "static/js/runtime-main.f424c17b.js",
     "static/js/2.ef285863.chunk.js",
     "static/css/main.26a20ed3.chunk.css",
-    "static/js/main.84aaf771.chunk.js"
+    "static/js/main.e082fb6d.chunk.js"
   ]
 }
