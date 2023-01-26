@@ -1,8 +1,5 @@
-import firstSeriesHeaderImage from './images/headerImage.png';
-
-//import secondPartImage from './images/previewImage.png';
-
-import mainImage from './images/previewImage.png';
+import previewImage from './images/previewImage.png';
+import mainImage from './images/mainImage.png';
 
 import partHeader1 from './images/partHeaderImage1.png';
 import partHeader2 from './images/partHeaderImage2.png';
@@ -11,7 +8,40 @@ import partHeader4 from './images/partHeaderImage4.png';
 import partHeader5 from './images/partHeaderImage5.png';
 import partHeader6 from './images/partHeaderImage6.png';
 import partHeader7 from './images/partHeaderImage7.png';
-import sketchImage1 from './images/sketchImage1.jpg';
+import partHeader8 from './images/partHeaderImage8.png';
+import partHeader9 from './images/partHeaderImage9.png';
+
+//import illustration1 from './images/illustration1.png';
+import illustration2 from './images/illustration2.png';
+import illustration3 from './images/illustration3.png';
+import illustration4 from './images/illustration4.png';
+import illustration5 from './images/illustration5.png';
+import illustration6 from './images/illustration6.png';
+import illustration7 from './images/illustration7.png';
+import illustration8 from './images/illustration8.png';
+import illustration9 from './images/illustration9.png';
+import illustration10 from './images/illustration10.png';
+import illustration11 from './images/illustration11.png';
+import illustration12 from './images/illustration12.png';
+import illustration13 from './images/illustration13.png';
+import illustration14 from './images/illustration14.png';
+import illustration15 from './images/illustration15.png';
+//import illustration16 from './images/illustration16.png';
+import illustration17 from './images/illustration17.png';
+import illustration18 from './images/illustration18.png';
+import illustration19 from './images/illustration19.png';
+import illustration20 from './images/illustration20.png';
+import illustration21 from './images/illustration21.png';
+import illustration22 from './images/illustration22.png';
+import illustration23 from './images/illustration23.png';
+//import illustration24 from './images/illustration24.png';
+import illustration25 from './images/illustration25.png';
+
+import sketchImage1 from './images/sketchImage1.png';
+import sketchImage2 from './images/sketchImage2.png';
+import sketchImage3 from './images/sketchImage3.png';
+import sketchImage4 from './images/sketchImage4.png';
+
 import personPhoto from './images/personPhoto.jpg';
 
 const secondSeries = {
@@ -43,19 +73,15 @@ const secondSeries = {
 		month: 'январь',
 	},
 
-	//mainImage: firstSeriesHeaderImage,
-	//previewImage: secondPartImage,
-
 	mainImage: mainImage,
-	previewImage: mainImage,
+	previewImage: previewImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
 	parts: [
 		{
 			title: {
-				//illustration: partHeader1,
-				illustration: firstSeriesHeaderImage,
+				illustration: partHeader1,
 				name: 'Раунд 1: Пиррова победа',
 			},
 			dateYear: '2014',
@@ -109,13 +135,16 @@ const secondSeries = {
 					discription:
 						'Главное, официально зарегистрировались в качестве наблюдателей на референдуме, получили корочки. И бегали по избирательным пунктам, смотрели, как проходит референдум. Поняли, что никак не проходит. Никакой серьёзной работы со списками избирателей, каким-то образом регистрации того, кто проголосовал… Не было просто даже учёта бюллетеней, погашения неиспользованных…Все необходимые процедуры там были никак не продуманы, не исполнялись, просто как бог на душу положит.',
 				},
+				{
+					type: 'illustration',
+					src: illustration2,
+				},
 			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader2,
-				illustration: partHeader1,
+				illustration: partHeader2,
 				name: 'Раунд 2: Симпатии зрителей',
 			},
 			dateYear: '2014',
@@ -170,12 +199,25 @@ const secondSeries = {
 						'Конечно, «Мемориал» обжаловал решение. А ещё юристы были уверены: несмотря на формальное поражение, они заслужили по крайней мере «симпатии зрителей».',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration3,
+				},
+				{
+					type: 'illustration',
+					src: illustration4,
+				},
+				{
+					type: 'illustration',
+					src: illustration5,
+				},
+			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader3,
-				illustration: partHeader2,
+				illustration: partHeader3,
 				name: 'Раунд 3: Реванш Лугового',
 			},
 			dateYear: '2014-2015',
@@ -212,12 +254,21 @@ const secondSeries = {
 						'«Мы добились того, что слова “иностранный агент” в отношении НКО приобрели какой-то новый смысл. Нам удалось объяснить, что они означают новый способ давления и репрессий, – говорит Орлов. – Не хочу сказать, что это распространилось в широких слоях нашего общества… Да чёрт его знает, что вообще в широких слоях нашего общества происходит. Но, по крайней мере, в обществе, которое читало интернет, это получило распространение. Сплошь и рядом слыхал от людей: мол, что вы бьётесь, это вам медаль на грудь повесили. В итоге то, что они именно “Мемориал” пытались запихнуть в “иноагенты”, вело к скандалу. И к привлечению ещё большего внимания. В этом смысле мы свою работу выполнили».',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration6,
+				},
+				{
+					type: 'illustration',
+					src: illustration7,
+				},
+			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader4,
-				illustration: partHeader3,
+				illustration: partHeader4,
 				name: 'Раунд 4: Угроза государству',
 			},
 			dateYear: '2015',
@@ -245,12 +296,21 @@ const secondSeries = {
 					autorsPhoto: personPhoto,
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration8,
+				},
+				{
+					type: 'illustration',
+					src: illustration9,
+				},
+			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader5,
-				illustration: partHeader4,
+				illustration: partHeader5,
 				name: 'Раунд 5: Обвинения в фашизме',
 			},
 			dateYear: '2016',
@@ -314,8 +374,12 @@ const secondSeries = {
 			],
 			materials: [
 				{
+					type: 'illustration',
+					src: illustration10,
+				},
+				{
 					type: 'sketch',
-					src: sketchImage1,
+					src: sketchImage2,
 					discription:
 						'Много лет назад Агальцова сама участвовала в конкурсе «Мемориала». «У меня в лицее был хороший научный руководитель, который и рассказал про этот конкурс. Я написала работу о подвигах одной семьи из нашего города в Великой Отечественной войне. И заняла второе место – для девочки из глубинки это было очень престижно. Меня пригласили в Москву. Награждение было очень помпезным, церемония проходила в Историческом музее на Красной площади. Были люди, которых я видела по телевизору, например Григорий Явлинский. Мне тогда очень хотелось пообщаться на английском с носителем языка. И вот на церемонии награждения познакомилась с человеком, который занимался организацией международных исторических программ. В итоге я поехала на летнюю школу в Германию – и это очень много мне дало».',
 				},
@@ -324,8 +388,7 @@ const secondSeries = {
 
 		{
 			title: {
-				//illustration: partHeader6,
-				illustration: partHeader5,
+				illustration: partHeader6,
 				name: 'Раунд 6: «Международный Мемориал» – «иноагент»',
 			},
 			dateYear: '2016',
@@ -396,18 +459,29 @@ const secondSeries = {
 			],
 			materials: [
 				{
+					type: 'illustration',
+					src: illustration11,
+				},
+				{
 					type: 'sketch',
-					src: sketchImage1,
+					src: sketchImage3,
 					discription:
 						'Когда «мемориальское» движение только создавалось в конце 80-х, оно воплощало в себе всё самое прогрессивное и модное, что было тогда, говорит Александра Поливанова. «Это было действительно многомиллионное движение по всей стране! И люди, которые пришли в организацию тогда, говорили на понятном для того общества языке. Но когда в 2011 году я пришла на работу в “Мемориал”, те же люди – всё такие же прекрасные – уже утратили язык актуальной коммуникации с обществом. Они так же хорошо делали свою работу, но выглядели немного “демшизой”. “Мемориал?” Да, это очень важно – права человека, память о жертвах репрессий. Но немного нафталин”. Моей задачей было выстроить новый имидж организации, актуализировать этот язык коммуникации. Сделать так, чтобы “Мемориал” был представлен на самых модных площадках – “Пикник “Афиши”, Non/fiction, театры и музеи. Чтобы людям хотелось ставить на аватарки в соцсетях логотип нашей ежегодной акции «Возвращение имён” у Соловецкого камня. Потихоньку это стало получаться. И в этот момент нас признали “иноагентом” – и уже те партнёры, которые сами хотели нас пригласить, испугались и отвалились. Было очень, очень обидно».',
+				},
+				{
+					type: 'illustration',
+					src: illustration12,
+				},
+				{
+					type: 'illustration',
+					src: illustration13,
 				},
 			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader7,
-				illustration: partHeader6,
+				illustration: partHeader7,
 				name: 'Раунд 7: Плоды пропаганды',
 			},
 			dateYear: '2017',
@@ -462,11 +536,21 @@ const secondSeries = {
 						'Орлов и коллеги продолжали работу. Но таких разговоров становилось всё больше. «Симпатии зрителей», быть может, всё ещё были на стороне правозащитников. И признание «иностранным агентом» в соцсетях сравнивали со присвоением почётного звания. Но сотрудничество с госорганами практически остановилось. Семинары, программы, способы работы – всё приходилось менять. И нужно было изобретать способы помогать так, чтобы не навредить доверителям.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration14,
+				},
+				{
+					type: 'illustration',
+					src: illustration15,
+				},
+			],
 		},
 
 		{
 			title: {
-				illustration: partHeader7,
+				illustration: partHeader8,
 				name: 'Раунд 8: 68 судебных заседаний по маркировке',
 			},
 			dateYear: '2019',
@@ -542,10 +626,37 @@ const secondSeries = {
 						'Идея понравилась людям. Посты с работами помогли собрать шесть миллионов всего за полтора месяца. А сами художники стали поддержкой для двух уставших от однообразия и несправедливости юристок.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration17,
+				},
+				{
+					type: 'illustration',
+					src: illustration18,
+				},
+				{
+					type: 'illustration',
+					src: illustration19,
+				},
+				{
+					type: 'illustration',
+					src: illustration20,
+				},
+				{
+					type: 'illustration',
+					src: illustration21,
+				},
+				{
+					type: 'illustration',
+					src: illustration22,
+				},
+			],
 		},
 
 		{
 			title: {
+				illustration: partHeader9,
 				name: 'Раунд 9: Иски о ликвидации',
 			},
 			dateYear: '2021',
@@ -612,10 +723,18 @@ const secondSeries = {
 			],
 			materials: [
 				{
+					type: 'illustration',
+					src: illustration23,
+				},
+				{
 					type: 'sketch',
-					src: sketchImage1,
+					src: sketchImage4,
 					discription:
 						'Когда «мемориальское» движение только создавалось в конце 80-х, оно воплощало в себе всё самое прогрессивное и модное, что было тогда, говорит Александра Поливанова. «Это было действительно многомиллионное движение по всей стране! И люди, которые пришли в организацию тогда, говорили на понятном для того общества языке. Но когда в 2011 году я пришла на работу в “Мемориал”, те же люди – всё такие же прекрасные – уже утратили язык актуальной коммуникации с обществом. Они так же хорошо делали свою работу, но выглядели немного “демшизой”. “Мемориал?” Да, это очень важно – права человека, память о жертвах репрессий. Но немного нафталин”. Моей задачей было выстроить новый имидж организации, актуализировать этот язык коммуникации. Сделать так, чтобы “Мемориал” был представлен на самых модных площадках – “Пикник “Афиши”, Non/fiction, театры и музеи. Чтобы людям хотелось ставить на аватарки в соцсетях логотип нашей ежегодной акции «Возвращение имён” у Соловецкого камня. Потихоньку это стало получаться. И в этот момент нас признали “иноагентом” – и уже те партнёры, которые сами хотели нас пригласить, испугались и отвалились. Было очень, очень обидно».',
+				},
+				{
+					type: 'illustration',
+					src: illustration25,
 				},
 			],
 		},
