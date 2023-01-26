@@ -1,15 +1,30 @@
-import firstSeriesHeaderImage from './images/headerImage.png';
-
-//import firstPartImage from './images/previewImage.png';
-
-import mainImage from './images/previewImage.png';
+import mainImage from './images/mainImage.png';
+import previewImage from './images/previewImage.png';
 
 import partHeader1 from './images/partHeaderImage1.png';
 import partHeader2 from './images/partHeaderImage2.png';
 import partHeader3 from './images/partHeaderImage3.png';
 import partHeader4 from './images/partHeaderImage4.png';
 import partHeader5 from './images/partHeaderImage5.png';
-import sketchImage1 from './images/sketchImage1.jpg';
+
+import illustration1 from './images/illustration1.png';
+import illustration2 from './images/illustration2.png';
+import illustration3 from './images/illustration3.png';
+import illustration4 from './images/illustration4.png';
+import illustration5 from './images/illustration5.png';
+import illustration6 from './images/illustration6.png';
+import illustration7 from './images/illustration7.png';
+import illustration8 from './images/illustration8.png';
+import illustration9 from './images/illustration9.png';
+import illustration10 from './images/illustration10.png';
+import illustration11 from './images/illustration11.png';
+import illustration13 from './images/illustration13.png';
+import illustration14 from './images/illustration14.png';
+import illustration15 from './images/illustration15.png';
+import illustration16 from './images/illustration16.png';
+import illustration17 from './images/illustration17.png';
+
+import sketchImage1 from './images/sketchImage1.png';
 import personPhoto from './images/personPhoto.jpg';
 
 const firstSeries = {
@@ -42,11 +57,8 @@ const firstSeries = {
 		month: 'Август',
 	},
 
-	//mainImage: firstSeriesHeaderImage,
-	//previewImage: firstPartImage,
-
 	mainImage: mainImage,
-	previewImage: mainImage,
+	previewImage: previewImage,
 
 	videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
 
@@ -116,6 +128,12 @@ const firstSeries = {
 						'Самое интересное, что тот митинг на Болотной площади прошёл в итоге без массовых задержаний. Акция собрала больше 50 тысяч человек и стала самой масштабной с начала девяностых. «Вы нас даже не представляете», – так звучал один из лозунгов, адресованный и новому парламенту, и власти в целом.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration1,
+				},
+			],
 		},
 
 		{
@@ -180,6 +198,12 @@ const firstSeries = {
 					autorsPhoto: personPhoto,
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration2,
+				},
+			],
 
 			sources: ['Новая Газета'],
 		},
@@ -221,12 +245,17 @@ const firstSeries = {
 					text: 'Закон этот – антиправовой и аморальный по самой своей сути. Антиправовой – потому что наделяет исполнительную власть прерогативами суда. И аморальный – потому что априори предполагает, что организации, получающие средства из-за рубежа, действуют по указке своих спонсоров, то есть высшей государственной мудростью провозглашает дешёвый блатной афоризм: «Кто вас ужинает, тот вас и танцует».',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration3,
+				},
+			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader1,
-				illustration: firstSeriesHeaderImage,
+				illustration: partHeader1,
 				name: '«Мы не агенты!»',
 			},
 			dateYear: '2013',
@@ -278,13 +307,16 @@ const firstSeries = {
 					discription:
 						'В начале 1930 годов в СССР набирает популярность идея поиска шпионов и «внутренних врагов». Начало этому положили громкие политические процессы, в которых советских граждан обвиняли в сотрудничестве с иностранными разведчиками и вредительской деятельности в интересах других государств. Например, «Шахтинское дело» или «дело Промпартии». Руководство страны призывает граждан сохранять бдительность, ведь шпионом может оказаться не только иностранец, но совершенно любой человек. Распространяются лозунги «Болтун – находка для шпиона», «Болтать-врагу помогать». Под влиянием этой политики в обществе растет недоверие и подозрительность, граждане ищут шпионов в ближайшем окружении и массово пишут доносы. Позже эту тенденцию в обществе назовут шпиономанией.',
 				},
+				{
+					type: 'illustration',
+					src: illustration4,
+				},
 			],
 		},
 
 		{
 			title: {
-				//illustration: partHeader2,
-				illustration: partHeader1,
+				illustration: partHeader2,
 				name: 'Поиск агентов начался',
 			},
 			dateYear: '2013',
@@ -310,6 +342,12 @@ const firstSeries = {
 					type: 'text',
 					content:
 						'«Раскачка» заняла месяц – а потом прокуратура начала проверять НКО по всей стране. «Проверки стартовали далеко за пределами Москвы. Две-три недели мы просто наносили флажки на карту, понимая, что кольцо сжимается. А значит, прокуроры придут к НКО в Москве – и в “Мемориал”», – вспоминает юрист ПЦ «Мемориал» Кирилл Коротеев.',
+				},
+			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration5,
 				},
 			],
 		},
@@ -393,6 +431,32 @@ const firstSeries = {
 					text: 'Мы обеспокоены тем, что, согласно полученной информации, действия, предпринятые против Антидискриминационного центра «Мемориал» и его руководства, могут быть связаны с предоставлением отчёта Комитету против пыток (...) Кроме того, мы обеспокоены тем, что предпринятые Прокуратурой действия против Антидискриминационного центра «Мемориал» являются частью вызывающих тревогу изменений в законодательстве, регламентирующем свободу собраний, объединений, слова и информации, которые были введены в Административный кодекс. Новый ограничительный закон о некоммерческих организациях, вступивший в силу 21 ноября 2012 года, может оказать пагубное воздействие на гражданское общество и может привести к незаконному препятствованию работе правозащитников и ее криминализации на основании источника финансирования (...) Ввиду серьёзности фактов, представленных выше, мы были бы рады получить в срочном порядке информацию о мерах, принятых Вашим Правительством по выполнению статьи 13 Конвенции и пункта 12(b) заключительных замечаний Комитета по пятому периодическому докладу Российской Федерации, обеспечивающих гражданскому обществу в целом и Антидискриминационному центру «Мемориал» в частности защиту от репрессий за осуществление законной деятельности, в том числе за предоставление информации Комитету против пыток в рамках предусмотренных Конвенцией процедур. Мы также были бы признательны за предоставление информации о том, какое влияние закон оказал на организации, получавшие, как утверждается, иностранное финансирование или занимавшиеся общественной деятельностью, особенно в области прав человека, – эта просьба уже содержится в письме, направленном Вашему Правительству 9 апреля 2013 года Специальным докладчиком по свободе собраний и объединений и Специальным докладчиком по защите правозащитников.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration6,
+				},
+				{
+					type: 'illustration',
+					src: illustration7,
+				},
+				{
+					type: 'illustration',
+					src: illustration8,
+				},
+				{
+					type: 'illustration',
+					src: illustration9,
+				},
+				{
+					type: 'illustration',
+					src: illustration10,
+				},
+				{
+					type: 'illustration',
+					src: illustration11,
+				},
+			],
 		},
 
 		{
@@ -437,8 +501,7 @@ const firstSeries = {
 
 		{
 			title: {
-				illustration: partHeader2,
-				//illustration: partHeader3,
+				illustration: partHeader3,
 				name: 'Встреча общества и власти',
 			},
 			dateYear: '2013',
@@ -481,12 +544,17 @@ const firstSeries = {
 						'«Мы говорили: вы ведь юристы – и сами должны понимать, что этот закон не имеет отношения к праву. Поэтому мы не будем его исполнять. И по их глазам было видно, что они это понимают. Мы сказали, что не будем лгать, что мы “иностранные агенты”, и самостоятельно регистрироваться в реестре». Прокуроры услышали этот ответ и ушли крайне недовольными.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration13,
+				},
+			],
 		},
 
 		{
 			title: {
-				illustration: partHeader3,
-				//illustration: partHeader4,
+				illustration: partHeader4,
 				name: 'Первое сражение',
 			},
 			dateYear: '2013',
@@ -539,12 +607,25 @@ const firstSeries = {
 					autor: 'Олег Орлов, правозащитник «Мемориала»',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration14,
+				},
+				{
+					type: 'illustration',
+					src: illustration15,
+				},
+				{
+					type: 'illustration',
+					src: illustration16,
+				},
+			],
 		},
 
 		{
 			title: {
-				illustration: partHeader4,
-				//illustration: partHeader5,
+				illustration: partHeader5,
 				name: 'Суд над антидискриминационным центром',
 			},
 			dateYear: '2013',
@@ -607,11 +688,16 @@ const firstSeries = {
 						'12 декабря судья Анна Мороз удовлетворила требование прокуратуры и обязала АДЦ «Мемориал» подать заявление о включении в реестр «иностранных агентов». Центр начал процедуру ликвидации юридического лица.',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration17,
+				},
+			],
 		},
 
 		{
 			title: {
-				illustration: partHeader5,
 				name: 'Первая ликвидация (АДЦ «Мемориал»)',
 			},
 			dateYear: '2014',
@@ -646,7 +732,6 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'sketch',
-					src: sketchImage1,
 					discription:
 						'Юрист Кирилл Коротеев смотрел трансляцию из КС в кафе у Санкт-Петербургского городского суда. Там как раз должны были огласить решение по апелляционной жалобе АДЦ. «Собственно, исход нашего дела был понятен после провозглашения постановления КС, – говорит он. – Это решение было плохим, даже худшим, чем ожидалось. Впрочем, постановление по Крыму, вынесенное несколькими днями ранее, не оставляло никаких сомнений в том, как КС обойдётся с жалобами НКО».',
 				},
