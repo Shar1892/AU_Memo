@@ -26,7 +26,7 @@ import illustration12 from './images/illustration12.png';
 import illustration13 from './images/illustration13.png';
 import illustration14 from './images/illustration14.png';
 import illustration15 from './images/illustration15.png';
-//import illustration16 from './images/illustration16.png';
+import illustration16 from './images/illustration16.png';
 import illustration17 from './images/illustration17.png';
 import illustration18 from './images/illustration18.png';
 import illustration19 from './images/illustration19.png';
@@ -544,6 +544,10 @@ const secondSeries = {
 				{
 					type: 'illustration',
 					src: illustration15,
+				},
+				{
+					type: 'illustration',
+					src: illustration16,
 				},
 			],
 		},
