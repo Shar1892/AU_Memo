@@ -18,11 +18,20 @@ import illustration8 from './images/illustration8.png';
 import illustration9 from './images/illustration9.png';
 import illustration10 from './images/illustration10.png';
 import illustration11 from './images/illustration11.png';
+import illustration12 from './images/illustration12.png';
 import illustration13 from './images/illustration13.png';
 import illustration14 from './images/illustration14.png';
 import illustration15 from './images/illustration15.png';
 import illustration16 from './images/illustration16.png';
 import illustration17 from './images/illustration17.png';
+import illustration18 from './images/illustration18.png';
+import illustration19 from './images/illustration19.png';
+import illustration20 from './images/illustration20.png';
+import illustration21 from './images/illustration21.png';
+import illustration22 from './images/illustration22.png';
+import illustration23 from './images/illustration23.png';
+import illustration24 from './images/illustration24.png';
+import illustration25 from './images/illustration25.png';
 
 import sketchImage1 from './images/sketchImage1.png';
 import personPhoto from './images/personPhoto.jpg';
@@ -133,6 +142,14 @@ const firstSeries = {
 					type: 'illustration',
 					src: illustration1,
 				},
+				{
+					type: 'illustration',
+					src: illustration2,
+				},
+				{
+					type: 'illustration',
+					src: illustration3,
+				},
 			],
 		},
 
@@ -201,7 +218,23 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration2,
+					src: illustration4,
+				},
+				{
+					type: 'illustration',
+					src: illustration5,
+				},
+				{
+					type: 'illustration',
+					src: illustration6,
+				},
+				{
+					type: 'illustration',
+					src: illustration7,
+				},
+				{
+					type: 'illustration',
+					src: illustration8,
 				},
 			],
 
@@ -228,6 +261,12 @@ const firstSeries = {
 						'«Мы видели: происходит что-то необычное для постсоветской России, – вспоминает Олег Орлов. – Создавалось ощущение, что всё движется к откровенно репрессивной системе. Но, конечно, представить себе возвращение к практике советских репрессий мы не могли. Мы готовились отразить эту атаку на гражданское общество. И были уверены, что в какой-то мере это получится».',
 				},
 			],
+			materials: [
+				{
+					type: 'illustration',
+					src: illustration9,
+				},
+			],
 		},
 
 		{
@@ -248,7 +287,7 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration3,
+					src: illustration10,
 				},
 			],
 		},
@@ -309,7 +348,7 @@ const firstSeries = {
 				},
 				{
 					type: 'illustration',
-					src: illustration4,
+					src: illustration11,
 				},
 			],
 		},
@@ -347,7 +386,7 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration5,
+					src: illustration12,
 				},
 			],
 		},
@@ -434,27 +473,19 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration6,
+					src: illustration13,
 				},
 				{
 					type: 'illustration',
-					src: illustration7,
+					src: illustration14,
 				},
 				{
 					type: 'illustration',
-					src: illustration8,
+					src: illustration15,
 				},
 				{
 					type: 'illustration',
-					src: illustration9,
-				},
-				{
-					type: 'illustration',
-					src: illustration10,
-				},
-				{
-					type: 'illustration',
-					src: illustration11,
+					src: illustration16,
 				},
 			],
 		},
@@ -547,7 +578,7 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration13,
+					src: illustration17,
 				},
 			],
 		},
@@ -610,15 +641,15 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration14,
+					src: illustration18,
 				},
 				{
 					type: 'illustration',
-					src: illustration15,
+					src: illustration19,
 				},
 				{
 					type: 'illustration',
-					src: illustration16,
+					src: illustration20,
 				},
 			],
 		},
@@ -691,7 +722,15 @@ const firstSeries = {
 			materials: [
 				{
 					type: 'illustration',
-					src: illustration17,
+					src: illustration21,
+				},
+				{
+					type: 'illustration',
+					src: illustration22,
+				},
+				{
+					type: 'illustration',
+					src: illustration23,
 				},
 			],
 		},
@@ -731,9 +770,17 @@ const firstSeries = {
 			],
 			materials: [
 				{
+					type: 'illustration',
+					src: illustration24,
+				},
+				{
 					type: 'sketch',
 					discription:
 						'Юрист Кирилл Коротеев смотрел трансляцию из КС в кафе у Санкт-Петербургского городского суда. Там как раз должны были огласить решение по апелляционной жалобе АДЦ. «Собственно, исход нашего дела был понятен после провозглашения постановления КС, – говорит он. – Это решение было плохим, даже худшим, чем ожидалось. Впрочем, постановление по Крыму, вынесенное несколькими днями ранее, не оставляло никаких сомнений в том, как КС обойдётся с жалобами НКО».',
+				},
+				{
+					type: 'illustration',
+					src: illustration25,
 				},
 			],
 		},
