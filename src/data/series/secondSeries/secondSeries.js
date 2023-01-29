@@ -11,7 +11,7 @@ import partHeader7 from './images/partHeaderImage7.png';
 import partHeader8 from './images/partHeaderImage8.png';
 import partHeader9 from './images/partHeaderImage9.png';
 
-//import illustration1 from './images/illustration1.png';
+import illustration1 from './images/illustration1.png';
 import illustration2 from './images/illustration2.png';
 import illustration3 from './images/illustration3.png';
 import illustration4 from './images/illustration4.png';
@@ -34,13 +34,13 @@ import illustration20 from './images/illustration20.png';
 import illustration21 from './images/illustration21.png';
 import illustration22 from './images/illustration22.png';
 import illustration23 from './images/illustration23.png';
-//import illustration24 from './images/illustration24.png';
+import illustration24 from './images/illustration24.png';
 import illustration25 from './images/illustration25.png';
+import illustration26 from './images/illustration26.png';
 
 import sketchImage1 from './images/sketchImage1.png';
 import sketchImage2 from './images/sketchImage2.png';
 import sketchImage3 from './images/sketchImage3.png';
-import sketchImage4 from './images/sketchImage4.png';
 
 import personPhoto from './images/personPhoto.jpg';
 
@@ -129,6 +129,10 @@ const secondSeries = {
 				},
 			],
 			materials: [
+				{
+					type: 'illustration',
+					src: illustration1,
+				},
 				{
 					type: 'sketch',
 					src: sketchImage1,
@@ -731,14 +735,16 @@ const secondSeries = {
 					src: illustration23,
 				},
 				{
-					type: 'sketch',
-					src: sketchImage4,
-					discription:
-						'Когда «мемориальское» движение только создавалось в конце 80-х, оно воплощало в себе всё самое прогрессивное и модное, что было тогда, говорит Александра Поливанова. «Это было действительно многомиллионное движение по всей стране! И люди, которые пришли в организацию тогда, говорили на понятном для того общества языке. Но когда в 2011 году я пришла на работу в “Мемориал”, те же люди – всё такие же прекрасные – уже утратили язык актуальной коммуникации с обществом. Они так же хорошо делали свою работу, но выглядели немного “демшизой”. “Мемориал?” Да, это очень важно – права человека, память о жертвах репрессий. Но немного нафталин”. Моей задачей было выстроить новый имидж организации, актуализировать этот язык коммуникации. Сделать так, чтобы “Мемориал” был представлен на самых модных площадках – “Пикник “Афиши”, Non/fiction, театры и музеи. Чтобы людям хотелось ставить на аватарки в соцсетях логотип нашей ежегодной акции «Возвращение имён” у Соловецкого камня. Потихоньку это стало получаться. И в этот момент нас признали “иноагентом” – и уже те партнёры, которые сами хотели нас пригласить, испугались и отвалились. Было очень, очень обидно».',
+					type: 'illustration',
+					src: illustration24,
 				},
 				{
 					type: 'illustration',
 					src: illustration25,
+				},
+				{
+					type: 'illustration',
+					src: illustration26,
 				},
 			],
 		},
