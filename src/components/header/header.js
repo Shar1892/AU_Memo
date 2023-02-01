@@ -19,7 +19,9 @@ function Header({seriesNames, handleSetCurrentSeriesNumber, isMain, setPage}) {
 	return (
 		<header className='header'>
 			<div className='header__content-container'>
-				<h1 className='header__title'>Ликвидация «Мемориала»</h1>
+				<a href='/AU_Memo/' className='header__title'>
+					Ликвидация «Мемориала»
+				</a>
 				{isMain ? (
 					<div className='header__menu'>
 						<a href='#timeline' className='header__link'>
@@ -58,5 +60,11 @@ export default Header;
 				handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
 				setPage={setPage}
 			/>
+
+*/
+
+/*
+
+<h1 className='header__title'>Ликвидация «Мемориала»</h1>
 
 */

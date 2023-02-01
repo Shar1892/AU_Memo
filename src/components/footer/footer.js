@@ -21,9 +21,9 @@ function Footer({seriesNames}) {
 						</p>
 					</div>
 					<p className='footer__discription-text'>
-						Краткое описание спецпроекта в несколько предложений и строк. Лучше,
-						чтобы тут был небольшой блок текста. Описание спецпроекта в
-						несколько предложений и строк.
+						Специальный проект «Адвокатской улицы» и общества «Мемориал» о том,
+						как власти пытались победить одну из старейших правозащитных
+						организаций России.
 					</p>
 				</div>
 				<div className='footer__column'>
@@ -52,7 +52,18 @@ function Footer({seriesNames}) {
 						))}
 					</div>
 				</div>
-				<div className='footer__column'>
+			</div>
+		</footer>
+	);
+}
+
+export default Footer;
+
+// 	&#169;
+
+/*
+
+<div className='footer__column'>
 					<p className='footer__column-name'>Таймлайн</p>
 					<div className='footer__years-container'>
 						{years.map((year, i) => (
@@ -62,11 +73,6 @@ function Footer({seriesNames}) {
 						))}
 					</div>
 				</div>
-			</div>
-		</footer>
-	);
-}
 
-export default Footer;
 
-// 	&#169;
+*/

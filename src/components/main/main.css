@@ -88,7 +88,6 @@
 
 	.main__subtitle {
 		font-size: 15px;
-		width: 90%;
 	}
 
 	.main__list-container {
@@ -116,7 +115,7 @@
 
 	.main__subtitle {
 		margin: 18px 0 0 0;
-		width: 80%;
+		width: 90%;
 		font-size: 20px;
 	}
 

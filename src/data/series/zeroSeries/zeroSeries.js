@@ -26,7 +26,7 @@ import illustration19 from './images/illustration19.png';
 
 const zeroSeries = {
 	number: 0,
-	romanNumber: '0',
+	romanNumber: 'N',
 	numText: 'Нулевая глава',
 	title: ['«Мемориал».', 'Начало'],
 

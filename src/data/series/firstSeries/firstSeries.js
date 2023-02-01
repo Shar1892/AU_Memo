@@ -6,6 +6,7 @@ import partHeader2 from './images/partHeaderImage2.png';
 import partHeader3 from './images/partHeaderImage3.png';
 import partHeader4 from './images/partHeaderImage4.png';
 import partHeader5 from './images/partHeaderImage5.png';
+import partHeader6 from './images/partHeaderImage6.png';
 
 import illustration1 from './images/illustration1.png';
 import illustration2 from './images/illustration2.png';
@@ -737,6 +738,7 @@ const firstSeries = {
 
 		{
 			title: {
+				illustration: partHeader6,
 				name: 'Первая ликвидация (АДЦ «Мемориал»)',
 			},
 			dateYear: '2014',
