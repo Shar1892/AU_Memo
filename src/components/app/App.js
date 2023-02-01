@@ -47,42 +47,13 @@ function App() {
 					/>
 				</Route>
 			</Switch>
-			<Footer seriesNames={seriesNames} />
+			<Footer
+				seriesNames={seriesNames}
+				handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
+				setPage={setIsMain}
+			/>
 		</div>
 	);
 }
 
 export default App;
-
-/*
-
-<Route path='/series'>
-					<Series
-						seriesNumber={currentSeriesNumber}
-						changeSeriesNumber={setCurrentSeriesNumber}
-						seriesArr={seriesArr}
-					/>
-				</Route>
-
-*/
-
-/*
-
-<Switch>
-				<Route exact path='/'>
-					<Main
-						handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
-						seriesArr={seriesArr}
-						setPage={setIsMain}
-					/>
-				</Route>
-				<Route path='/series'>
-					<Series
-						seriesNumber={currentSeriesNumber}
-						changeSeriesNumber={setCurrentSeriesNumber}
-						seriesArr={seriesArr}
-					/>
-				</Route>
-			</Switch>
-
-*/

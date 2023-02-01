@@ -1,10 +1,17 @@
+import {NavLink} from 'react-router-dom';
+
 import './footer.css';
 
-import {years} from '../../utils/constants';
 import {autors} from '../../utils/constants';
 import logo from '../../image/logoMemo.png';
 
-function Footer({seriesNames}) {
+function Footer({seriesNames, handleSetCurrentSeriesNumber, setPage}) {
+	const seriesLinkClick = (seriesNumber) => {
+		console.log(seriesNumber);
+		handleSetCurrentSeriesNumber(seriesNumber);
+		setPage(false);
+	};
+
 	return (
 		<footer className='footer'>
 			<div className='footer__separator'></div>
@@ -30,12 +37,17 @@ function Footer({seriesNames}) {
 					<p className='footer__column-name'>Главы</p>
 					<div className='footer__column-container'>
 						{seriesNames.map((sr, i) => (
-							<div className='footer__series-container' key={i}>
+							<NavLink
+								to='/AU_Memo/series'
+								className='footer__series-container'
+								key={i}
+								onClick={() => seriesLinkClick(sr.number)}
+							>
 								<p className='footer__series-name'>
 									<i className='footer__series-number'>{sr.romanNumber}</i>
 									{` ${sr.name}`}
 								</p>
-							</div>
+							</NavLink>
 						))}
 					</div>
 				</div>
@@ -58,21 +70,3 @@ function Footer({seriesNames}) {
 }
 
 export default Footer;
-
-// 	&#169;
-
-/*
-
-<div className='footer__column'>
-					<p className='footer__column-name'>Таймлайн</p>
-					<div className='footer__years-container'>
-						{years.map((year, i) => (
-							<p className='footer__year' key={i}>
-								{year}
-							</p>
-						))}
-					</div>
-				</div>
-
-
-*/

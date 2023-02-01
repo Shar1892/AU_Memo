@@ -99,6 +99,7 @@
 
 .footer__series-container {
 	margin-bottom: 10px;
+	text-decoration: none;
 }
 
 .footer__series-container:last-of-type {
