@@ -1,10 +1,9 @@
 .footer {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	width: 100%;
 	background-color: #ffffff;
-	padding: 0 10px;
+	padding: 0 10px 10px 10px;
 	box-sizing: border-box;
 }
 
@@ -24,9 +23,9 @@
 
 .footer__discription {
 	width: 100%;
-	display: grid;
-	grid-template-columns: 60px 15fr;
-	column-gap: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding-bottom: 20px;
 	box-sizing: border-box;
 }
@@ -34,14 +33,14 @@
 .footer__discription-container {
 	width: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
+	padding: 0 20px 10px 0;
+	box-sizing: border-box;
 }
 
 .footer__logo {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 }
 
 .footer__copyright {
@@ -107,11 +106,19 @@
 }
 
 .footer__autor-container {
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 10px;
 }
 
 .footer__autor-container:last-of-type {
 	margin-bottom: 0;
+}
+
+.footer__autor-names {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
 }
 
 .footer__series-name {
@@ -156,37 +163,15 @@
 	color: var(--simple-text-color);
 }
 
-.footer__years-container {
-	margin-top: 10px;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.footer__year {
-	margin: 0;
-	font-family: 'Quant Antiqua';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 21px;
-	line-height: 130%;
-	color: var(--simple-text-color);
-}
-
 @media screen and (min-width: 425px) {
 	.footer {
-		padding: 0 20px;
+		padding: 0 20px 10px 20px;
 		box-sizing: border-box;
 	}
 
-	.footer__discription {
-		grid-template-columns: 70px 15fr;
-		column-gap: 30px;
-	}
-
 	.footer__logo {
-		width: 70px;
-		height: 70px;
+		width: 90px;
+		height: 90px;
 	}
 
 	.footer__copyright {
@@ -200,7 +185,7 @@
 
 @media screen and (min-width: 768px) {
 	.footer {
-		padding: 0 50px;
+		padding: 0 50px 10px 50px;
 	}
 
 	.footer__content-container {
@@ -210,14 +195,12 @@
 	}
 
 	.footer__discription {
-		grid-template-columns: 60px 15fr;
-		column-gap: 20px;
 		padding-bottom: 0;
 	}
 
 	.footer__logo {
-		width: 60px;
-		height: 60px;
+		width: 70px;
+		height: 70px;
 	}
 
 	.footer__copyright {
@@ -236,29 +219,22 @@
 		margin-top: 40px;
 	}
 
-	.footer__years-container {
-		margin-top: 30px;
-	}
-
-	.footer__year {
-		line-height: 19px;
+	.footer__autor-container {
+		display: grid;
+		grid-template-columns: 5fr 4fr;
+		margin-bottom: 10px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.footer {
-		padding: 0 60px;
+		padding: 0 60px 10px 60px;
 		max-width: 1360px;
 	}
 
 	.footer__content-container {
 		padding: 30px;
 		column-gap: 15px;
-	}
-
-	.footer__discription {
-		grid-template-columns: 90px 15fr;
-		column-gap: 40px;
 	}
 
 	.footer__logo {
