@@ -29,7 +29,7 @@ function Footer({seriesNames, handleSetCurrentSeriesNumber, setPage}) {
 					<p className='footer__discription-text'>
 						Специальный проект «Адвокатской улицы» и общества «Мемориал» о том,
 						как власти пытались победить одну из старейших правозащитных
-						организаций России.
+						организаций России
 					</p>
 				</div>
 				<div className='footer__column'>

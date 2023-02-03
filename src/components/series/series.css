@@ -149,14 +149,14 @@
 	height: 40px;
 	justify-content: center;
 	align-items: center;
-	background-color: #888888;
+	background-color: #ffffff;
 	color: var(--simple-text-color);
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 12px;
 	margin-right: 10px;
-	border: none;
+	border: solid 3px #000000;
 	border-radius: 5px;
 	cursor: pointer;
 }
@@ -166,8 +166,8 @@
 }
 
 .series__button_disable {
-	background-color: #cccccc;
-	color: #ffffff;
+	border: solid 3px #cccccc;
+	color: #cccccc;
 	cursor: default;
 }
 
@@ -195,6 +195,10 @@
 
 	.series__parts-container {
 		padding: 0 20px;
+	}
+
+	.series__button {
+		width: 120px;
 	}
 }
 
@@ -241,7 +245,8 @@
 	}
 
 	.series__button {
-		width: 150px;
+		width: 180px;
+		height: 50px;
 		font-size: 15px;
 	}
 }
@@ -270,5 +275,9 @@
 
 	.series__discription {
 		font-size: 25px;
+	}
+
+	.series__button {
+		width: 220px;
 	}
 }
