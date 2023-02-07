@@ -31,3 +31,37 @@ export const chechPhrase = (text, phraseArr) => {
 export const checkLast = (i, arr) => {
 	return i === arr.length - 1 ? true : false;
 };
+
+export const transferToRoman = (i) => {
+	if (i === 0) {
+		return 'N';
+	} else if (i === 1) {
+		return 'I';
+	} else if (i === 2) {
+		return 'II';
+	} else if (i === 3) {
+		return 'III';
+	} else if (i === 4) {
+		return 'IV';
+	} else if (i === 5) {
+		return 'V';
+	}
+};
+
+export const transferToString = (i) => {
+	if (i === 0) {
+		return 'Нулевая';
+	} else if (i === 1) {
+		return 'Первая';
+	} else if (i === 2) {
+		return 'Вторая';
+	} else if (i === 3) {
+		return 'Третья';
+	} else if (i === 4) {
+		return 'Четвертая';
+	} else if (i === 5) {
+		return 'Пятая';
+	} else {
+		return 'Следующая';
+	}
+};
