@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import {NavLink} from 'react-router-dom';
 
+import {transferToString} from '../../utils/utils';
+
 import SeparatorLine from '../separatorLine/separatorLine';
 
 import './seriesPreview.css';
@@ -14,7 +16,9 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
 	return (
 		<NavLink
 			to='/AU_Memo/series'
-			className='seriesPreview__navlinck'
+			className={`seriesPreview__navlinck ${
+				data.number === -1 ? 'seriesPreview__navlinck_disabled' : ''
+			}`}
 			onClick={() => seriesPrewiewClick(data.number)}
 		>
 			<div className='seriesPreview'>
@@ -36,7 +40,9 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
 						</div>
 					</div>
 					<div className='seriesPreview__content'>
-						<p className='seriesPreview__subtitle'>{data.numText}</p>
+						<p className='seriesPreview__subtitle'>{`${transferToString(
+							data.number
+						)} глава`}</p>
 						<img
 							className='seriesPreview__image'
 							src={data.previewImage}
@@ -54,5 +60,3 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
 }
 
 export default SeriesPreview;
-
-//onClick={() => handleSetCurrentSeriesNumber(data.number)}

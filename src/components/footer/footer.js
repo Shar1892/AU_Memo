@@ -3,12 +3,13 @@ import {NavLink} from 'react-router-dom';
 import './footer.css';
 
 import {autors} from '../../utils/constants';
+import {transferToRoman} from '../../utils/utils';
+
 import logoMemo from '../../image/logoMemo.png';
 import logoAU from '../../image/logoAU.png';
 
 function Footer({seriesNames, handleSetCurrentSeriesNumber, setPage}) {
 	const seriesLinkClick = (seriesNumber) => {
-		console.log(seriesNumber);
 		handleSetCurrentSeriesNumber(seriesNumber);
 		setPage(false);
 	};
@@ -38,12 +39,14 @@ function Footer({seriesNames, handleSetCurrentSeriesNumber, setPage}) {
 						{seriesNames.map((sr, i) => (
 							<NavLink
 								to='/AU_Memo/series'
-								className='footer__series-container'
+								className={`footer__series-container ${
+									sr.number === -1 ? 'footer__series-container_disabled' : ''
+								}`}
 								key={i}
 								onClick={() => seriesLinkClick(sr.number)}
 							>
 								<p className='footer__series-name'>
-									<i className='footer__series-number'>{sr.romanNumber}</i>
+									<i className='footer__series-number'>{transferToRoman(i)}</i>
 									{` ${sr.name}`}
 								</p>
 							</NavLink>
@@ -74,18 +77,3 @@ function Footer({seriesNames, handleSetCurrentSeriesNumber, setPage}) {
 }
 
 export default Footer;
-
-/*
-
-<div className='footer__column-container'>
-						{autors.map((autor, i, autors) => (
-							<div className='footer__autor-container' key={i}>
-								<p className='footer__autor-role'>
-									{`${autor.role}: `}
-									<i className='footer__autor-name'>{autor.names[0]}</i>
-								</p>
-							</div>
-						))}
-					</div>
-
-*/

@@ -101,6 +101,10 @@
 	text-decoration: none;
 }
 
+.footer__series-container_disabled {
+	pointer-events: none;
+}
+
 .footer__series-container:last-of-type {
 	margin-bottom: 0;
 }

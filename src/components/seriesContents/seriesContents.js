@@ -2,6 +2,8 @@ import './seriesContents.css';
 
 import {NavLink} from 'react-router-dom';
 
+import {transferToRoman} from '../../utils/utils';
+
 function SeriesContents({
 	isOpen,
 	onClose,
@@ -37,11 +39,13 @@ function SeriesContents({
 						<div className='seriesContents__series-container' key={i}>
 							<NavLink
 								to='/AU_Memo/series'
-								className='seriesContents__series-name'
+								className={`seriesContents__series-name ${
+									sr.number === -1 ? 'seriesContents__series-name_disabled' : ''
+								}`}
 								onClick={() => seriesLinkClick(sr.number)}
 							>
 								<i className='seriesContents__series-number'>
-									{sr.romanNumber}
+									{transferToRoman(i)}
 								</i>
 								{` ${sr.name}`}
 							</NavLink>
@@ -54,5 +58,3 @@ function SeriesContents({
 }
 
 export default SeriesContents;
-
-//onClick={() => openSeries(sr.number)}

@@ -48,9 +48,9 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
 			</div>
 			<div className='main__list-container' id='series'>
 				<HorizontalScroll className='main__series-list' reverseScroll={true}>
-					{seriesArr.map((series) => (
+					{seriesArr.map((series, i) => (
 						<SeriesPreview
-							key={series.number}
+							key={i}
 							data={series}
 							handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
 							setPage={setPage}
@@ -67,11 +67,3 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
 }
 
 export default Main;
-
-/*
-
-<p className='main__subtitle'>
-					Как за 10 лет уничтожили старейшую правозащитную организацию России
-					«Международный Мемориал»
-				</p>
-*/
