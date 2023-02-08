@@ -33,7 +33,6 @@
 .footer__discription-container {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
 	padding: 0 20px 10px 0;
 	box-sizing: border-box;
 }
@@ -41,6 +40,7 @@
 .footer__logo {
 	width: 80px;
 	height: 80px;
+	margin: 0 10px;
 }
 
 .footer__copyright {
