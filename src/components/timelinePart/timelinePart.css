@@ -1,8 +1,8 @@
 .timelinePart {
-	width: 85%;
+	width: 100%;
 	display: grid;
-	grid-template-columns: 7fr 5px 10fr;
-	column-gap: 15px;
+	grid-template-columns: 7fr 5px 12fr;
+	column-gap: 10px;
 }
 
 .timelinePart__date-container {
