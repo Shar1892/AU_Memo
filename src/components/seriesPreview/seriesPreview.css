@@ -27,10 +27,18 @@
 	width: calc(100% - 20px);
 }
 
+.seriesPreview__graphic-main_full {
+	width: 100%;
+}
+
 .seriesPreview__graphic-line {
 	width: 20px;
 	height: 1px;
 	background-color: #000000;
+}
+
+.seriesPreview__graphic-line_invisible {
+	display: none;
 }
 
 .seriesPreview__container {
@@ -41,6 +49,10 @@
 	padding-right: 20px;
 	box-sizing: border-box;
 	height: 100%;
+}
+
+.seriesPreview__container_full {
+	padding-right: 0;
 }
 
 .seriesPreview__date-block {

@@ -8,7 +8,7 @@ import SeriesPreview from '../seriesPreview/seriesPreview';
 
 import headerImage from '../../image/mainTitleImage.png';
 
-function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
+function Main({handleSetCurrentSeriesNumber, seriesArr, setPage, isWide}) {
 	return (
 		<main className='main'>
 			<div className='main__header'>
@@ -46,19 +46,34 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage}) {
 					«Адвокатской улицы» и «Мемориала».
 				</p>
 			</div>
-			<div className='main__list-container' id='series'>
-				<HorizontalScroll className='main__series-list' reverseScroll={true}>
+			{isWide ? (
+				<div className='main__list-container' id='series'>
+					<HorizontalScroll className='main__series-list' reverseScroll={true}>
+						{seriesArr.map((series, i) => (
+							<SeriesPreview
+								key={i}
+								data={series}
+								handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
+								setPage={setPage}
+								isWide={true}
+							/>
+						))}
+						<div className='main__empty-block'></div>
+					</HorizontalScroll>
+				</div>
+			) : (
+				<div className='main__preview-list'>
 					{seriesArr.map((series, i) => (
 						<SeriesPreview
 							key={i}
 							data={series}
 							handleSetCurrentSeriesNumber={handleSetCurrentSeriesNumber}
 							setPage={setPage}
+							isWide={false}
 						/>
 					))}
-					<div className='main__empty-block'></div>
-				</HorizontalScroll>
-			</div>
+				</div>
+			)}
 			<div id='timeline'>
 				<Timeline />
 			</div>

@@ -7,7 +7,7 @@ import SeparatorLine from '../separatorLine/separatorLine';
 
 import './seriesPreview.css';
 
-function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
+function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage, isWide}) {
 	const seriesPrewiewClick = (seriesNumber) => {
 		handleSetCurrentSeriesNumber(seriesNumber);
 		setPage(false);
@@ -23,12 +23,24 @@ function SeriesPreview({data, handleSetCurrentSeriesNumber, setPage}) {
 		>
 			<div className='seriesPreview'>
 				<div className='seriesPreview__graphic'>
-					<div className='seriesPreview__graphic-main'>
+					<div
+						className={`seriesPreview__graphic-main ${
+							isWide ? '' : 'seriesPreview__graphic-main_full'
+						}`}
+					>
 						<SeparatorLine />
 					</div>
-					<div className='seriesPreview__graphic-line'></div>
+					<div
+						className={`seriesPreview__graphic-line ${
+							isWide ? '' : 'seriesPreview__graphic-line_invisible'
+						}`}
+					></div>
 				</div>
-				<div className='seriesPreview__container'>
+				<div
+					className={`seriesPreview__container ${
+						isWide ? '' : 'seriesPreview__container_full'
+					}`}
+				>
 					<div className='seriesPreview__date-block'>
 						<div className='seriesPreview__date-container'>
 							<p className='seriesPreview__date'>{data.startDate.year}</p>
