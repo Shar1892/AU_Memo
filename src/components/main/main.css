@@ -73,6 +73,13 @@
 	width: 5px;
 }
 
+.main__preview-list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 @media screen and (min-width: 425px) {
 	.main {
 		padding: 0 20px;

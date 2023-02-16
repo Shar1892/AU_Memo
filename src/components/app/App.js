@@ -15,6 +15,15 @@ function App() {
 
 	const [isMain, setIsMain] = useState(true);
 
+	let windowWidth = window.innerWidth;
+	const [isWide, setIsWide] = useState(() => {
+		if (windowWidth > 768) {
+			return true;
+		} else {
+			return false;
+		}
+	});
+
 	const seriesNames = seriesArr.map((series) => {
 		return {
 			name: series.title.join(' '),
@@ -37,6 +46,7 @@ function App() {
 						handleSetCurrentSeriesNumber={setCurrentSeriesNumber}
 						seriesArr={seriesArr}
 						setPage={setIsMain}
+						isWide={isWide}
 					/>
 				</Route>
 				<Route path='/AU_Memo/series'>
@@ -44,6 +54,7 @@ function App() {
 						seriesNumber={currentSeriesNumber}
 						changeSeriesNumber={setCurrentSeriesNumber}
 						seriesArr={seriesArr}
+						isWide={isWide}
 					/>
 				</Route>
 			</Switch>

@@ -8,17 +8,7 @@ import Part from '../part/part';
 import SeparatorLine from '../separatorLine/separatorLine';
 import PopupReference from '../popupReference/popupReference';
 
-function Series({seriesNumber, changeSeriesNumber, seriesArr}) {
-	let windowWidth = window.innerWidth;
-
-	const [isWide, setIsWide] = useState(() => {
-		if (windowWidth > 768) {
-			return true;
-		} else {
-			return false;
-		}
-	});
-
+function Series({seriesNumber, changeSeriesNumber, seriesArr, isWide}) {
 	const [isPopupOpen, setIsPopupOpen] = useState(false);
 
 	const [referenceData, setReferenceData] = useState({});
