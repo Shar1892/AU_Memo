@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AU_Memo/static/css/main.b458837c.chunk.css",
-    "main.js": "/AU_Memo/static/js/main.4a7afd44.chunk.js",
-    "main.js.map": "/AU_Memo/static/js/main.4a7afd44.chunk.js.map",
+    "main.js": "/AU_Memo/static/js/main.9f8ece16.chunk.js",
+    "main.js.map": "/AU_Memo/static/js/main.9f8ece16.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.f424c17b.js",
     "runtime-main.js.map": "/AU_Memo/static/js/runtime-main.f424c17b.js.map",
     "static/js/2.ef285863.chunk.js": "/AU_Memo/static/js/2.ef285863.chunk.js",
@@ -126,6 +126,7 @@
     "static/media/previewImage.56d2ceeb.png": "/AU_Memo/static/media/previewImage.56d2ceeb.png",
     "static/media/previewImage.74ff7a56.png": "/AU_Memo/static/media/previewImage.74ff7a56.png",
     "static/media/previewImage.944f2ff7.png": "/AU_Memo/static/media/previewImage.944f2ff7.png",
+    "static/media/previewImage.a7951186.png": "/AU_Memo/static/media/previewImage.a7951186.png",
     "static/media/seriesMemoQuote.css": "/AU_Memo/static/media/quotes.b992e564.svg",
     "static/media/seriesImage.490ae12c.jpg": "/AU_Memo/static/media/seriesImage.490ae12c.jpg",
     "static/media/sketchImage1.098488bf.png": "/AU_Memo/static/media/sketchImage1.098488bf.png",
@@ -140,6 +141,6 @@
     "static/js/runtime-main.f424c17b.js",
     "static/js/2.ef285863.chunk.js",
     "static/css/main.b458837c.chunk.css",
-    "static/js/main.4a7afd44.chunk.js"
+    "static/js/main.9f8ece16.chunk.js"
   ]
 }
