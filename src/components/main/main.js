@@ -19,6 +19,11 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage, isWide}) {
 					src={headerImage}
 					alt='header image'
 				></img>
+				<div className='main__separatorLine'>
+					<div className='main__separatorLine-triangle-left'></div>
+					<div className='main__separatorLine__dot'></div>
+					<div className='main__separatorLine-triangle-right'></div>
+				</div>
 				<p className='main__subtitle'>
 					7 октября 2022 года одна из старейших правозащитных организаций России
 					— «Мемориал» — получила Нобелевскую премию мира.
@@ -40,7 +45,7 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage, isWide}) {
 					всего мира к этим откровенно репрессивным процессам. А само движение в
 					итоге собралось заново — и открыло новую страницу своей истории.
 				</p>
-				<p className='main__subtitle'>
+				<p className='main__subtitle main__subtitle_italics'>
 					О том, как «Мемориал» боролся с государством за себя и за всё
 					гражданское общество России, вы узнаете в этом специальном проекте
 					«Адвокатской улицы» и «Мемориала».
