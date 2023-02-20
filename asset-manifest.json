@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/AU_Memo/static/css/main.b458837c.chunk.css",
-    "main.js": "/AU_Memo/static/js/main.9f8ece16.chunk.js",
-    "main.js.map": "/AU_Memo/static/js/main.9f8ece16.chunk.js.map",
+    "main.css": "/AU_Memo/static/css/main.c4a64deb.chunk.css",
+    "main.js": "/AU_Memo/static/js/main.b1d404be.chunk.js",
+    "main.js.map": "/AU_Memo/static/js/main.b1d404be.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.f424c17b.js",
     "runtime-main.js.map": "/AU_Memo/static/js/runtime-main.f424c17b.js.map",
     "static/js/2.ef285863.chunk.js": "/AU_Memo/static/js/2.ef285863.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bee15816.chunk.js": "/AU_Memo/static/js/3.bee15816.chunk.js",
     "static/js/3.bee15816.chunk.js.map": "/AU_Memo/static/js/3.bee15816.chunk.js.map",
     "index.html": "/AU_Memo/index.html",
-    "static/css/main.b458837c.chunk.css.map": "/AU_Memo/static/css/main.b458837c.chunk.css.map",
+    "static/css/main.c4a64deb.chunk.css.map": "/AU_Memo/static/css/main.c4a64deb.chunk.css.map",
     "static/js/2.ef285863.chunk.js.LICENSE.txt": "/AU_Memo/static/js/2.ef285863.chunk.js.LICENSE.txt",
     "static/media/4904465.c569720f.jpg": "/AU_Memo/static/media/4904465.c569720f.jpg",
     "static/media/ASidayakin.0cb05ba9.jpg": "/AU_Memo/static/media/ASidayakin.0cb05ba9.jpg",
@@ -140,7 +140,7 @@
   "entrypoints": [
     "static/js/runtime-main.f424c17b.js",
     "static/js/2.ef285863.chunk.js",
-    "static/css/main.b458837c.chunk.css",
-    "static/js/main.9f8ece16.chunk.js"
+    "static/css/main.c4a64deb.chunk.css",
+    "static/js/main.b1d404be.chunk.js"
   ]
 }
