@@ -1,4 +1,4 @@
-import previewImage from './images/logoMemo.png';
+import previewImage from './images/previewImage.png';
 
 const seriesPlug = {
 	number: -1,
