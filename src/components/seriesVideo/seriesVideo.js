@@ -13,8 +13,10 @@ function SeriesVideo({data}) {
 				title={data.name}
 			></iframe>
 			<p className='seriesVideo__name'>{data.name}</p>
-			<p className='seriesVideo__autor'>{`${data.autor}, ${data.date}`}</p>
-			<p className='seriesVideo__source'>{data.source}</p>
+			{data.autor && (
+				<p className='seriesVideo__autor'>{`${data.autor}, ${data.date}`}</p>
+			)}
+			{data.source && <p className='seriesVideo__source'>{data.source}</p>}
 		</div>
 	);
 }
