@@ -205,7 +205,7 @@ const zeroSeries = {
 				},
 				{
 					type: 'video',
-					videoSrc: 'https://www.youtube.com/embed/1yuTJMFGxEw',
+					videoSrc: 'https://www.youtube.com/embed/mvQ-5Z-y1T4',
 					name: 'Видео с конференции',
 					autor: '',
 					date: '',
