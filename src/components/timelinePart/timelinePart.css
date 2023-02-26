@@ -60,9 +60,9 @@
 	box-sizing: border-box;
 }
 
-.timelinePart__content-container {
+/*.timelinePart__content-container {
 	cursor: pointer;
-}
+}*/
 
 .timelinePart__content-container_last {
 	padding-bottom: 0;

@@ -20,11 +20,15 @@ function Timeline() {
 		document.addEventListener('keydown', handleEscClose);
 	};
 
-	const openVideo = (numberSeries, second) => {
+	/*const openVideo = (numberSeries, second) => {
 		setIsPopupOpen(true);
 		setCurrentSeriesNumber(numberSeries);
 		setCurrentSeriesSecond(second);
 		setEventListeners();
+	};*/
+
+	const openVideo = (numberSeries, second) => {
+		console.log(numberSeries);
 	};
 
 	const handleEscClose = (evt) => {
@@ -63,14 +67,3 @@ function Timeline() {
 }
 
 export default Timeline;
-
-/*
-
-	<VideoPopup
-				isOpen={isPopupOpen}
-				onClose={popupClose}
-				currentSeriesNumber={currentSeriesNumber}
-				currentSeriesSecond={currentSeriesSecond}
-			/>
-
-*/
