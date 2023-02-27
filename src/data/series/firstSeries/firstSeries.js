@@ -34,6 +34,11 @@ import illustration23 from './images/illustration23.png';
 import illustration24 from './images/illustration24.png';
 import illustration25 from './images/illustration25.png';
 
+import videoPreview1 from './images/videoPreview1.png';
+import videoPreview2 from './images/videoPreview2.png';
+import videoPreview3 from './images/videoPreview3.png';
+import videoPreview4 from './images/videoPreview4.png';
+
 import sketchImage1 from './images/sketchImage1.png';
 import sidayakinPhoto from './images/ASidayakin.jpg';
 import putinPhoto from './images/VPutin.jpg';
@@ -106,6 +111,7 @@ const firstSeries = {
 					autor: '',
 					date: '',
 					source: '',
+					preview: videoPreview1,
 				},
 				{
 					type: 'text',
@@ -119,6 +125,7 @@ const firstSeries = {
 					autor: '',
 					date: '',
 					source: '',
+					preview: videoPreview2,
 				},
 				{
 					type: 'text',
@@ -172,6 +179,7 @@ const firstSeries = {
 					autor: 'Новая газета',
 					date: '2012',
 					source: 'Источник: Новая газета',
+					preview: videoPreview3,
 				},
 				{
 					type: 'text',
@@ -185,6 +193,7 @@ const firstSeries = {
 					autor: 'Новая газета',
 					date: '2012',
 					source: 'Источник: Новая газета',
+					preview: videoPreview4,
 				},
 				{
 					type: 'text',

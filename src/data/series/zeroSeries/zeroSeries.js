@@ -24,6 +24,8 @@ import illustration17 from './images/illustration17.png';
 import illustration18 from './images/illustration18.png';
 import illustration19 from './images/illustration19.png';
 
+import videoPreview from './images/videoPreview1.png';
+
 const zeroSeries = {
 	number: 0,
 	romanNumber: 'N',
@@ -210,6 +212,7 @@ const zeroSeries = {
 					autor: '',
 					date: '',
 					source: '',
+					preview: videoPreview,
 				},
 				{
 					type: 'text',
