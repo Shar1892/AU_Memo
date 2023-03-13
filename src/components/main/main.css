@@ -84,7 +84,7 @@
 	font-family: 'Quant Antiqua';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 10px;
 	line-height: 110%;
 	text-align: center;
 	color: var(--simple-text-color);
@@ -92,6 +92,7 @@
 
 .main__subtitle_italics {
 	font-style: italic;
+	font-size: 14px;
 }
 
 .main__list-container {
@@ -164,6 +165,10 @@
 	.main__subtitle {
 		margin: 18px 0 0 0;
 		width: 80%;
+		font-size: 14px;
+	}
+
+	.main__subtitle_italics {
 		font-size: 20px;
 	}
 
@@ -205,6 +210,10 @@
 	.main__subtitle {
 		margin: 23px 0 0 0;
 		width: 65%;
+		font-size: 17px;
+	}
+
+	.main__subtitle_italics {
 		font-size: 25px;
 	}
 

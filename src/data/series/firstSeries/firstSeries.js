@@ -106,7 +106,7 @@ const firstSeries = {
 				},
 				{
 					type: 'video',
-					videoSrc: 'https://www.youtube.com/embed/1_SnV4i_1Nc',
+					videoSrc: 'https://www.youtube.com/embed/1_SnV4i_1Nc?autoplay=1',
 					name: 'Выступления Яшина и Навального',
 					autor: '',
 					date: '',
@@ -120,7 +120,7 @@ const firstSeries = {
 				},
 				{
 					type: 'video',
-					videoSrc: 'https://www.youtube.com/embed/ZFPewVvUkPQ',
+					videoSrc: 'https://www.youtube.com/embed/ZFPewVvUkPQ?autoplay=1',
 					name: 'Что произошло, когда пошли к ЦИК',
 					autor: '',
 					date: '',
@@ -174,7 +174,7 @@ const firstSeries = {
 				},
 				{
 					type: 'video',
-					videoSrc: 'https://www.youtube.com/embed/_SA7GnXsbqg',
+					videoSrc: 'https://www.youtube.com/embed/_SA7GnXsbqg?autoplay=1',
 					name: 'Это видео с кадрами, как все начиналось',
 					autor: 'Новая газета',
 					date: '2012',
@@ -188,7 +188,7 @@ const firstSeries = {
 				},
 				{
 					type: 'video',
-					videoSrc: 'https://www.youtube.com/embed/P5GPbrF1tlU',
+					videoSrc: 'https://www.youtube.com/embed/P5GPbrF1tlU?autoplay=1',
 					name: 'Видео с подборкой кадров столкновений',
 					autor: 'Новая газета',
 					date: '2012',

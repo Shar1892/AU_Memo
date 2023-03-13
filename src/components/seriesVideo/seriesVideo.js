@@ -14,7 +14,7 @@ function SeriesVideo({data}) {
 			<iframe
 				id='ytplayer'
 				type='text/html'
-				src={data.videoSrc + '?autoplay=1'}
+				src={data.videoSrc}
 				frameBorder='0'
 				allowFullScreen
 				className={`seriesVideo__video ${
