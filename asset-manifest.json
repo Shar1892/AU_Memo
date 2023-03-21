@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AU_Memo/static/css/main.6a476d5a.chunk.css",
+    "main.css": "/AU_Memo/static/css/main.88073f05.chunk.css",
     "main.js": "/AU_Memo/static/js/main.709a0bea.chunk.js",
     "main.js.map": "/AU_Memo/static/js/main.709a0bea.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.f424c17b.js",
@@ -10,7 +10,7 @@
     "static/js/3.bee15816.chunk.js": "/AU_Memo/static/js/3.bee15816.chunk.js",
     "static/js/3.bee15816.chunk.js.map": "/AU_Memo/static/js/3.bee15816.chunk.js.map",
     "index.html": "/AU_Memo/index.html",
-    "static/css/main.6a476d5a.chunk.css.map": "/AU_Memo/static/css/main.6a476d5a.chunk.css.map",
+    "static/css/main.88073f05.chunk.css.map": "/AU_Memo/static/css/main.88073f05.chunk.css.map",
     "static/js/2.ef285863.chunk.js.LICENSE.txt": "/AU_Memo/static/js/2.ef285863.chunk.js.LICENSE.txt",
     "static/media/4904465.c569720f.jpg": "/AU_Memo/static/media/4904465.c569720f.jpg",
     "static/media/ASidayakin.0cb05ba9.jpg": "/AU_Memo/static/media/ASidayakin.0cb05ba9.jpg",
@@ -145,7 +145,7 @@
   "entrypoints": [
     "static/js/runtime-main.f424c17b.js",
     "static/js/2.ef285863.chunk.js",
-    "static/css/main.6a476d5a.chunk.css",
+    "static/css/main.88073f05.chunk.css",
     "static/js/main.709a0bea.chunk.js"
   ]
 }
