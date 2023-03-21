@@ -17,9 +17,9 @@
 
 .seriesContents__container {
 	width: 200px;
-	height: 160px;
+	height: min-content;
 	position: relative;
-	left: 32%;
+	right: -100px;
 	top: 80px;
 	display: flex;
 	flex-direction: column;
@@ -89,17 +89,76 @@
 	color: var(--light-text-color);
 }
 
+@media screen and (min-width: 345px) {
+	.seriesContents__container {
+		right: -130px;
+	}
+}
+
+@media screen and (min-width: 375px) {
+	.seriesContents__container {
+		right: -145px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.seriesContents__container {
+		right: -170px;
+	}
+}
+
 @media screen and (min-width: 425px) {
 	.seriesContents__container {
-		left: 46%;
+		right: -200px;
+	}
+}
+
+@media screen and (min-width: 475px) {
+	.seriesContents__container {
+		right: -240px;
+	}
+}
+
+@media screen and (min-width: 515px) {
+	.seriesContents__container {
+		right: -280px;
+	}
+}
+
+@media screen and (min-width: 555px) {
+	.seriesContents__container {
+		right: -320px;
+	}
+}
+
+@media screen and (min-width: 595px) {
+	.seriesContents__container {
+		right: -360px;
+	}
+}
+
+@media screen and (min-width: 635px) {
+	.seriesContents__container {
+		right: -400px;
+	}
+}
+
+@media screen and (min-width: 675px) {
+	.seriesContents__container {
+		right: -440px;
+	}
+}
+
+@media screen and (min-width: 715px) {
+	.seriesContents__container {
+		right: -480px;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.seriesContents__container {
 		width: 250px;
-		height: 210px;
-		left: 62%;
+		right: -475px;
 		padding: 0 20px 20px 20px;
 	}
 
@@ -109,6 +168,35 @@
 
 	.seriesContents__series-number {
 		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 815px) {
+	.seriesContents__container {
+		right: -525px;
+	}
+}
+
+@media screen and (min-width: 860px) {
+	.seriesContents__container {
+		right: -570px;
+	}
+}
+
+@media screen and (min-width: 905px) {
+	.seriesContents__container {
+		right: -615px;
+	}
+}
+@media screen and (min-width: 955px) {
+	.seriesContents__container {
+		right: -660px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.seriesContents__container {
+		right: -705px;
 	}
 }
 
