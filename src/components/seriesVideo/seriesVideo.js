@@ -2,6 +2,8 @@ import {useState} from 'react';
 
 import './seriesVideo.css';
 
+import Video from '../video/video';
+
 function SeriesVideo({data}) {
 	const [isPreview, setIsPreview] = useState(true);
 
@@ -11,17 +13,7 @@ function SeriesVideo({data}) {
 
 	return (
 		<div className='seriesVideo'>
-			<iframe
-				id='ytplayer'
-				type='text/html'
-				src={data.videoSrc}
-				frameBorder='0'
-				allowFullScreen
-				className={`seriesVideo__video ${
-					isPreview ? 'seriesVideo__video_invisible' : ''
-				}`}
-				title={data.name}
-			></iframe>
+			{isPreview ? null : <Video data={data} />}
 			<img
 				className={`seriesVideo__preview ${
 					isPreview ? '' : 'seriesVideo__preview_invisible'
