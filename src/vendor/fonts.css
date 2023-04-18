@@ -1,14 +1,34 @@
 @font-face {
 	font-family: 'Garamond Narrow';
-	src: url(./fonts/ofont.ru_Garamond\ Narrow.ttf) format('ttf');
+	font-style: normal;
+	font-weight: normal;
+	src: url(./fonts/ofont.ru_Garamond-Narrow.woff) format('woff');
 }
 
 @font-face {
 	font-family: 'Quant Antiqua';
-	src: url(./fonts/quant-antiqua-2.ttf) format('ttf');
+	font-style: normal;
+	font-weight: normal;
+	src: url(./fonts/quant-antiqua-2.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Quant Antiqua italic';
+	font-style: italic;
+	font-weight: normal;
+	src: url(./fonts/quant-antiqua-italic-001-001.woff) format('woff');
 }
 
 @font-face {
 	font-family: 'RF Rostin';
-	src: url(./fonts/RF\ Rostin\ Regular.otf) format('otf');
+	font-style: normal;
+	font-weight: normal;
+	src: url(./fonts/RF-Rostin-Regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Lithium tf';
+	font-style: normal;
+	font-weight: normal;
+	src: url(./fonts/Lithium_tf.woff) format('woff');
 }
