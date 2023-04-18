@@ -31,11 +31,11 @@
 
 .main__title {
 	margin: 10px 0 15px 0;
-	font-family: 'Garamond Narrow';
+	font-family: 'Lithium tf';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	line-height: 71%;
+	line-height: 80%;
 	text-align: center;
 	color: var(--simple-text-color);
 }
