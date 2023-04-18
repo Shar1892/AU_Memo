@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AU_Memo/static/css/main.5b1abe46.chunk.css",
+    "main.css": "/AU_Memo/static/css/main.9b85102a.chunk.css",
     "main.js": "/AU_Memo/static/js/main.c5435ef2.chunk.js",
     "main.js.map": "/AU_Memo/static/js/main.c5435ef2.chunk.js.map",
     "runtime-main.js": "/AU_Memo/static/js/runtime-main.52406e00.js",
@@ -10,13 +10,13 @@
     "static/js/3.fe795ab1.chunk.js": "/AU_Memo/static/js/3.fe795ab1.chunk.js",
     "static/js/3.fe795ab1.chunk.js.map": "/AU_Memo/static/js/3.fe795ab1.chunk.js.map",
     "index.html": "/AU_Memo/index.html",
-    "static/css/main.5b1abe46.chunk.css.map": "/AU_Memo/static/css/main.5b1abe46.chunk.css.map",
+    "static/css/main.9b85102a.chunk.css.map": "/AU_Memo/static/css/main.9b85102a.chunk.css.map",
     "static/js/2.ef285863.chunk.js.LICENSE.txt": "/AU_Memo/static/js/2.ef285863.chunk.js.LICENSE.txt",
     "static/media/4904465.c569720f.jpg": "/AU_Memo/static/media/4904465.c569720f.jpg",
     "static/media/ASidayakin.0cb05ba9.jpg": "/AU_Memo/static/media/ASidayakin.0cb05ba9.jpg",
     "static/media/DDubrovskiy.362abb44.jpg": "/AU_Memo/static/media/DDubrovskiy.362abb44.jpg",
+    "static/media/index.css": "/AU_Memo/static/media/quant-antiqua-italic-001-001.ae4ef563.woff",
     "static/media/Noize_MC.88fb3fe7.mp3": "/AU_Memo/static/media/Noize_MC.88fb3fe7.mp3",
-    "static/media/index.css": "/AU_Memo/static/media/quant-antiqua-2.1880387f.ttf",
     "static/media/VPutin.6a23aaa8.jpg": "/AU_Memo/static/media/VPutin.6a23aaa8.jpg",
     "static/media/part.css": "/AU_Memo/static/media/Vector.eb1dd2c6.svg",
     "static/media/videoPopup.css": "/AU_Memo/static/media/cross.d5d6f8af.svg",
@@ -145,7 +145,7 @@
   "entrypoints": [
     "static/js/runtime-main.52406e00.js",
     "static/js/2.ef285863.chunk.js",
-    "static/css/main.5b1abe46.chunk.css",
+    "static/css/main.9b85102a.chunk.css",
     "static/js/main.c5435ef2.chunk.js"
   ]
 }
