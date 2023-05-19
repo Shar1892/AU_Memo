@@ -7,6 +7,7 @@ import './series.css';
 import Part from '../part/part';
 import SeparatorLine from '../separatorLine/separatorLine';
 import PopupReference from '../popupReference/popupReference';
+import IAInfo from '../IAInfo/IAInfo';
 
 function Series({seriesNumber, changeSeriesNumber, seriesArr, isWide}) {
 	const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -81,6 +82,7 @@ function Series({seriesNumber, changeSeriesNumber, seriesArr, isWide}) {
 						</p>
 					))}
 				</div>
+				<IAInfo></IAInfo>
 				<div className='series__discription-container'>
 					{series.discription.map((discriptionString, i) => (
 						<p className='series__discription' key={i}>
