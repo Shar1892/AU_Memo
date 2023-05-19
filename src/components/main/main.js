@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import HorizontalScroll from 'react-scroll-horizontal';
 import Timeline from '../timeline/timeline';
+import IAInfo from '../IAInfo/IAInfo';
 
 import './main.css';
 
@@ -14,6 +15,7 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage, isWide}) {
 			<div className='main__header'>
 				<p className='main__pretitle'>Спецпроект</p>
 				<h2 className='main__title'>Мемориал. Ликвидация</h2>
+				<IAInfo></IAInfo>
 				<img
 					className='main__header-image'
 					src={headerImage}
