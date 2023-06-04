@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesImpotantText.css';
 
 function SeriesImpotantText({data}) {

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesPhoto.css';
 
 function SeriesPhoto({data}) {

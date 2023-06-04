@@ -1,3 +1,5 @@
+import React from 'react';
+
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/iframe-has-title */
 import {useEffect, useState} from 'react';

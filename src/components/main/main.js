@@ -1,7 +1,11 @@
+import React from 'react';
+import {useSessionStorage} from 'usehooks-ts';
+
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import HorizontalScroll from 'react-scroll-horizontal';
 import Timeline from '../timeline/timeline';
 import IAInfo from '../IAInfo/IAInfo';
+import ProofAge from '../proofAge/proofAge';
 
 import './main.css';
 
@@ -10,6 +14,12 @@ import SeriesPreview from '../seriesPreview/seriesPreview';
 import headerImage from '../../image/mainTitleImage.png';
 
 function Main({handleSetCurrentSeriesNumber, seriesArr, setPage, isWide}) {
+	const [isAgreement, setIsAgreement] = useSessionStorage('agreement', false);
+
+	const handleYesAnswer = () => {
+		setIsAgreement(true);
+	};
+
 	return (
 		<main className='main'>
 			<div className='main__header'>
@@ -84,6 +94,7 @@ function Main({handleSetCurrentSeriesNumber, seriesArr, setPage, isWide}) {
 			<div id='timeline'>
 				<Timeline />
 			</div>
+			<ProofAge isVisible={!isAgreement} handleYes={handleYesAnswer}></ProofAge>
 		</main>
 	);
 }

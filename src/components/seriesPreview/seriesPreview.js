@@ -1,3 +1,5 @@
+import React from 'react';
+
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import {NavLink} from 'react-router-dom';
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesMaterial.css';
 
 import SeriesReference from '../seriesReference/seriesReference';

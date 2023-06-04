@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesText.css';
 
 import {getArrayText, chechPhrase} from '../../utils/utils';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import SeparatorLine from '../separatorLine/separatorLine';
 import TimelinePart from '../timelinePart/timelinePart';
 

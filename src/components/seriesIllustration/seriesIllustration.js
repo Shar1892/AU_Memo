@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesIllustration.css';
 
 function SeriesIllustration({data}) {

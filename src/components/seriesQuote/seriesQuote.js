@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesQuote.css';
 
 function SeriesQuote({data}) {

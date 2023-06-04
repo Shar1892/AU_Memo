@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {useState} from 'react';
 
 import './timeline.css';
@@ -19,13 +21,6 @@ function Timeline() {
 	const setEventListeners = () => {
 		document.addEventListener('keydown', handleEscClose);
 	};
-
-	/*const openVideo = (numberSeries, second) => {
-		setIsPopupOpen(true);
-		setCurrentSeriesNumber(numberSeries);
-		setCurrentSeriesSecond(second);
-		setEventListeners();
-	};*/
 
 	const openVideo = (numberSeries, second) => {
 		console.log(numberSeries);

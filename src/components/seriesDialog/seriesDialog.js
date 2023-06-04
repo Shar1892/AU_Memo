@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesDialog.css';
 
 function SeriesDialog({data}) {

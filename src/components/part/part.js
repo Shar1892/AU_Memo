@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './part.css';
 
 import SeparatorLine from '../separatorLine/separatorLine';
