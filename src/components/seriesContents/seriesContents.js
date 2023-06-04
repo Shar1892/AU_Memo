@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesContents.css';
 
 import {NavLink} from 'react-router-dom';

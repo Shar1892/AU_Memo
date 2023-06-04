@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {useState, useRef, useLayoutEffect} from 'react';
 
 import './seriesDocument.css';

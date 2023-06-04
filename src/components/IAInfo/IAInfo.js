@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './IAInfo.css';
 
 function IAInfo({data}) {

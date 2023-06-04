@@ -1,0 +1,84 @@
+.proof-age {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #ffffff;
+}
+
+.proof-age_hidden {
+	visibility: hidden;
+}
+
+.proof-age__header {
+	margin: 0;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--simple-text-color);
+}
+
+.proof-age__button-container {
+	margin-top: 20px;
+}
+
+.proof-age__link {
+	margin-right: 20px;
+}
+
+.proof-age__button {
+	width: 60px;
+	height: 30px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Quant Antiqua';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 130%;
+	letter-spacing: 0.2em;
+	border: none;
+}
+
+.proof-age__button:hover {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+	.proof-age__header {
+		font-size: 30px;
+	}
+
+	.proof-age__button {
+		width: 70px;
+		height: 35px;
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.proof-age__header {
+		font-size: 40px;
+	}
+
+	.proof-age__button {
+		width: 80px;
+		height: 40px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.proof-age__header {
+		font-size: 60px;
+	}
+}

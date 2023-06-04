@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesRecord.css';
 
 function SeriesRecord({data}) {

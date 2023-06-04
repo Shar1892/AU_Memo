@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './seriesReference.css';
 
 function SeriesReference({data}) {

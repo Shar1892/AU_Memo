@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './separatorLine.css';
 
 function SeparatorLine() {

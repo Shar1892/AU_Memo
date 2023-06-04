@@ -1,3 +1,5 @@
+import React from 'react';
+
 import SeriesText from '../seriesText/seriesText';
 
 import './timelinePart.css';

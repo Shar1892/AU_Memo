@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './videoPopup.css';
 
 import seriesArr from '../../data/series';
