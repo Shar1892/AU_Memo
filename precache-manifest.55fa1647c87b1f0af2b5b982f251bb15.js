@@ -516,16 +516,16 @@ self.__precacheManifest = [
     "url": "/AU_Memo/static/media/mainTitleImage.b5973a5b.png"
   },
   {
+    "revision": "a5648485024e834a313363c9bab50883",
+    "url": "/AU_Memo/static/media/ofont.ru_Garamond-Narrow.a5648485.woff"
+  },
+  {
     "revision": "e5fa4736cf31046e6556e642ebb65597",
     "url": "/AU_Memo/static/media/quant-antiqua-2.e5fa4736.woff"
   },
   {
     "revision": "17bbc4e84cf9c025035bbfa814a1213d",
     "url": "/AU_Memo/static/media/quant-antiqua-italic-001-001.17bbc4e8.woff"
-  },
-  {
-    "revision": "a5648485024e834a313363c9bab50883",
-    "url": "/AU_Memo/static/media/ofont.ru_Garamond-Narrow.a5648485.woff"
   },
   {
     "revision": "9807f8be30adcbc0cb2bc72d14bbfc21",
