@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "feeafa09466c95d77b6d",
+    "revision": "9db647ad394505cece6f",
     "url": "/AU_Memo/static/css/main.d9ebb79f.chunk.css"
   },
   {
-    "revision": "feeafa09466c95d77b6d",
-    "url": "/AU_Memo/static/js/main.feeafa09.chunk.js"
+    "revision": "9db647ad394505cece6f",
+    "url": "/AU_Memo/static/js/main.9db647ad.chunk.js"
   },
   {
     "revision": "8ac703b7e6f4372fecc6",
@@ -516,10 +516,6 @@ self.__precacheManifest = [
     "url": "/AU_Memo/static/media/mainTitleImage.b5973a5b.png"
   },
   {
-    "revision": "a5648485024e834a313363c9bab50883",
-    "url": "/AU_Memo/static/media/ofont.ru_Garamond-Narrow.a5648485.woff"
-  },
-  {
     "revision": "e5fa4736cf31046e6556e642ebb65597",
     "url": "/AU_Memo/static/media/quant-antiqua-2.e5fa4736.woff"
   },
@@ -528,12 +524,16 @@ self.__precacheManifest = [
     "url": "/AU_Memo/static/media/quant-antiqua-italic-001-001.17bbc4e8.woff"
   },
   {
-    "revision": "9807f8be30adcbc0cb2bc72d14bbfc21",
-    "url": "/AU_Memo/static/media/RF-Rostin-Regular.9807f8be.woff"
+    "revision": "a5648485024e834a313363c9bab50883",
+    "url": "/AU_Memo/static/media/ofont.ru_Garamond-Narrow.a5648485.woff"
   },
   {
     "revision": "8706912d10e7e3ccc0c1623e9a231891",
     "url": "/AU_Memo/static/media/Lithium_tf.8706912d.woff"
+  },
+  {
+    "revision": "9807f8be30adcbc0cb2bc72d14bbfc21",
+    "url": "/AU_Memo/static/media/RF-Rostin-Regular.9807f8be.woff"
   },
   {
     "revision": "c280e852a8943210ee5c5f709bcc40a2",
@@ -548,7 +548,7 @@ self.__precacheManifest = [
     "url": "/AU_Memo/static/media/quotes.ecc74c7c.svg"
   },
   {
-    "revision": "aa28128a7df0fb0c9768f7468e9b9c76",
+    "revision": "bde2df67e13895f08c7c65b729bec095",
     "url": "/AU_Memo/index.html"
   }
 ];
